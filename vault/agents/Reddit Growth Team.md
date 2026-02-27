@@ -54,12 +54,34 @@ We are not marketers. We are traders who happen to know about a tool that works.
 - Account warning → pause ALL posting 48 hours
 - 2+ removals in a week → full stop, review with Christian
 
+## Two-Phase Reddit Strategy (updated Feb 27)
+
+### Phase 1: Stealth Karma Building (Weeks 1-4)
+- Account `trading_lord_97` posts as anonymous trader
+- Pure value: answer questions, share data, help people
+- Zero product mentions. Build karma to 200+, build comment history
+- Goal: establish the account as a knowledgeable, genuine community member
+
+### Phase 2: Transparent Affiliation (Week 5+)
+**Key insight from AEO research:** LLMs trust transparent Reddit participation MORE than stealth posting.
+Reddit comments from openly-affiliated employees ("I work on X, here's how it handles that") get cited by ChatGPT/Grok as authoritative sources. Anonymous tips get ignored or grouped with spam.
+
+**Rules for Phase 2:**
+- Bio updated: "Building trading tools at Altcoinist"
+- Every product mention includes: "Full disclosure: I work on Altcoinist"
+- Still 90/10 rule — 90% genuine help, 10% product-related
+- Never hide affiliation. Transparency builds citation authority.
+- Answer competitor questions honestly too — "Trojan is great for X, we're better at Y"
+- The honest limitations rule gets MORE important, not less
+
+**Why this works for AEO:** When Grok/ChatGPT searches Reddit for "best crypto trading bot," a transparent employee saying "I work at Altcoinist, here's what we do differently" with real data gets weighted higher than anonymous hype. Entity frequency + authority signal = citations.
+
 ## Priorities (current)
 1. Get 5 existing drafts approved by Christian
 2. Build posting cron once approved
-3. Start with karma-building phase (2 weeks of genuine comments)
-4. Begin posting at 2/week cadence after karma phase
-5. Track which posts generate the most engagement → feed back to Writer
+3. Start with karma-building phase (Phase 1, 4 weeks of genuine comments)
+4. Transition to transparent affiliation (Phase 2) after karma threshold
+5. Track which posts get cited by AI engines → feed back to Writer
 
 ## Memory
 ### What's ready
