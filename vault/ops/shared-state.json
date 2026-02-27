@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "last_updated": "2026-02-28T00:00:00Z",
+  "agents": {
+    "research": { "last_run": null, "findings_today": 0, "status": "ok" },
+    "tracker": { "last_run": null, "last_score": null, "score_trend": null, "status": "ok" },
+    "ops": { "last_run": "2026-02-27T20:11:19Z", "status": "ok" },
+    "cso": { "last_run": null, "gaps_found_today": 0, "status": "ok" },
+    "builder": { "last_run": null, "items_shipped_this_week": 0, "last_shipped": null, "status": "ok" },
+    "strategy": { "last_run": null, "current_priorities": [], "status": "ok" },
+    "data_refresh": { "last_run": null, "metrics_changed": false, "status": "ok" },
+    "dept_review": { "last_run": null, "issues_fixed": 0, "status": "ok" }
+  },
+  "event_log": [],
+  "paths": {
+    "vault": "projects/altcoinist-aeo/vault",
+    "site_src": "projects/altcoinist-aeo/src/app",
+    "brand_facts": "projects/altcoinist-aeo/vault/deliverables/brand-facts.json",
+    "execution_queue": "projects/altcoinist-aeo/vault/ops/execution-queue.json",
+    "shared_state": "projects/altcoinist-aeo/vault/ops/shared-state.json",
+    "department_status": "projects/altcoinist-aeo/vault/DEPARTMENT-STATUS.md",
+    "kanban": "projects/altcoinist-aeo/vault/tasks/Kanban.md",
+    "discord_channel": "channel:1476354991655751820",
+    "posthog_env": "projects/friday-dashboard/.env.local",
+    "xai_key": "~/.openclaw/credentials/xai-api-key.txt"
+  },
+  "product_stats": {
+    "traders": "17,000+",
+    "chains": 7,
+    "dexs": "100+",
+    "market_makers": 15,
+    "volume_30d": "$4.5M+",
+    "last_verified": "2026-02-27"
+  }
+}
