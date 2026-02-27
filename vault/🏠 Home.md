@@ -6,45 +6,35 @@
 
 ---
 
-## Quick Navigation
+## Work
+- [[tasks/Kanban]] — visual board (Blocked → To Do → In Progress → Done)
+- [[tasks/Task Board]] — detailed task list with notes
+- [[content/Content Registry]] — all AEO pages (Dataview table)
 
-### 📋 Work
-- [[Task Board]] — current tasks, status, blockers
-- [[Content Registry]] — all AEO pages tracked
+## Agents
+| Agent | Status | Schedule | What |
+|-------|--------|----------|------|
+| [[agents/Research Agent]] | 🟢 Active | Daily 04:30 UTC | Intelligence scanning |
+| [[agents/Tracker Agent]] | 🟢 Active | Mon 09:00 UTC | Citation measurement |
+| [[agents/Reddit Growth Team]] | 🟢 Active | Manual | Subreddit engagement |
+| [[agents/Strategy Agent]] | 🟡 Planned | Weekly Sun | Synthesis + priorities |
+| [[agents/Ops Agent]] | 🟡 Planned | Daily 07:00 UTC | Coordination + status |
+| [[agents/Copywriter Agent]] | 🟡 Planned | Monthly | Content creation + refresh |
 
-### 🤖 Agents
-- [[Research Agent]] — daily intelligence scan
-- [[Tracker Agent]] — weekly citation audit
-- [[Reddit Growth Team]] — subreddit engagement
-- [[Strategy Agent]] — *(planned)*
-- [[Ops Agent]] — *(planned)*
-- [[Copywriter Agent]] — *(planned)*
+## Research
+- [[research/Daily Findings]] — rolling log from Research Agent
 
-### 📁 Reference
-- [[decisions/]] — architecture decision records
-- [[research/Daily Findings]] — rolling research log
-
----
+## Decisions
+- [[decisions/001 - Next.js over Framer]]
+- [[decisions/002 - CF Worker Routing]]
+- [[decisions/003 - Reddit Data Isolation]]
 
 ## Links
-
 | What | Where |
 |------|-------|
 | Vercel site | [altcoinist-aeo.vercel.app](https://altcoinist-aeo.vercel.app) |
 | GitHub repo | [fridayaltt/altcoinist-aeo](https://github.com/fridayaltt/altcoinist-aeo) |
-| brand-facts.json | [altcoinist.com/.well-known/brand-facts.json](https://www.altcoinist.com/.well-known/brand-facts.json) |
+| brand-facts.json | [live](https://www.altcoinist.com/.well-known/brand-facts.json) |
 | Discord | #seo channel |
 | Master Plan | `deliverables/aeo/AEO-MASTER-PLAN.md` |
 | Dept Org | `deliverables/aeo/AEO-DEPARTMENT.md` |
-| Notion Task Board | [Notion](https://www.notion.so/314b35d7874880e2b7b1c69774992bed) *(secondary)* |
-
----
-
-## Architecture Decisions (evergreen)
-
-- **Next.js static export on Vercel** — full code control, autonomous building, no manual editor
-- **Cloudflare Worker path-based routing** — Framer untouched, selective paths to Vercel
-- **Reddit agent data isolation** — structured metadata only, never raw Reddit text
-- **All agents read live knowledge bases** — brand-facts.json + ALTCOINIST_PRODUCT.md
-- **Neutral authority tone** — include competitors honestly, never superlatives without data
-- **Cost:** $0-5/mo marginal (Framer plan + CF free + Vercel free)
