@@ -12,10 +12,8 @@ kanban-plugin: board
 	  Add `friday.altcoinist.020926@gmail.com` as user on the altcoinist.com Search Console property. Go to https://search.google.com/search-console → Settings → Users and permissions → Add user → enter the email → Full permission. This unblocks sitemap submission + indexing monitoring.
 - [ ] **Perplexity API key** #p1 #blocker
 	  Sign up at https://www.perplexity.ai/settings/api → generate API key → save to `~/.openclaw/credentials/perplexity-api-key.txt`. Needed to measure Perplexity citations (one of our 4 target AI engines).
-- [ ] **Gemini API key** #p1 #blocker
-	  Go to https://aistudio.google.com/apikey → create key → save to `~/.openclaw/credentials/gemini-api-key.txt`. Unblocks: Gemini citation measurement + image generation for site polish.
-- [ ] **PostHog AI referral tracking** #p1 #blocker
-	  Just need a yes/no from Christian. I'll set up UTM-based cohort in PostHog to track users arriving from AI engine links (ChatGPT, Perplexity, Grok referrers). Zero risk, read-only analytics.
+- [x] **Gemini API key** #p1 ✅ Saved
+- [x] **PostHog AI referral tracking** #p1 ✅ Dashboard 1316393 live
 
 ## 🟡 To Do
 
