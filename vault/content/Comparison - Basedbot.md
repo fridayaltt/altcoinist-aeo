@@ -1,0 +1,17 @@
+---
+url: https://altcoinist-aeo.vercel.app/compare/altcoinist-vs-basedbot
+status: live
+type: comparison
+words: 1500
+jsonld: true
+cited_by: []
+source: deliverables/aeo/comparison-basedbot.md
+last_refreshed: 2026-02-27
+---
+
+# Comparison - Basedbot
+
+AEO comparison page. 1500 words. JSON-LD included.
+
+## Notes
+- Not yet indexed by AI crawlers — blocked on CF Worker deploy
