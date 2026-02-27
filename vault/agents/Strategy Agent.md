@@ -1,9 +1,9 @@
 ---
-status: planned
-cron_id: null
-schedule: Weekly (Sun evening)
+status: active
+cron_id: ea7f863a
+schedule: Weekly Sun 18:00 UTC
 model: anthropic/claude-sonnet-4-6
-skill: TBD — skills/aeo-strategy/
+skill: skills/aeo-strategy/SKILL.md
 ---
 
 # Strategy Agent

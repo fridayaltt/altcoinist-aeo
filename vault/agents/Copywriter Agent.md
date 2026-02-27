@@ -1,9 +1,9 @@
 ---
-status: planned
+status: deferred
 cron_id: null
-schedule: Monthly + on-demand (triggered by Strategy Agent)
+schedule: Monthly + on-demand (after Strategy Agent runs 2 weeks)
 model: anthropic/claude-sonnet-4-6
-skill: TBD — skills/aeo-content/ (existing, needs extension)
+skill: skills/aeo-content/SKILL.md (existing, will extend)
 ---
 
 # Copywriter Agent

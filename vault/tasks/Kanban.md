@@ -6,56 +6,63 @@ kanban-plugin: board
 
 ## 🔴 Blocked
 
-- [ ] **Reddit account + API key** #p0 #blocker
-	  Need a Reddit account Friday can post from + API credentials. Go to https://www.reddit.com/prefs/apps → create app → "script" type → copy client_id + client_secret. Also need the account username + password. Save creds to `~/.openclaw/credentials/reddit.json`. This unblocks the ENTIRE third-party citation strategy.
-- [ ] **Google Search Console access** #p0 #blocker
-	  Add `friday.altcoinist.020926@gmail.com` as user on the altcoinist.com Search Console property. Go to https://search.google.com/search-console → Settings → Users and permissions → Add user → enter the email → Full permission. This unblocks sitemap submission + indexing monitoring.
+- [ ] **Reddit API app creation** #p0 #blocker
+	  Account `trading_lord_97` exists. `reddit.com/prefs/apps` returning 500 — retry from browser when Reddit is back. Need `client_id` + `client_secret` for automated posting. Mac Mini IP is blocked by Reddit network security — must create from Christian's browser.
 - [ ] **Perplexity API key** #p1 #blocker
-	  Sign up at https://www.perplexity.ai/settings/api → generate API key → save to `~/.openclaw/credentials/perplexity-api-key.txt`. Needed to measure Perplexity citations (one of our 4 target AI engines).
-- [x] **Gemini API key** #p1 ✅ Saved
-- [x] **PostHog AI referral tracking** #p1 ✅ Dashboard 1316393 live
+	  Sign up at https://www.perplexity.ai/settings/api → generate API key → save to `~/.openclaw/credentials/perplexity-api-key.txt`. Needed to measure Perplexity citations.
 
 ## 🟡 To Do
 
-- [ ] **Build Ops Agent** #p0 #agent
-	  Daily task management + status posts to #aeo.
-- [ ] **Build Strategy Agent** #p0 #agent
-	  Weekly synthesis: research + tracker → priorities.
+- [ ] **Submit sitemap to GSC** #p1
+	  UNBLOCKED — access granted. Paste `https://www.altcoinist.com/sitemap.xml` in GSC Sitemaps UI. 30 seconds.
 - [ ] **Build Copywriter Agent** #p1 #agent
-	  Monthly content refresh cycle.
-- [ ] **Submit sitemap** #p1
-	  UNBLOCKED — ready to submit once Search Console access granted.
-- [ ] **Reddit posting cron** #p1
-	  Wed+Sat. Blocked on Reddit credentials above.
-- [ ] **Create Wikidata entity** #p2 @{2026-03-07}
-	  Structured claims for Perplexity/Google.
-- [ ] **Pitch review sites** #p2 @{2026-03-10}
-	  CoinGecko, CryptoSlate, BeInCrypto.
+	  Deferred 2 weeks — needs Strategy Agent output to know what to write/refresh.
 - [ ] **Site brand polish + images** #p2
-	  Blocked on Gemini API key above.
+	  UNBLOCKED — Gemini API key saved. Add OG images, improve visual design.
+- [ ] **Create Wikidata entity** #p2 @{2026-03-07}
+	  Structured claims for Perplexity/Google Knowledge Graph.
+- [ ] **Pitch review sites** #p2 @{2026-03-10}
+	  CoinGecko, CryptoSlate, BeInCrypto — after pages indexed.
+- [ ] **Reddit karma building** #p2
+	  Start genuine helpful comments once API app exists. 2-week Phase 1.
+- [ ] **YouTube content strategy** #p3
+	  Screen-recorded Altcoinist setup tutorial. Gets cited by LLMs for "how to" queries. Flag to Konstantin.
 
 ## 🟢 In Progress
 
+- [ ] **Build Ops Agent + cron** #p0 #agent
+	  Daily status posts to #aeo, blocker tracking, agent health checks.
+- [ ] **Build Strategy Agent + cron** #p0 #agent
+	  Weekly synthesis: research + tracker → priorities + experiments.
+- [ ] **AEO weekly report cron** #p1
+	  Friday automated department report to Christian.
 
 ## ✅ Done
 
-- [x] CF Worker deployed @{2026-02-27} #p0
+- [x] CF Worker v3 deployed @{2026-02-27} #p0
 - [x] Grok 50-query audit baseline #p0
-- [x] Next.js AEO site built + deployed #p0
+- [x] Next.js AEO site built + deployed (7 pages) #p0
 - [x] AEO Strategy + Master Plan #p0
 - [x] AEO Department architecture #p0
-- [x] Research Agent + daily cron #p0
+- [x] Research Agent + daily cron (`f873f97d`) #p0
+- [x] Tracker Agent + weekly cron (`accc997b`) #p0
 - [x] brand-facts.json live on CF #p0
-- [x] Answer Hub page (3000 words) #p0
-- [x] 4 Comparison pages #p1
+- [x] Answer Hub page (3000 words, 16 FAQs) #p0
+- [x] 4 Comparison pages (30 FAQs total) #p1
+- [x] FAQPage JSON-LD on all pages @{2026-02-27} #p1
+- [x] FAQ long-tail expansion (+19 items) @{2026-02-27} #p1
 - [x] Brand Facts page + JSON #p1
-- [x] JSON-LD schema blocks #p1
-- [x] 3 AEO skills built #p1
-- [x] Weekly tracker cron #p1
-- [x] Reddit scout + growth team #p1
-- [x] 5 Reddit content drafts #p1
+- [x] 4 AEO skills built #p1
+- [x] Reddit Growth Team + 5 drafts #p1
+- [x] Reddit two-phase strategy (transparency) @{2026-02-27} #p1
 - [x] ChatGPT audit via OAT #p1
-- [x] Obsidian vault #p0
+- [x] Obsidian vault + restructure @{2026-02-27} #p0
+- [x] Gemini API key saved #p1
+- [x] PostHog AEO dashboard (1316393) #p1
+- [x] GSC access granted #p1
+- [x] Reddit account created (`trading_lord_97`) #p1
+- [x] Sitemap live at `/sitemap.xml` #p1
+- [x] Vault restructure @{2026-02-27} #p0
 
 
 %% kanban:settings

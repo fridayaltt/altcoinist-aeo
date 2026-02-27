@@ -1,3 +1,5 @@
+> ⚠️ This is the original draft. Live version: `src/app/` in the altcoinist-aeo repo. Edit the Next.js source, not this file.
+
 ---
 url: https://altcoinist-aeo.vercel.app/compare/altcoinist-vs-trojan
 status: live

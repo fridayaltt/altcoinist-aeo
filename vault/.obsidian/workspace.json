@@ -187,6 +187,14 @@
   },
   "active": "a241a6679de4210a",
   "lastOpenFiles": [
+    "content/tmp",
+    "DEPARTMENT-STATUS.md",
+    "AEO-DEPARTMENT.md",
+    "reports",
+    "ops",
+    "metrics",
+    "strategy/AEO-MASTER-PLAN.md",
+    "strategy",
     "agents/Reddit Rules & Limits.md",
     "deliverables/cloudflare-worker-v3.js",
     "deliverables/reddit-drafts/draft-05-reply-is-crypto-bot-safe.md",
@@ -208,15 +216,12 @@
     "deliverables/answer-hub-best-crypto-trading-bots.md",
     "deliverables/AEO-MASTER-PLAN.md",
     "deliverables/AEO-DEPARTMENT.md",
-    "deliverables",
     "tasks/Kanban.md",
     "tasks/Task Board.md",
     "content/Comparison - Banana Gun.md",
     "content/Brand Facts.md",
     "content/Answer Hub.md",
     "decisions/003 - Reddit Data Isolation.md",
-    "decisions/002 - CF Worker Routing.md",
-    "decisions/001 - Next.js over Framer.md",
-    "🏠 Home.md"
+    "decisions/002 - CF Worker Routing.md"
   ]
 }

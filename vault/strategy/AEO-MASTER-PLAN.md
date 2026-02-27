@@ -57,56 +57,53 @@ scores each result, outputs JSON for week-over-week comparison. Ready for cron a
 
 ---
 
-## What's Next — Execution Phases
+## Execution Phases — Status
 
-### Phase 2: Build Pages in Framer ⏳
-**Who:** Friday (via Framer MCP)
-**Blocked on:** Christian connecting Framer MCP
-**Time:** 2-3 hours once unblocked
+### Phase 1: Content + Technical Assets ✅ COMPLETE
+All 11 content files written. Strategy doc complete. brand-facts.json deployed.
 
-Pages to create:
-1. `/guides/best-crypto-trading-bots-2026` — Answer Hub (THE critical page)
-2. `/brand-facts` — Wikipedia-style entity page
-3. `/compare/altcoinist-vs-trojan` — Comparison page
-4. `/compare/altcoinist-vs-maestro` — Comparison page
-5. `/compare/altcoinist-vs-banana-gun` — Comparison page
-6. `/compare/altcoinist-vs-basedbot` — Comparison page
+### Phase 2: Build Site ✅ COMPLETE (pivoted from Framer to Next.js)
+Decision: Next.js + Vercel instead of Framer. Full code control, autonomous builds, SSG.
+- 7 pages live on `altcoinist-aeo.vercel.app`
+- CF Worker v3 routes traffic from `altcoinist.com`
+- All pages have JSON-LD schema (Article + FAQPage + ItemList)
+- 46 FAQs targeting long-tail AI prompts
 
-For each page I will:
-- Create the page with proper heading hierarchy (H1 → H2 → H3)
-- Set the URL slug, meta title, meta description, OG tags
-- Build FAQ sections (accordion format ideal for AI scraping)
-- Inject the correct JSON-LD schema block into the page's `<head>` custom code
-- Link pages to each other for internal authority
+### Phase 3: CF Worker + Infrastructure ✅ COMPLETE
+- Worker v3 deployed (ES Module format, Framer passthrough)
+- Sitemap live at `/sitemap.xml`
+- brand-facts.json live at `/.well-known/brand-facts.json`
+- PostHog AEO dashboard (1316393) tracking AI referral visits
 
-**What I need from you:**
-- Connect Framer MCP so I can build pages directly
-- Or: give me Framer edit access so I can work through the browser tool
-- Or: if neither works, I'll hand off polished page specs to Zsofi to build manually (slowest path)
+### Phase 4: Measurement + Tracking ✅ COMPLETE
+- Tracker cron (`accc997b`) runs weekly on Mon
+- Research cron (`f873f97d`) runs daily
+- ChatGPT audit completed via OAT
+- Grok 50-query baseline: 0/50 organic, 3Commas 14/50
 
----
+### Phase 5: Reddit Growth Team ✅ COMPLETE (spec + drafts)
+- Growth Team architecture + 5 content drafts
+- Two-phase strategy: stealth karma building → transparent affiliation
+- BLOCKED: Reddit API app creation (Reddit 500 error)
+- Account `trading_lord_97` created, needs 30d aging
 
-### Phase 3: Deploy Cloudflare Worker ⏳
-**Who:** Christian (5 minutes)
-**Blocked on:** Christian doing the steps
-**Time:** 5 minutes
+### Phase 6: Department Operations ✅ COMPLETE (Feb 27 restructure)
+- Ops Agent cron (`085c5b59`) — daily 07:30 UTC
+- Strategy Agent cron (`ea7f863a`) — weekly Sun 18:00 UTC
+- Weekly Report cron (`63b87557`) — Fri 17:00 UTC
+- Vault restructured with clear directories
+- DEPARTMENT-STATUS.md as single source of truth
 
-Steps:
-1. Cloudflare dashboard → Workers & Pages → Create Worker
-2. Paste the code from `cloudflare-worker.js` (I'll send it to you directly)
-3. Go to Workers Routes → Add route: `altcoinist.com/.well-known/*` → select the worker
-4. Test: `curl https://altcoinist.com/.well-known/brand-facts.json`
+### Phase 7: Expand Reach (NEXT)
+- Submit sitemap to GSC (Christian: 30 sec paste)
+- Create Wikidata entity (target: Mar 7)
+- Pitch review sites (target: Mar 10)
+- YouTube content strategy (flag to Konstantin)
+- Site brand polish with Gemini API
 
-This makes Altcoinist's structured data available at a standard path that AI crawlers check automatically. Same pattern Google uses for `robots.txt` — but for AI models.
-
----
-
-### Phase 4: Expand Audit + Set Up Weekly Tracker ⏳
-**Who:** Friday (autonomous, no blockers)
-**Time:** Ongoing
-
-- Complete remaining 25 audit queries (Q26-Q50)
-- Test ChatGPT via gateway (Codex Pro)
+### Phase 8: Reddit Execution (BLOCKED on API)
+- Start karma building once API app exists
+- 2-week Phase 1 (anonymous), then Phase 2 (transparent)
 - Set up weekly cron: re-run top 15 priority queries every Monday
 - Track position changes week-over-week
 - Alert when Altcoinist starts appearing (or when competitors make moves)

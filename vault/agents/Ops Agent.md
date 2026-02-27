@@ -1,9 +1,9 @@
 ---
-status: planned
-cron_id: null
-schedule: Daily 07:00 UTC
+status: active
+cron_id: 085c5b59
+schedule: Daily 07:30 UTC
 model: openai-codex/gpt-5.2
-skill: TBD — skills/aeo-ops/
+skill: skills/aeo-ops/SKILL.md
 ---
 
 # Ops Agent
