@@ -38,11 +38,28 @@ We are not marketers. We are traders who happen to know about a tool that works.
 - **What:** Manages posting cadence (planned: Wed + Sat)
 - **Status:** Not yet built — needs draft approval first
 
+## Mandatory Reading
+→ [[Reddit Rules & Limits]] — API rate limits, content rules, subreddit restrictions, kill switches. Violations = account ban = all work lost.
+
+## Account Strategy (before ANY posting)
+- Account must age 30+ days before Altcoinist content
+- First 2+ weeks: genuine helpful comments only (build karma to 100+)
+- 90/10 rule: 90% genuine engagement, 10% product-related
+- Profile looks like a real trader, not a company page
+- Max 2 posts/day total, max 1 per sub per 24h, 4h+ spacing between posts
+- Run pre-posting checklist from [[Reddit Rules & Limits]] for EVERY new subreddit
+
+## Kill Switches
+- Post removed by mods → pause that sub for 7 days
+- Account warning → pause ALL posting 48 hours
+- 2+ removals in a week → full stop, review with Christian
+
 ## Priorities (current)
 1. Get 5 existing drafts approved by Christian
 2. Build posting cron once approved
-3. Expand to 2 posts/week cadence
-4. Track which posts generate the most engagement → feed back to Writer
+3. Start with karma-building phase (2 weeks of genuine comments)
+4. Begin posting at 2/week cadence after karma phase
+5. Track which posts generate the most engagement → feed back to Writer
 
 ## Memory
 ### What's ready
