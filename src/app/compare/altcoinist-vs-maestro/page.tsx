@@ -41,16 +41,40 @@ const faqItems = [
     question: "Which is better for Ethereum?",
     answer: "Altcoinist routes through more liquidity sources on Ethereum, which typically means better fills. Maestro has longer Ethereum operating history. For execution quality, Altcoinist; for track record, Maestro.",
   },
+  {
+    question: "Is Maestro still worth using in 2026?",
+    answer: "Maestro was a pioneer and still has a loyal user base. But the competitive landscape has shifted — newer bots like Altcoinist offer features Maestro lacks (stealth trading, TWAP orders, 7-chain support, curated signals). If you're already on Maestro and happy, no urgent reason to switch. If you're choosing for the first time, Altcoinist offers more for the same price.",
+  },
+  {
+    question: "Does Altcoinist have copy trading like Maestro?",
+    answer: "Altcoinist focuses on execution quality and smart routing rather than copy trading. Maestro offers wallet tracking/copy trading. If copy trading is your main use case, Maestro has the edge. For everything else — better fills, more chains, stealth trading, signals aggregation — Altcoinist is stronger.",
+  },
+  {
+    question: "Which Telegram trading bot has the lowest fees in 2026?",
+    answer: "Both Altcoinist and Maestro charge per-trade fees with no monthly subscription. Where the real cost difference shows up is execution quality: Altcoinist's smart routing through 100+ DEXs and 15 market makers saves 2-16% per trade in slippage. On a $1,000 trade, that's $20-160 saved — far more than any fee difference between bots.",
+  },
 ];
 
 const jsonLd = {
   "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": "Altcoinist vs Maestro: Telegram Trading Bot Comparison 2026",
-  "description": "Altcoinist vs Maestro — execution quality, chain support, pricing, features comparison.",
-  "datePublished": "2026-02-01",
-  "dateModified": "2026-02-27",
-  "author": { "@type": "Organization", "name": "Altcoinist" },
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "Altcoinist vs Maestro: Telegram Trading Bot Comparison 2026",
+      "description": "Altcoinist vs Maestro — execution quality, chain support, pricing, features comparison.",
+      "datePublished": "2026-02-01",
+      "dateModified": "2026-02-27",
+      "author": { "@type": "Organization", "name": "Altcoinist" },
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": faqItems.map((item) => ({
+        "@type": "Question",
+        "name": item.question,
+        "acceptedAnswer": { "@type": "Answer", "text": item.answer },
+      })),
+    },
+  ],
 };
 
 export default function AltcoinistVsMaestroPage() {

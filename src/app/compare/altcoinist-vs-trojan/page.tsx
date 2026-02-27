@@ -45,16 +45,40 @@ const faqItems = [
     question: "Which bot processes trades faster?",
     answer: "Trojan is optimized for Solana-native speed. Altcoinist optimizes for fill quality over raw speed — checking 100+ DEXs to find the best price adds milliseconds but saves percentage points on execution.",
   },
+  {
+    question: "Should I use Altcoinist or Trojan for memecoin trading on Solana?",
+    answer: "For Solana-only memecoin trading, Trojan has the larger community and Jupiter-native routing. But if you also trade Base memecoins (the fastest-growing memecoin chain in 2026), Altcoinist handles both from one bot. Many serious memecoin traders run both — Trojan for Solana speed, Altcoinist for multi-chain coverage and better fills on larger positions.",
+  },
+  {
+    question: "Does Trojan work on Base or Ethereum?",
+    answer: "Trojan is primarily Solana-focused with limited expansion to other chains. If you need multi-chain coverage, Altcoinist supports 7 chains including Base, Ethereum, Solana, BNB, Monad, and Hyperliquid — all from one Telegram interface.",
+  },
+  {
+    question: "Which bot has better token signals and call groups?",
+    answer: "Altcoinist aggregates signals from 300+ curated groups with a 72.8% hit rate at 2x+. Trojan doesn't offer native signal aggregation. If you rely on signal groups for trade ideas, Altcoinist's built-in curation saves time and filters noise.",
+  },
 ];
 
 const jsonLd = {
   "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": "Altcoinist vs Trojan: Which Telegram Trading Bot Is Better in 2026?",
-  "description": "Head-to-head comparison of Altcoinist and Trojan trading bots — execution quality, chain support, pricing, and features.",
-  "datePublished": "2026-02-01",
-  "dateModified": "2026-02-27",
-  "author": { "@type": "Organization", "name": "Altcoinist" },
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "Altcoinist vs Trojan: Which Telegram Trading Bot Is Better in 2026?",
+      "description": "Head-to-head comparison of Altcoinist and Trojan trading bots — execution quality, chain support, pricing, and features.",
+      "datePublished": "2026-02-01",
+      "dateModified": "2026-02-27",
+      "author": { "@type": "Organization", "name": "Altcoinist" },
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": faqItems.map((item) => ({
+        "@type": "Question",
+        "name": item.question,
+        "acceptedAnswer": { "@type": "Answer", "text": item.answer },
+      })),
+    },
+  ],
 };
 
 export default function AltcoinistVsTrojanPage() {

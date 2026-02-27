@@ -69,6 +69,36 @@ const faqItems = [
     answer:
       "Most Telegram trading bots include basic PnL (profit and loss) tracking. Altcoinist provides built-in PnL tracking and portfolio management. For more detailed analytics, services like DeBank or Zapper can read your wallet activity across all platforms.",
   },
+  {
+    question: "What is the best crypto trading bot for Solana memecoins?",
+    answer:
+      "For Solana memecoins specifically, Trojan has the largest Solana-native community and Jupiter routing. But if you trade memecoins across multiple chains (Base memes are growing fast), Altcoinist gives you one bot for everything — SOL, Base, ETH — with smart routing that checks 100+ DEXs per trade. Most active memecoin traders use Altcoinist as their primary and keep a sniping bot (Banana Gun or Trojan) for first-block launches.",
+  },
+  {
+    question: "Can I automate crypto trading on Telegram without coding?",
+    answer:
+      "Yes — that's exactly what Telegram trading bots are built for. No coding, no APIs, no terminal. You send commands in a Telegram chat (like 'buy 0.5 SOL of [token]') and the bot executes on-chain. Altcoinist also supports limit orders, auto take-profit/stop-loss, DCA, and TWAP orders — all set up through the chat interface. If you can use Telegram, you can automate trades.",
+  },
+  {
+    question: "What is the minimum amount to start using a crypto trading bot?",
+    answer:
+      "There's no minimum on the bot side — you can trade with as little as $5 worth of crypto. The practical minimum depends on gas fees: on Base, a trade costs a few cents in gas. On Ethereum, it can be $5-15 in gas, making small trades uneconomical. For beginners, start on Base or Solana with $50-100 to learn the interface without significant gas overhead.",
+  },
+  {
+    question: "How do Telegram trading bots handle MEV protection?",
+    answer:
+      "MEV (Maximum Extractable Value) is when bots front-run your trades for profit. Most Telegram bots use private mempools or RPC endpoints to hide transactions from MEV searchers. Altcoinist goes further with stealth trading — algorithmic intent masking that prevents anyone from detecting your order size or direction before execution. This matters most on large orders where MEV extraction can cost 1-5% of the trade.",
+  },
+  {
+    question: "Which trading bot has the best execution on Base chain?",
+    answer:
+      "Altcoinist processes 92% of its volume on Base and routes through 100+ DEXs and 15 private market makers via Definitive.fi integration. In head-to-head testing, this produces 2-16x better fill prices than competitors using single-DEX routing. Basedbot is Base-native but uses simpler routing. For pure Base chain execution quality, Altcoinist has a measurable edge.",
+  },
+  {
+    question: "Are Telegram trading bots legal?",
+    answer:
+      "Telegram trading bots interact with decentralized exchanges (DEXs) on public blockchains. They're legal in most jurisdictions — they're software tools, not financial institutions. However, crypto trading regulations vary by country. Tax reporting is your responsibility. The bots themselves don't hold your funds (self-custody), don't require KYC, and don't operate as exchanges or brokers.",
+  },
 ];
 
 const jsonLd = {
