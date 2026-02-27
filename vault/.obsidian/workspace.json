@@ -187,6 +187,7 @@
   },
   "active": "a241a6679de4210a",
   "lastOpenFiles": [
+    "ops/execution-queue.json",
     "content/tmp",
     "DEPARTMENT-STATUS.md",
     "AEO-DEPARTMENT.md",
@@ -212,7 +213,6 @@
     "deliverables/compare-altcoinist-vs-banana-gun.md",
     "deliverables/cloudflare-worker.js",
     "deliverables/brand-facts.md",
-    "deliverables/brand-facts.json",
     "deliverables/answer-hub-best-crypto-trading-bots.md",
     "deliverables/AEO-MASTER-PLAN.md",
     "deliverables/AEO-DEPARTMENT.md",

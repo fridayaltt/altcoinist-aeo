@@ -13,6 +13,9 @@
 | Tracker | ✅ Active | `accc997b` | Mon 09:00 UTC | codex gpt-5.2 | _pending first run (Mon Mar 3)_ |
 | Ops | ✅ Active | `085c5b59` | Daily 07:30 UTC | codex gpt-5.2 | 2026-02-27 21:09 CET (running) |
 | Strategy | ✅ Active | `ea7f863a` | Sun 18:00 UTC | sonnet 4.6 | _pending first run (Sun Mar 2)_ |
+| CSO | ✅ Active | `c461fab7` | Daily 08:00 UTC | sonnet 4.6 | _pending first run_ |
+| Builder | ✅ Active | `510d30b3` | Daily 10:00 UTC | sonnet 4.6 | _pending first run_ |
+| Data Refresh | ✅ Active | `d077e99a` | Wed 06:00 UTC | codex gpt-5.2 | _pending first run (Wed Mar 5)_ |
 | Copywriter | ⏸️ Deferred | — | Monthly (manual) | sonnet 4.6 | — |
 | Weekly Report | ✅ Active | `63b87557` | Fri 17:00 UTC | codex gpt-5.2 | _pending first run (Fri Mar 7)_ |
 
