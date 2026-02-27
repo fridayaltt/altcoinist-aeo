@@ -1,5 +1,17 @@
 {
-  "updated": "2026-02-27T21:30:00Z",
-  "updated_by": "manual",
-  "items": []
+  "updated": "2026-02-28T08:00:00Z",
+  "updated_by": "cso",
+  "items": [
+    {
+      "id": "gap-001",
+      "priority": 1,
+      "type": "content_gap",
+      "title": "Add FAQ: minimum investment for Solana trading",
+      "description": "No FAQ covers what minimum amount you need to start trading Solana memecoins specifically. This is a common ChatGPT query.",
+      "target": "guides/best-crypto-trading-bots-2026",
+      "estimated_minutes": 20,
+      "status": "queued",
+      "source": "opportunity_scan"
+    }
+  ]
 }
