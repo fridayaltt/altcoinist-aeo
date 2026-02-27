@@ -6,10 +6,9 @@ kanban-plugin: board
 
 ## 🔴 Blocked
 
-- [ ] **CF Worker deploy** @{2026-02-27} #p0 ^blocker-cf-worker
-	  Christian: 2 min paste job. #1 blocker for everything.
+- [x] **CF Worker deploy** @{2026-02-27} #p0 ✅ Live
 - [ ] **Sitemap submission** #p1
-	  Blocked on CF Worker — pages must be on altcoinist.com first.
+	  UNBLOCKED — ready to submit.
 - [ ] **Site brand polish + images** #p1
 	  Blocked on Gemini API key from Christian.
 - [ ] **Gemini API key** #p2

@@ -7,8 +7,8 @@
 
 ## 🔴 Blocked (4)
 
-- [ ] **⏳ Update CF Worker routing → Vercel** `P0` `Deploy` — Christian: paste updated Worker code into CF dashboard. Code posted in #aeo. Routes `/guides/*`, `/compare/*`, `/brand-facts` to Vercel. **#1 blocker for everything.**
-- [ ] **Submit sitemap to Google Search Console** `P1` `Build` — Blocked on CF Worker. Pages must be on altcoinist.com first. Accelerates AI crawler discovery.
+- [x] **✅ CF Worker routing → Vercel** `P0` `Deploy` — Deployed Feb 27 19:14 CET. All AEO routes live on altcoinist.com.
+- [ ] **Submit sitemap to Google Search Console** `P1` `Build` — UNBLOCKED. Ready to submit now.
 - [ ] **Refine site build — brand polish + images** `P1` `Build` — Blocked on Gemini API key. Hero images, OG tags, visual polish.
 - [ ] **🔴 Gemini API key for images** `P2` `Blocker` — Christian to provide. Needed for nano-banana-pro image generation.
 

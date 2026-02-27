@@ -11,16 +11,14 @@
             "id": "a241a6679de4210a",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "markdown",
               "state": {
-                "file": "tasks/Kanban.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": []
-                }
+                "file": "agents/Reddit Growth Team.md",
+                "mode": "preview",
+                "source": false
               },
-              "icon": "lucide-trello",
-              "title": "Kanban"
+              "icon": "lucide-file",
+              "title": "Reddit Growth Team"
             }
           }
         ]
@@ -189,8 +187,29 @@
   },
   "active": "a241a6679de4210a",
   "lastOpenFiles": [
-    "tasks/Task Board.md",
+    "deliverables/cloudflare-worker-v3.js",
+    "deliverables/reddit-drafts/draft-05-reply-is-crypto-bot-safe.md",
+    "deliverables/reddit-drafts/draft-04-execution-quality-post.md",
+    "deliverables/reddit-drafts/draft-03-reply-3commas-alternative.md",
+    "deliverables/reddit-drafts/draft-02-reply-best-crypto-bot.md",
+    "deliverables/reddit-drafts/draft-01-comparison-post.md",
+    "deliverables/updated-cloudflare-worker.js",
+    "deliverables/schema-markup-blocks.html",
+    "deliverables/reddit-seeding-pack.md",
+    "deliverables/reddit-drafts",
+    "deliverables/compare-altcoinist-vs-trojan.md",
+    "deliverables/compare-altcoinist-vs-maestro.md",
+    "deliverables/compare-altcoinist-vs-basedbot.md",
+    "deliverables/compare-altcoinist-vs-banana-gun.md",
+    "deliverables/cloudflare-worker.js",
+    "deliverables/brand-facts.md",
+    "deliverables/brand-facts.json",
+    "deliverables/answer-hub-best-crypto-trading-bots.md",
+    "deliverables/AEO-MASTER-PLAN.md",
+    "deliverables/AEO-DEPARTMENT.md",
+    "deliverables",
     "tasks/Kanban.md",
+    "tasks/Task Board.md",
     "content/Comparison - Banana Gun.md",
     "content/Brand Facts.md",
     "content/Answer Hub.md",

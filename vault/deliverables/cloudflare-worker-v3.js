@@ -1,13 +1,3 @@
-// Cloudflare Worker: Altcoinist AEO Routing
-// Updated: 2026-02-27 v3
-//
-// Routes:
-//   /guides/*          → Vercel (AEO static site)
-//   /compare/*         → Vercel (AEO static site)
-//   /brand-facts       → Vercel (AEO static site)
-//   /.well-known/*     → serves brand-facts.json inline
-//   Everything else    → Framer origin
-
 const VERCEL_URL = "https://altcoinist-aeo.vercel.app";
 const FRAMER_ORIGIN = "https://altcoinist.framer.website";
 
@@ -16,7 +6,6 @@ export default {
     const url = new URL(request.url);
     const path = url.pathname;
 
-    // --- 1. Brand facts JSON ---
     if (path === "/.well-known/brand-facts.json") {
       const brandFacts = {
         name: "Altcoinist",
@@ -77,7 +66,6 @@ export default {
       });
     }
 
-    // --- 2. AEO pages → proxy to Vercel ---
     if (
       path.startsWith("/guides/") ||
       path.startsWith("/compare/") ||
@@ -90,7 +78,6 @@ export default {
       return new Response(resp.body, { status: resp.status, headers });
     }
 
-    // --- 3. Everything else → Framer ---
     const framerResp = await fetch(FRAMER_ORIGIN + path + (url.search || ""));
     return new Response(framerResp.body, {
       status: framerResp.status,
