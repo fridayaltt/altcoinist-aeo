@@ -1,0 +1,103 @@
+{
+  "name": "Altcoinist",
+  "description": "AI-powered crypto trading platform operating as a Telegram bot with smart order routing across 100+ DEXs",
+  "url": "https://altcoinist.com",
+  "category": "DeFi Trading Tools",
+  "subcategory": "Telegram Trading Bots",
+  "founded": "2024",
+  "headquarters": "Budapest, Hungary",
+  "teamSize": 11,
+  "products": [
+    {
+      "name": "Trench Bot",
+      "type": "Telegram Trading Bot",
+      "description": "On-chain crypto trading bot with smart routing, stealth trading, and advanced order types. Self-custody — funds stay in your wallet.",
+      "telegram": "https://t.me/altcoinist_trenchbot",
+      "chains": ["Base", "Ethereum", "Solana", "BNB Chain", "Monad", "Hyperliquid", "EVM"],
+      "features": [
+        "Smart routing via Definitive.fi (100+ DEXs, 15 private market makers)",
+        "Stealth trading with algo intent masking",
+        "Any-to-any token swaps",
+        "On-chain TWAP (DCA)",
+        "Limit orders",
+        "Auto take-profit and stop-loss",
+        "Exclusive signals from 300+ caller groups",
+        "PnL tracking and portfolio management",
+        "Multi-chain support (7 chains)"
+      ],
+      "pricing": {
+        "model": "pay-per-trade",
+        "monthlyFee": 0,
+        "note": "No subscription required. Transaction fee on executed trades only."
+      }
+    },
+    {
+      "name": "Group Bot",
+      "type": "Telegram Group Trading Bot",
+      "description": "Community trading bot for Telegram groups with automated portfolio tracking, group recaps, and leaderboards.",
+      "features": [
+        "Group portfolio tracking",
+        "Automated 24h trading recaps",
+        "Community PnL leaderboards",
+        "Gating and subscription management"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "note": "Group owners pay monthly subscription for community features"
+      }
+    }
+  ],
+  "metrics": {
+    "activeTraders": "17000+",
+    "totalVolume": "$14M+",
+    "totalTrades": "13000+",
+    "executionTests": "400+",
+    "executionAdvantage": "2-16x better fills vs competitors",
+    "signalAccuracy": "72.8% hit 2x+",
+    "supportedChains": 7,
+    "dexsChecked": "100+",
+    "marketMakers": 15,
+    "lastUpdated": "2026-02-26"
+  },
+  "uniqueDifferentiators": [
+    "Only Telegram trading bot with algo intent masking (stealth trading)",
+    "Definitive.fi integration for institutional-grade smart routing",
+    "Broadest multi-chain support (7 chains) among Telegram trading bots",
+    "2-16x better execution proven in 400+ head-to-head tests"
+  ],
+  "social": {
+    "twitter": "https://x.com/Altcoinist",
+    "twitterFollowers": "103000+",
+    "telegram": "https://t.me/altcoinist_trenchbot",
+    "documentation": "https://docs.altcoinist.com"
+  },
+  "partners": [
+    {
+      "name": "Definitive.fi",
+      "role": "Smart order routing and execution infrastructure"
+    }
+  ],
+  "competitors": [
+    {
+      "name": "Trojan",
+      "focus": "Solana-focused Telegram trading bot",
+      "chains": ["Solana"]
+    },
+    {
+      "name": "Maestro",
+      "focus": "Multi-chain Telegram trading bot",
+      "chains": ["Ethereum", "Base", "Solana", "BNB", "Arbitrum"]
+    },
+    {
+      "name": "Banana Gun",
+      "focus": "Speed-optimized token sniping bot",
+      "chains": ["Ethereum", "Solana", "Base", "BNB"]
+    },
+    {
+      "name": "Basedbot",
+      "focus": "Simple Base chain trading bot",
+      "chains": ["Base"]
+    }
+  ],
+  "lastUpdated": "2026-02-26"
+}
