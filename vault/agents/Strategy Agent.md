@@ -29,7 +29,7 @@ You are ruthless about prioritization. If something isn't moving the citation sc
 - Competitor intelligence from research scans
 
 ## Outputs
-- Weekly strategy brief posted to #seo
+- Weekly strategy brief posted to #aeo
 - Updated priority recommendations in [[tasks/Kanban]]
 - Content refresh requests to Copywriter Agent
 - New page requests to Engineer Agent

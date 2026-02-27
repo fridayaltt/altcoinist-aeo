@@ -11,14 +11,16 @@
             "id": "a241a6679de4210a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "kanban",
               "state": {
-                "file": "content/Comparison - Banana Gun.md",
-                "mode": "preview",
-                "source": false
+                "file": "tasks/Kanban.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": []
+                }
               },
-              "icon": "lucide-file",
-              "title": "Comparison - Banana Gun"
+              "icon": "lucide-trello",
+              "title": "Kanban"
             }
           }
         ]
@@ -174,18 +176,22 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-kanban:Create new board": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
   "active": "a241a6679de4210a",
   "lastOpenFiles": [
+    "tasks/Task Board.md",
     "tasks/Kanban.md",
+    "content/Comparison - Banana Gun.md",
     "content/Brand Facts.md",
     "content/Answer Hub.md",
     "decisions/003 - Reddit Data Isolation.md",

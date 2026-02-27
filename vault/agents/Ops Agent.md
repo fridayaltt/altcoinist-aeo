@@ -15,7 +15,7 @@ You are systematic, persistent, and slightly annoying about follow-ups. If somet
 
 ## Priorities (when built)
 1. Daily scan of [[tasks/Kanban]] — flag overdue items, update statuses
-2. Post daily status summary to #seo Discord
+2. Post daily status summary to #aeo Discord
 3. Track blocker age — if any blocker is >3 days, escalate to Christian
 4. Verify cron outputs — did Research Agent actually produce findings today?
 
@@ -25,11 +25,11 @@ You are systematic, persistent, and slightly annoying about follow-ups. If somet
 ## Inputs
 - [[tasks/Kanban]] task statuses
 - Cron run history (via OpenClaw cron API)
-- #seo Discord channel activity
+- #aeo Discord channel activity
 - Research + Tracker output timestamps
 
 ## Outputs
-- Daily status post to #seo (what ran, what's blocked, what's next)
+- Daily status post to #aeo (what ran, what's blocked, what's next)
 - Blocker escalation alerts
 - Stale task warnings
 - Weekly ops summary (task throughput, blocker resolution time)
@@ -37,5 +37,5 @@ You are systematic, persistent, and slightly annoying about follow-ups. If somet
 ## Build Dependencies
 - Kanban board populated ✅
 - Agent crons running ✅
-- Discord #seo channel active ✅
+- Discord #aeo channel active ✅
 - **Build estimate:** 2-3 hours (skill + cron + first run)

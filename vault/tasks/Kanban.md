@@ -1,36 +1,39 @@
 ---
 
-kanban-plugin: basic
+kanban-plugin: board
 
 ---
 
 ## 🔴 Blocked
 
 - [ ] **CF Worker deploy** @{2026-02-27} #p0 ^blocker-cf-worker
-  Christian: 2 min paste job. #1 blocker for everything.
+	  Christian: 2 min paste job. #1 blocker for everything.
 - [ ] **Sitemap submission** #p1
-  Blocked on CF Worker — pages must be on altcoinist.com first.
+	  Blocked on CF Worker — pages must be on altcoinist.com first.
 - [ ] **Site brand polish + images** #p1
-  Blocked on Gemini API key from Christian.
+	  Blocked on Gemini API key from Christian.
 - [ ] **Gemini API key** #p2
-  Christian to provide for nano-banana-pro.
+	  Christian to provide for nano-banana-pro.
+
 
 ## 🟡 To Do
 
 - [ ] **Build Ops Agent** #p0 #agent
-  Daily task management + status posts to #seo.
+	  Daily task management + status posts to #aeo.
 - [ ] **Build Strategy Agent** #p0 #agent
-  Weekly synthesis: research + tracker → priorities.
-- [ ] **Build Copywriter Agent** #p1 #agent
-  Monthly content refresh cycle.
+	  Weekly synthesis: research + tracker → priorities.
 - [ ] **Reddit posting cron** #p2
-  Wed+Sat. Needs draft approval first.
+	  Wed+Sat. Needs draft approval first.
+- [ ] **Build Copywriter Agent** #p1 #agent
+	  Monthly content refresh cycle.
 - [ ] **Create Wikidata entity** #p2 @{2026-03-07}
-  Structured claims for Perplexity/Google.
+	  Structured claims for Perplexity/Google.
 - [ ] **Pitch review sites** #p2 @{2026-03-10}
-  CoinGecko, CryptoSlate, BeInCrypto.
+	  CoinGecko, CryptoSlate, BeInCrypto.
+
 
 ## 🟢 In Progress
+
 
 
 ## ✅ Done
@@ -53,8 +56,10 @@ kanban-plugin: basic
 - [x] Obsidian vault #p0
 
 
+
+
 %% kanban:settings
 ```
-{"kanban-plugin":"basic","lane-width":300,"show-checkboxes":true}
+{"kanban-plugin":"board","lane-width":300,"show-checkboxes":true}
 ```
 %%

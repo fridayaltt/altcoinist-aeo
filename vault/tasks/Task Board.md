@@ -1,20 +1,20 @@
 # AEO Task Board
 
 > Updated by Friday. Last sync: 2026-02-27 18:35 CET
-> Source: Notion DB `314b35d7874880e2b7b1c69774992bed` + Discord #seo conversations
+> Source: Notion DB `314b35d7874880e2b7b1c69774992bed` + Discord #aeo conversations
 
 ---
 
 ## 🔴 Blocked (4)
 
-- [ ] **⏳ Update CF Worker routing → Vercel** `P0` `Deploy` — Christian: paste updated Worker code into CF dashboard. Code posted in #seo. Routes `/guides/*`, `/compare/*`, `/brand-facts` to Vercel. **#1 blocker for everything.**
+- [ ] **⏳ Update CF Worker routing → Vercel** `P0` `Deploy` — Christian: paste updated Worker code into CF dashboard. Code posted in #aeo. Routes `/guides/*`, `/compare/*`, `/brand-facts` to Vercel. **#1 blocker for everything.**
 - [ ] **Submit sitemap to Google Search Console** `P1` `Build` — Blocked on CF Worker. Pages must be on altcoinist.com first. Accelerates AI crawler discovery.
 - [ ] **Refine site build — brand polish + images** `P1` `Build` — Blocked on Gemini API key. Hero images, OG tags, visual polish.
 - [ ] **🔴 Gemini API key for images** `P2` `Blocker` — Christian to provide. Needed for nano-banana-pro image generation.
 
 ## 🟡 To Do (7)
 
-- [ ] **Build Ops Agent** `P0` `Agent` — Daily: scan Notion task board, assign work to agents, post status to #seo. [[agents/Ops Agent]]
+- [ ] **Build Ops Agent** `P0` `Agent` — Daily: scan Notion task board, assign work to agents, post status to #aeo. [[agents/Ops Agent]]
 - [ ] **Build Strategy Agent** `P0` `Agent` — Weekly: synthesize Research + Tracker findings → priority recommendations + content updates. [[agents/Strategy Agent]]
 - [ ] **Build Copywriter Agent** `P1` `Agent` — Monthly content refresh, new comparison pages when competitors change. [[agents/Copywriter Agent]]
 - [ ] **Reddit posting cron (Wed+Sat)** `P2` `Build` — Scout→Writer→Reviewer pipeline. Needs Christian to approve 5 drafts in `deliverables/aeo/reddit-drafts/` first.

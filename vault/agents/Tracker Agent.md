@@ -38,9 +38,9 @@ Altcoinist is known to AI models (6 named mentions) but never recommended. The g
 - Week 1: *(pending — first tracker cron runs Mar 3)*
 
 ## Outputs
-- **Weekly:** Citation scoreboard posted to #seo Discord
+- **Weekly:** Citation scoreboard posted to #aeo Discord
 - **Raw data:** JSON results stored for trend analysis
-- **Alerts:** If any score drops vs previous week → immediate #seo notification
+- **Alerts:** If any score drops vs previous week → immediate #aeo notification
 
 ## Scoring System
 - 0 = not mentioned at all

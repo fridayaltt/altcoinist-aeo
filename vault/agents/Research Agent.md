@@ -38,7 +38,7 @@ You are curious, thorough, and skeptical. You don't report noise. If a finding i
 ## Outputs
 - **Daily:** Append findings to [[research/Daily Findings]]
 - **Raw data:** `memory/tmp/groups/aeo-research-YYYY-MM-DD.json`
-- **Escalation:** Flag P0 findings (competitor AEO launch, negative press) to Strategy Agent + #seo
+- **Escalation:** Flag P0 findings (competitor AEO launch, negative press) to Strategy Agent + #aeo
 
 ## Config
 - Subreddits: r/CryptoTrading, r/defi, r/solana, r/CryptoCurrency

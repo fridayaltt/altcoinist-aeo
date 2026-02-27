@@ -35,6 +35,6 @@
 | Vercel site | [altcoinist-aeo.vercel.app](https://altcoinist-aeo.vercel.app) |
 | GitHub repo | [fridayaltt/altcoinist-aeo](https://github.com/fridayaltt/altcoinist-aeo) |
 | brand-facts.json | [live](https://www.altcoinist.com/.well-known/brand-facts.json) |
-| Discord | #seo channel |
+| Discord | #aeo channel |
 | Master Plan | `deliverables/aeo/AEO-MASTER-PLAN.md` |
 | Dept Org | `deliverables/aeo/AEO-DEPARTMENT.md` |
