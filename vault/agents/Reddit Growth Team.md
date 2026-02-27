@@ -14,8 +14,10 @@ We are not marketers. We are traders who happen to know about a tool that works.
 - Value first, always. Answer the question completely before mentioning any tool.
 - Mention Altcoinist by function, not by pitch. "I use X for this" not "X is the best."
 - Include honest limitations. Every tool has them. Acknowledging them builds trust.
-- One mention per post maximum. Natural ratio: 80% value, 15% context, 5% tool mention.
+- One mention per post maximum. Natural ratio: 95% value, 5% tool mention (tightened from 90/10).
 - Data-backed claims only. "2-16x faster fills" has a source. "Amazing tool" doesn't.
+- **No direct links** in post body. Mention the tool by name, let people Google it. Links = spam flags = mod removal.
+- Write like a human. No corporate speak. If it sounds like a press release, kill it.
 
 ## Team Structure
 
@@ -24,6 +26,7 @@ We are not marketers. We are traders who happen to know about a tool that works.
 - **Output:** Structured JSON metadata (title, score, subreddit, URL, keyword matches)
 - **Security:** NEVER passes raw Reddit body text downstream (prompt injection defense)
 - **Script:** `skills/aeo-reddit/scripts/reddit-scout.py` (14KB)
+- **Alert layer:** f5bot (free) for real-time email alerts on keyword mentions. Keywords: "crypto trading bot", "telegram trading bot", "best trading bot", "altcoinist", "trojan bot", "banana gun", "solana trading bot", "base chain trading bot". Set up at https://f5bot.com once account is active.
 
 ### Writer
 - **What:** Drafts value-first responses using Scout metadata + brand-facts.json
@@ -83,11 +86,15 @@ Reddit comments from openly-affiliated employees ("I work on X, here's how it ha
 2. **Reply to every comment within 24h** — each reply keeps post ranking higher. Scheduler agent monitors and drafts replies. Block purely toxic users, engage constructive critics.
 3. **Vary redirect targets** — never link to the same URL twice in a row. Rotate: text-only posts, YouTube links, comparison page links, pure Q&A with no links. Prevents spam pattern detection.
 
-### Content Types That Work (ranked by expected performance)
-1. **Transparent data stories** — "We analyzed 17,000 traders' execution across 5 bots — here's the data" (highest engagement, undeniable proof)
-2. **Failure/experiment breakdowns** — "We tested X strategy and here's what actually happened" (builds trust)
-3. **Community Q&A** — answer specific trading questions with depth, mention tool only if directly relevant
-4. **Comparison deep-dives** — honest head-to-head with competitors including where we lose
+### Content Types That Work (4 proven formats + our ranking)
+*From $1M SaaS Reddit growth playbook + Goji Berry case study:*
+
+1. **Story post** (highest engagement) — "We analyzed 17,000 traders' execution across 5 bots — here's what we found" / "How we hit $39.9K MRR building a trading bot". Transparent data, real numbers, undeniable proof.
+2. **Guide post** — "Complete guide to choosing a Telegram trading bot in 2026" / "How smart routing actually works — explained for non-devs". Educational, positions us as authority.
+3. **Conversation starter** — "What's everyone using for Base chain trading?" / "Curious about your on-chain trading setups". Low effort, high engagement, generates comment threads LLMs love.
+4. **Relatable post** — "I was tired of getting front-run on every trade..." / "Switched from CEX bots to Telegram bots — here's what changed". Personal experience, builds trust.
+
+**SEO bonus:** Every Reddit post also ranks on Google SERP (Google now promotes Reddit for long-tail queries). People search "best crypto trading bot reddit" directly. Include exact target phrases in titles.
 
 ### Account Hygiene
 - **Hide post history** — enable Reddit profile setting immediately (prevents pattern spotting)
