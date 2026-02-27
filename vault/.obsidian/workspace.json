@@ -187,6 +187,7 @@
   },
   "active": "a241a6679de4210a",
   "lastOpenFiles": [
+    "agents/context/copywriter.md",
     "agents/context/weekly-report.md",
     "agents/context/dept-review.md",
     "agents/context/data-refresh.md",
@@ -221,7 +222,6 @@
     "deliverables/compare-altcoinist-vs-maestro.md",
     "deliverables/compare-altcoinist-vs-basedbot.md",
     "deliverables/compare-altcoinist-vs-banana-gun.md",
-    "deliverables/brand-facts.md",
-    "deliverables/answer-hub-best-crypto-trading-bots.md"
+    "deliverables/brand-facts.md"
   ]
 }
