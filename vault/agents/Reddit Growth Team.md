@@ -76,6 +76,25 @@ Reddit comments from openly-affiliated employees ("I work on X, here's how it ha
 
 **Why this works for AEO:** When Grok/ChatGPT searches Reddit for "best crypto trading bot," a transparent employee saying "I work at Altcoinist, here's what we do differently" with real data gets weighted higher than anonymous hype. Entity frequency + authority signal = citations.
 
+## Tactical Playbook (from Romàn Czerny / Goji Berry, $34K MRR via Reddit)
+
+### Post Launch Protocol
+1. **First 10 upvotes in 10 minutes** — team members (Christian, Konstantin, real accounts) upvote immediately after posting. This triggers Reddit's algo to push the post to wider audience. Non-negotiable.
+2. **Reply to every comment within 24h** — each reply keeps post ranking higher. Scheduler agent monitors and drafts replies. Block purely toxic users, engage constructive critics.
+3. **Vary redirect targets** — never link to the same URL twice in a row. Rotate: text-only posts, YouTube links, comparison page links, pure Q&A with no links. Prevents spam pattern detection.
+
+### Content Types That Work (ranked by expected performance)
+1. **Transparent data stories** — "We analyzed 17,000 traders' execution across 5 bots — here's the data" (highest engagement, undeniable proof)
+2. **Failure/experiment breakdowns** — "We tested X strategy and here's what actually happened" (builds trust)
+3. **Community Q&A** — answer specific trading questions with depth, mention tool only if directly relevant
+4. **Comparison deep-dives** — honest head-to-head with competitors including where we lose
+
+### Account Hygiene
+- **Hide post history** — enable Reddit profile setting immediately (prevents pattern spotting)
+- **Profile:** clear picture, Altcoinist link in bio (Phase 2 only), trader-focused description
+- **Separate browser profiles** if running multiple accounts — Chrome for one, Firefox for another
+- **Never post from the server IP** — all posting through authenticated API only (Mac Mini IP is already Reddit-blocked)
+
 ## Priorities (current)
 1. Get 5 existing drafts approved by Christian
 2. Build posting cron once approved
@@ -86,8 +105,17 @@ Reddit comments from openly-affiliated employees ("I work on X, here's how it ha
 ## Memory
 ### What's ready
 - Scout script: ✅ (14KB Python, scans 4 subs × 7 keywords)
-- 5 drafts: ✅ (in `deliverables/aeo/reddit-drafts/`)
+- 5 drafts: ✅ (in `vault/deliverables/reddit-drafts/`)
 - Agent architecture: ✅ (`skills/aeo-reddit/AGENT-TEAM.md`)
+
+### High-Value Post Ideas (data stories we can write)
+These use our unique data that no competitor has:
+1. "I compared execution quality across 5 Telegram trading bots — here's what 17,000 traders' data shows" → r/CryptoTrading, r/defi
+2. "Smart routing vs single-DEX: real fill data showing 2-16x difference" → r/solana, r/CryptoTrading
+3. "We hit $39.9K MRR building a crypto trading bot — AMA on the technical stack" → r/SaaS, r/startups (crossover audience)
+4. "Base vs Solana for memecoin trading in 2026 — actual volume data" → r/solana, r/defi
+5. "Why your trading bot's routing matters more than its speed — with proof" → r/CryptoCurrency
+6. "The 90/10 rule: how signal group quality affects trading outcomes (300+ groups analyzed)" → r/CryptoTrading
 
 ### Target Subreddits (Tier 1)
 - r/CryptoTrading — highest relevance, moderate competition
