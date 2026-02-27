@@ -2,7 +2,16 @@
 
 Every AEO agent MUST follow this protocol. Read this BEFORE your skill file.
 
-## Step 0: Load Shared State
+## Step 0a: Load Your Identity & Learnings
+```
+Read: projects/altcoinist-aeo/vault/agents/context/{your_name}.md
+```
+This gives you your soul (how you think and operate) and learnings from previous runs.
+Agent names map to files: research, tracker, ops, cso, builder, strategy, data-refresh, dept-review, weekly-report.
+
+**After your run:** If you learned something new (a gotcha, a better approach, a path that moved), append it to your learnings section. This is how you get smarter over time.
+
+## Step 0b: Load Shared State
 ```
 Read: projects/altcoinist-aeo/vault/ops/shared-state.json
 ```
