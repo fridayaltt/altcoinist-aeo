@@ -67,6 +67,7 @@ export default {
     }
 
     if (
+      path === "/sitemap.xml" ||
       path.startsWith("/guides/") ||
       path.startsWith("/compare/") ||
       path === "/brand-facts" ||
