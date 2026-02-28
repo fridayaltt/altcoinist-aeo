@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_updated": "2026-02-28T05:47:45.286955+00:00",
+  "last_updated": "2026-02-28T08:31:03.482244+00:00",
   "phase": {
     "current": 1,
     "description": "Anonymous karma building \u2014 zero product mentions",
@@ -130,6 +130,16 @@
           "opp-002"
         ],
         "phase": 1
+      }
+    },
+    {
+      "timestamp": "2026-02-28T08:31:03.481733Z",
+      "agent": "reddit-scheduler",
+      "event": "scheduler_blocked_no_api",
+      "data": {
+        "brief": "Blocked: Reddit API app not configured. approved=0, pending_approval=3.",
+        "approved_count": 0,
+        "pending_approval_count": 3
       }
     }
   ],

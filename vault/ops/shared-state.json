@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_updated": "2026-02-28T04:01:36.497244Z",
+  "last_updated": "2026-02-28T08:31:03.481733Z",
   "agents": {
     "research": {
       "last_run": null,
@@ -14,7 +14,7 @@
       "status": "ok"
     },
     "ops": {
-      "last_run": "2026-02-27T20:11:19Z",
+      "last_run": "2026-02-28T07:31:34.414057Z",
       "status": "ok"
     },
     "cso": {
@@ -64,6 +64,32 @@
           "aeo_relevance": "No tracker score-change events yet (baseline day).",
           "flair": "ANALYSIS"
         }
+      }
+    },
+    {
+      "timestamp": "2026-02-28T05:47:50.029704+00:00",
+      "agent": "reddit-writer",
+      "event": "reddit_drafts_created",
+      "data": {
+        "brief": "3 Reddit drafts created for Christian approval (Phase 1): opp-001 AI agent risk/CryptoCurrency (P1), opp-003 LP manager/defi (P2), opp-002 Solana payments/solana (P2).",
+        "pending_count": 3
+      }
+    },
+    {
+      "timestamp": "2026-02-28T07:31:34.414057Z",
+      "agent": "ops",
+      "event": "ops_report_posted",
+      "data": {
+        "brief": "Posted daily AEO status to Discord #aeo; blockers unchanged (Reddit API app creation, Perplexity key); noted reddit-scout 1x timeout."
+      }
+    },
+    {
+      "timestamp": "2026-02-28T08:31:03.481733Z",
+      "agent": "reddit-scheduler",
+      "event": "reddit_scheduler_blocked",
+      "data": {
+        "brief": "Blocked: Reddit API app not configured; scheduler cannot post approved drafts.",
+        "reason": "no_api_app"
       }
     }
   ],
