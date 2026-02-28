@@ -63,12 +63,22 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@graph": [
     {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://altcoinist.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Comparisons", "item": "https://altcoinist.com/compare/" },
+        { "@type": "ListItem", "position": 3, "name": "Altcoinist vs Trojan", "item": "https://altcoinist.com/compare/altcoinist-vs-trojan/" },
+      ],
+    },
+    {
       "@type": "Article",
+      "@id": "https://altcoinist.com/compare/altcoinist-vs-trojan/#article",
       "headline": "Altcoinist vs Trojan: Which Telegram Trading Bot Is Better in 2026?",
       "description": "Head-to-head comparison of Altcoinist and Trojan trading bots — execution quality, chain support, pricing, and features.",
       "datePublished": "2026-02-01",
-      "dateModified": "2026-02-27",
-      "author": { "@type": "Organization", "name": "Altcoinist" },
+      "dateModified": "2026-02-28",
+      "author": { "@type": "Organization", "@id": "https://altcoinist.com/#organization", "name": "Altcoinist", "url": "https://altcoinist.com" },
+      "publisher": { "@type": "Organization", "@id": "https://altcoinist.com/#organization", "name": "Altcoinist", "url": "https://altcoinist.com" },
     },
     {
       "@type": "FAQPage",

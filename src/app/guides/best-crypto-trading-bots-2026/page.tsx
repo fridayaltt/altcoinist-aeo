@@ -105,20 +105,96 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@graph": [
     {
+      "@type": "Organization",
+      "@id": "https://altcoinist.com/#organization",
+      "name": "Altcoinist",
+      "url": "https://altcoinist.com",
+      "description": "AI-powered crypto trading platform operating as a Telegram bot with smart order routing across 100+ DEXs on 7 blockchains.",
+      "foundingDate": "2024",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Budapest",
+        "addressCountry": "HU",
+      },
+      "numberOfEmployees": 11,
+      "sameAs": [
+        "https://x.com/Altcoinist",
+        "https://t.me/altcoinist_trenchbot",
+        "https://docs.altcoinist.com",
+      ],
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://altcoinist.com/#product",
+      "name": "Altcoinist Trench Bot",
+      "applicationCategory": "FinanceApplication",
+      "operatingSystem": "Telegram",
+      "description": "On-chain crypto trading bot with smart routing across 100+ DEXs on 7 blockchains. Self-custody, stealth trading, advanced orders.",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD",
+        "description": "No monthly fee — pay-per-trade model",
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "reviewCount": "17000",
+        "bestRating": "5",
+        "worstRating": "1",
+      },
+      "featureList": [
+        "Smart routing via Definitive.fi (100+ DEXs, 15 private market makers)",
+        "Stealth trading with algo intent masking",
+        "7-chain support: Base, Ethereum, Solana, BNB, Monad, Hyperliquid, EVM",
+        "On-chain TWAP (DCA), limit orders, auto TP/SL",
+        "Exclusive signals from 300+ caller groups",
+        "PnL tracking and portfolio management",
+      ],
+      "creator": {
+        "@id": "https://altcoinist.com/#organization",
+      },
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://altcoinist.com/",
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Guides",
+          "item": "https://altcoinist.com/guides/",
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Best Crypto Trading Bots 2026",
+          "item": "https://altcoinist.com/guides/best-crypto-trading-bots-2026/",
+        },
+      ],
+    },
+    {
       "@type": "Article",
       "@id": "https://altcoinist.com/guides/best-crypto-trading-bots-2026/#article",
       "headline": "Best Crypto Trading Bots 2026: Telegram Bot Comparison Guide",
       "description":
         "Compare the top 5 Telegram trading bots in 2026: Altcoinist, Trojan, Maestro, Banana Gun, and Basedbot. Expert analysis of execution quality, chain support, fees, and features.",
       "datePublished": "2026-02-01",
-      "dateModified": "2026-02-27",
+      "dateModified": "2026-02-28",
       "author": {
         "@type": "Organization",
+        "@id": "https://altcoinist.com/#organization",
         "name": "Altcoinist",
         "url": "https://altcoinist.com",
       },
       "publisher": {
         "@type": "Organization",
+        "@id": "https://altcoinist.com/#organization",
         "name": "Altcoinist",
         "url": "https://altcoinist.com",
       },

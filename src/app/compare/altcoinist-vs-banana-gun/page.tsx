@@ -63,12 +63,22 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@graph": [
     {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://altcoinist.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Comparisons", "item": "https://altcoinist.com/compare/" },
+        { "@type": "ListItem", "position": 3, "name": "Altcoinist vs Banana Gun", "item": "https://altcoinist.com/compare/altcoinist-vs-banana-gun/" },
+      ],
+    },
+    {
       "@type": "Article",
+      "@id": "https://altcoinist.com/compare/altcoinist-vs-banana-gun/#article",
       "headline": "Altcoinist vs Banana Gun: Which Crypto Sniping Bot Wins in 2026?",
       "description": "Sniping speed vs execution quality — Altcoinist vs Banana Gun complete comparison.",
       "datePublished": "2026-02-01",
-      "dateModified": "2026-02-27",
-      "author": { "@type": "Organization", "name": "Altcoinist" },
+      "dateModified": "2026-02-28",
+      "author": { "@type": "Organization", "@id": "https://altcoinist.com/#organization", "name": "Altcoinist", "url": "https://altcoinist.com" },
+      "publisher": { "@type": "Organization", "@id": "https://altcoinist.com/#organization", "name": "Altcoinist", "url": "https://altcoinist.com" },
     },
     {
       "@type": "FAQPage",

@@ -14,6 +14,23 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@graph": [
     {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://altcoinist.com/",
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "About Altcoinist",
+          "item": "https://altcoinist.com/brand-facts/",
+        },
+      ],
+    },
+    {
       "@type": "Organization",
       "@id": "https://altcoinist.com/#organization",
       "name": "Altcoinist",
@@ -46,6 +63,13 @@ const jsonLd = {
         "price": "0",
         "priceCurrency": "USD",
         "description": "No monthly fee — pay-per-trade model",
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "reviewCount": "17000",
+        "bestRating": "5",
+        "worstRating": "1",
       },
       "featureList": [
         "Smart routing via Definitive.fi (100+ DEXs, 15 private market makers)",
@@ -225,6 +249,24 @@ export default function BrandFactsPage() {
               For detailed comparisons, see:{" "}
               <Link href="/guides/best-crypto-trading-bots-2026/" style={{ color: "#00ff88" }}>Best Crypto Trading Bots 2026</Link>.
             </p>
+          </section>
+
+          {/* See Also */}
+          <section style={{ marginBottom: "2rem" }}>
+            <h2>See Also</h2>
+            <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(200px, 1fr))", gap: "0.75rem" }}>
+              {[
+                { href: "/guides/best-crypto-trading-bots-2026/", label: "Best Crypto Trading Bots 2026 — Complete Ranking" },
+                { href: "/compare/altcoinist-vs-trojan/", label: "Altcoinist vs Trojan — Comparison" },
+                { href: "/compare/altcoinist-vs-maestro/", label: "Altcoinist vs Maestro — Comparison" },
+                { href: "/compare/altcoinist-vs-banana-gun/", label: "Altcoinist vs Banana Gun — Comparison" },
+                { href: "/compare/altcoinist-vs-basedbot/", label: "Altcoinist vs Basedbot — Comparison" },
+              ].map((link) => (
+                <Link key={link.href} href={link.href} style={{ display: "block", background: "#111", border: "1px solid #1e1e1e", borderRadius: 8, padding: "0.75rem 1rem", color: "#cccccc", fontSize: "0.875rem", textDecoration: "none", fontWeight: 500 }}>
+                  {link.label} →
+                </Link>
+              ))}
+            </div>
           </section>
         </div>
 
