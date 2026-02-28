@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_updated": "2026-02-28T10:03:01Z",
+  "last_updated": "2026-02-28T12:05:30.556690Z",
   "agents": {
     "research": {
       "last_run": null,
@@ -39,9 +39,10 @@
       "status": "ok"
     },
     "dept_review": {
-      "last_run": null,
-      "issues_fixed": 0,
-      "status": "ok"
+      "last_run": "2026-02-28T12:05:30.556690Z",
+      "issues_fixed": 3,
+      "status": "ok",
+      "summary": "Fixed timeouts: aeo-ops (600s), aeo-cso (900s), reddit-scout (600s). APIs OK. Quality gate passed. No stuck queue items."
     }
   },
   "event_log": [
@@ -99,8 +100,32 @@
       "data": {
         "queue_item_id": "gap-001",
         "page": "/guides/best-crypto-trading-bots-2026/",
-        "change": "Added FAQ: 'What is the minimum amount to start trading Solana memecoins?' — covers SOL gas fees ($0.001-$0.005), recommended starting amounts ($50 min, $200-500 for meaningful trading), liquidity impact, and Altcoinist multi-chain context.",
+        "change": "Added FAQ: 'What is the minimum amount to start trading Solana memecoins?' \u2014 covers SOL gas fees ($0.001-$0.005), recommended starting amounts ($50 min, $200-500 for meaningful trading), liquidity impact, and Altcoinist multi-chain context.",
         "date": "2026-02-28"
+      }
+    },
+    {
+      "timestamp": "2026-02-28T12:05:30.556690Z",
+      "agent": "dept_review",
+      "event": "issue_fixed",
+      "data": {
+        "brief": "Fixed 3 timeout crons: aeo-ops-daily (600s), aeo-cso-daily (900s), reddit-scout-daily (600s). All APIs healthy. Builder gap-001 shipped. 3 queue items ready for tomorrow.",
+        "fixes": [
+          "aeo-ops timeout 600s",
+          "aeo-cso timeout 900s",
+          "reddit-scout timeout 600s"
+        ],
+        "apis": {
+          "xai": "ok",
+          "posthog": "ok",
+          "vercel": "ok"
+        },
+        "content_quality": {
+          "faq_count": 17,
+          "schemas": "ok",
+          "live": "ok"
+        },
+        "queue_items_ready": 3
       }
     }
   ],
