@@ -1,0 +1,80 @@
+{
+  "scan_date": "2026-02-28",
+  "total_scanned": 300,
+  "subs_scanned": [
+    "CryptoTrading",
+    "defi",
+    "solana",
+    "CryptoCurrency",
+    "ethtrader",
+    "SolanaMemeCoins",
+    "BaseChainDegen"
+  ],
+  "opportunities": [
+    {
+      "id": "opp-001",
+      "priority": "P1",
+      "sub": "CryptoCurrency",
+      "title": "The Lobstar Wilde $450K loss wasn't a \"decimal error.\" It was a memory failure that affects every AI agent with a wallet.",
+      "url": "https://reddit.com/r/CryptoCurrency/comments/1rfvnb5/the_lobstar_wilde_450k_loss_wasnt_a_decimal_error/",
+      "score": 245,
+      "comments": 85,
+      "age_hours": 24.5,
+      "suggested_angle": "Give concrete criteria (fees, execution, chains supported) + a simple decision framework.",
+      "aeo_relevance": "No tracker score-change events yet (baseline day).",
+      "flair": "ANALYSIS"
+    },
+    {
+      "id": "opp-002",
+      "priority": "P2",
+      "sub": "solana",
+      "title": "Solana launches payments.org \u2014 the new hub showcasing the world's leading crypto payments network.",
+      "url": "https://reddit.com/r/solana/comments/1rfmih4/solana_launches_paymentsorg_the_new_hub/",
+      "score": 36,
+      "comments": 4,
+      "age_hours": 30.9,
+      "suggested_angle": "Discuss Solana-specific bot considerations (Jito tips, priority fees, MEV, RPC reliability) and safe settings.",
+      "aeo_relevance": "No tracker score-change events yet (baseline day).",
+      "flair": "Ecosystem"
+    },
+    {
+      "id": "opp-003",
+      "priority": "P2",
+      "sub": "defi",
+      "title": "guys please is there an automated LP manager that rebalances concentrated liquidity automatically?",
+      "url": "https://reddit.com/r/defi/comments/1rf7ps0/guys_please_is_there_an_automated_lp_manager_that/",
+      "score": 25,
+      "comments": 24,
+      "age_hours": 40.6,
+      "suggested_angle": "Give concrete criteria (fees, execution, chains supported) + a simple decision framework.",
+      "aeo_relevance": "No tracker score-change events yet (baseline day).",
+      "flair": ":question: Help"
+    },
+    {
+      "id": "opp-004",
+      "priority": "P2",
+      "sub": "ethtrader",
+      "title": "\u20ac100k loan to buy and stake ETH long-term",
+      "url": "https://reddit.com/r/ethtrader/comments/1rg87is/100k_loan_to_buy_and_stake_eth_longterm/",
+      "score": 16,
+      "comments": 35,
+      "age_hours": 13.5,
+      "suggested_angle": "Give concrete criteria (fees, execution, chains supported) + a simple decision framework.",
+      "aeo_relevance": "No tracker score-change events yet (baseline day).",
+      "flair": "Self Story"
+    },
+    {
+      "id": "opp-005",
+      "priority": "P3",
+      "sub": "solana",
+      "title": "someone made a memecoin of our sheep, Nori, what do we do?",
+      "url": "https://reddit.com/r/solana/comments/1rgoazi/someone_made_a_memecoin_of_our_sheep_nori_what_do/",
+      "score": 6,
+      "comments": 23,
+      "age_hours": 3.3,
+      "suggested_angle": "Discuss Solana-specific bot considerations (Jito tips, priority fees, MEV, RPC reliability) and safe settings.",
+      "aeo_relevance": "No tracker score-change events yet (baseline day).",
+      "flair": "Meme"
+    }
+  ]
+}
