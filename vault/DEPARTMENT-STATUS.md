@@ -9,9 +9,9 @@
 
 | Agent | Status | Cron ID | Schedule | Model | Last Run |
 |-------|--------|---------|----------|-------|----------|
-| Research | ✅ Active | `f873f97d` | Daily 04:30 UTC | codex gpt-5.2 | _pending first run_ |
+| Research | ✅ Active | `f873f97d` | Daily 04:30 UTC | codex gpt-5.2 | 2026-02-28 05:32 CET |
 | Tracker | ✅ Active | `accc997b` | Mon 09:00 UTC | codex gpt-5.2 | _pending first run (Mon Mar 3)_ |
-| Ops | ✅ Active | `085c5b59` | Daily 07:30 UTC | codex gpt-5.2 | 2026-02-27 21:09 CET (running) |
+| Ops | ✅ Active | `085c5b59` | Daily 07:30 UTC | codex gpt-5.2 | 2026-02-28 08:30 CET (running) |
 | Strategy | ✅ Active | `ea7f863a` | Sun 18:00 UTC | sonnet 4.6 | _pending first run (Sun Mar 2)_ |
 | CSO | ✅ Active | `c461fab7` | Daily 08:00 UTC | sonnet 4.6 | _pending first run_ |
 | Builder | ✅ Active | `510d30b3` | Daily 10:00 UTC | sonnet 4.6 | _pending first run_ |
@@ -55,7 +55,7 @@
 
 - **Username:** `trading_lord_97`
 - **Created:** 2026-02-27
-- **Age:** 0 days (need 30+ days for product mentions)
+- **Age:** 1 day (need 30+ days for product mentions)
 - **Karma:** 0 (need 100+ before Phase 2)
 - **Phase:** Pre-Phase 1 (API blocked)
 - **API status:** No client_id/secret — app creation failed (Reddit 500)

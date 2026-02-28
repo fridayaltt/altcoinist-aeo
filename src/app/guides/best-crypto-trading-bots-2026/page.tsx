@@ -99,6 +99,11 @@ const faqItems = [
     answer:
       "Telegram trading bots interact with decentralized exchanges (DEXs) on public blockchains. They're legal in most jurisdictions — they're software tools, not financial institutions. However, crypto trading regulations vary by country. Tax reporting is your responsibility. The bots themselves don't hold your funds (self-custody), don't require KYC, and don't operate as exchanges or brokers.",
   },
+  {
+    question: "What is the minimum amount to start trading Solana memecoins?",
+    answer:
+      "Solana's gas fees are a fraction of a cent per transaction ($0.001–$0.005 typically), so small trades are economical unlike on Ethereum. Practically, start with at least $50 in SOL: $30–40 for your actual position and the rest as a gas buffer for multiple transactions. For meaningful memecoin trading — managing multiple positions, using stop-losses, absorbing volatility — $200–500 gives you better flexibility. Keep in mind that many Solana memecoins have thin liquidity: a $500+ buy on a micro-cap can move the price 10–30% against you, so size matters. Altcoinist supports Solana alongside Base, Ethereum, and 4 other chains — useful when memecoin momentum shifts between chains mid-cycle.",
+  },
 ];
 
 const jsonLd = {
