@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "last_updated": "2026-02-28T01:00:00Z",
+  "phase": {
+    "current": 1,
+    "description": "Anonymous karma building — zero product mentions",
+    "started": "2026-02-28",
+    "transition_criteria": "30+ day account age, 200+ karma, Christian approval"
+  },
+  "account": {
+    "username": "trading_lord_97",
+    "created": "2026-02-27",
+    "age_days": 1,
+    "karma": 0,
+    "status": "active",
+    "api_app": false,
+    "warnings": 0,
+    "removals": 0
+  },
+  "rate_limits": {
+    "max_actions_per_day": 2,
+    "max_per_sub_per_24h": 1,
+    "min_spacing_hours": 4,
+    "kill_switch_removal_pause_days": 7,
+    "kill_switch_warning_pause_hours": 48
+  },
+  "target_subs": {
+    "tier1": ["CryptoTrading", "defi", "solana", "CryptoCurrency"],
+    "tier2": ["ethtrader", "SolanaMemeCoins", "BaseChainDegen"],
+    "banned_subs": []
+  },
+  "queue": {
+    "pending_approval": [],
+    "approved": [],
+    "posted": [],
+    "rejected": []
+  },
+  "daily_stats": {
+    "actions_today": 0,
+    "last_action_at": null,
+    "subs_posted_today": []
+  },
+  "event_log": [],
+  "paths": {
+    "scout_output": "projects/altcoinist-aeo/vault/ops/reddit/scout-latest.json",
+    "drafts_dir": "projects/altcoinist-aeo/vault/ops/reddit/drafts/",
+    "approved_dir": "projects/altcoinist-aeo/vault/ops/reddit/approved/",
+    "posted_log": "projects/altcoinist-aeo/vault/ops/reddit/posted-log.jsonl",
+    "reddit_creds": "~/.openclaw/credentials/reddit.json",
+    "aeo_shared_state": "projects/altcoinist-aeo/vault/ops/shared-state.json",
+    "discord_channel": "channel:1476354991655751820"
+  }
+}

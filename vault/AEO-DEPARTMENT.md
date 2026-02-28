@@ -30,7 +30,7 @@
                                        Refresh Review Report
 ```
 
-**10 agents. 10 crons. Zero per-token cost.** All flat-rate (Codex + Sonnet OAT).
+**14 agents. 14 crons. Zero per-token cost.** All flat-rate (Codex + Sonnet OAT).
 
 ---
 
@@ -64,26 +64,70 @@ _Keep the department running, find gaps, fix issues._
 | **Data Refresh** | Codex 5.2 | `d077e99a` | Wed 08:00 CET | Pulls PostHog metrics → updates product stats across all pages |
 | **Weekly Report** | Codex 5.2 | `63b87557` | Fri 19:00 CET | Compiles everything → DMs Christian the summary |
 
-### Pending (blocked)
+### Reddit Growth Division
+_Build Reddit presence that AI models cite as authority._
 
-| Agent | Status | Blocker |
-|-------|--------|---------|
-| **Reddit Growth Team** | Account created (`trading_lord_97`), 5 drafts ready | Reddit API app creation (server IP blocked, needs browser) |
+```
+                    ┌──────────┐
+                    │  FRIDAY  │
+                    │ Oversight│
+                    └────┬─────┘
+                         │
+          ┌──────────────┼──────────────┐
+          │              │              │
+      ┌───┴───┐    ┌────┴────┐   ┌─────┴─────┐
+      │ Scout │    │ Writer  │   │ Compliance │
+      │       │    │         │   │  Monitor   │
+      └───┬───┘    └────┬────┘   └─────┬─────┘
+          │              │              │
+          └──────┬───────┘              │
+                 ▼                      │
+          ┌──────────┐                  │
+          │ Scheduler│◄─────────────────┘
+          └──────────┘
+```
+
+| Agent | Model | Cron ID | Schedule | Job |
+|-------|-------|---------|----------|-----|
+| **Reddit Scout** | Codex 5.2 | `535d6d62` | Daily 06:00 CET | Scans target subs for high-value threads |
+| **Reddit Writer** | Sonnet 4.6 | `2827c654` | Daily 07:45 CET | Writes draft responses for Christian's approval |
+| **Reddit Scheduler** | Codex 5.2 | `64108b08` | Daily 10:30 CET | Posts approved drafts respecting rate limits |
+| **Reddit Compliance** | Codex 5.2 | `e53eec40` | Daily 15:30 CET | Checks account health, triggers kill switches |
+
+**Account:** `trading_lord_97` | **Phase:** 1 (karma building) | **Created:** Feb 27, 2026
+**Blocker:** Reddit API app (needs Christian's browser — server IP blocked)
+
+**Phase transition:** Automatic eligibility check when age ≥ 30d + karma ≥ 200. Christian must explicitly approve "go to Phase 2."
+
+### Approval Flow
+1. Scout finds opportunities → `vault/ops/reddit/scout-latest.json`
+2. Writer reads opportunities → creates drafts → posts to #aeo for review
+3. Christian replies "approve 1" / "reject 1" / "revise 1: feedback"
+4. Scheduler picks up approved drafts → posts respecting rate limits
+5. Compliance checks account health → triggers kill switches if needed
 
 ---
 
-## Daily Flow
+## Daily Flow (all times CET)
 
 ```
-06:30  ┌─ Research scans Reddit + RSS ──→ findings JSON
+05:00  ┌─ Reddit Scout scans target subs ──→ opportunities JSON
+       │
+06:30  ├─ Research scans Reddit + RSS ──→ AEO findings JSON
+       │
+07:45  ├─ Reddit Writer reads opportunities ──→ drafts for Christian's approval
        │
 09:30  ├─ Ops reads all agent states ──→ posts morning status to #aeo
        │
 10:00  ├─ CSO reads Research + Tracker data ──→ identifies gaps ──→ writes execution queue
        │
+10:30  ├─ Reddit Scheduler posts approved drafts ──→ respects rate limits
+       │
 12:00  ├─ Builder picks top queue item ──→ ships tactical fix ──→ tags deploy in event log
        │
-14:00  └─ Dept Review audits all agents + quality-checks latest content ──→ fixes issues
+14:00  ├─ Dept Review audits all agents + quality-checks latest content ──→ fixes issues
+       │
+15:30  └─ Reddit Compliance checks account health ──→ kill switches if needed
 ```
 
 ## Weekly Flow
@@ -100,13 +144,17 @@ Sun 20:00   Strategy synthesizes the week → sets next week's priorities
 ## Information Flow
 
 ```
-Research ──findings──→ CSO ──queue──→ Builder ──deploys──→ Tracker
-    │                   ↑                                    │
-    └───────────────────┴────────────────────────────────────┘
-                    (feedback loop via shared-state.json)
+                         ┌─ Reddit Scout ──opportunities──→ Reddit Writer ──drafts──→ Christian ──approved──→ Reddit Scheduler
+                         │                                                                                        │
+Research ──findings──→ CSO ──queue──→ Builder ──deploys──→ Tracker                                                │
+    │                   ↑                                    │                                                     │
+    └───────────────────┴────────────────────────────────────┘                                                     │
+                    (feedback loop via shared-state.json) ◄────────────────────────────────────────────────────────┘
+                                                                                          Reddit posts feed back into AEO metrics
 
-Strategy ──priorities──→ CSO + Copywriter
-Dept Review ──fixes──→ any broken agent
+Strategy ──priorities──→ CSO + Copywriter + Reddit Writer
+Dept Review ──fixes──→ any broken agent (AEO + Reddit)
+Reddit Compliance ──kill switches──→ Reddit Scheduler
 All agents ──read/write──→ shared-state.json + event log
 All agents ──read──→ own context file (soul + learnings)
 ```
@@ -189,6 +237,10 @@ New pages auto-appear. No manual updates needed after CF Worker routes `/sitemap
 | aeo-weekly-report | `skills/aeo-weekly-report/` |
 | aeo-content | `skills/aeo-content/` |
 | aeo-reddit | `skills/aeo-reddit/` |
+| reddit-scout | `skills/reddit-scout/` |
+| reddit-writer | `skills/reddit-writer/` |
+| reddit-scheduler | `skills/reddit-scheduler/` |
+| reddit-compliance | `skills/reddit-compliance/` |
 
 ---
 

@@ -187,6 +187,13 @@
   },
   "active": "a241a6679de4210a",
   "lastOpenFiles": [
+    "agents/context/reddit-scheduler.md",
+    "agents/context/reddit-compliance.md",
+    "agents/context/reddit-writer.md",
+    "agents/context/reddit-scout.md",
+    "ops/reddit/REDDIT-PROTOCOL.md",
+    "ops/reddit/shared-state.json",
+    "ops/reddit",
     "agents/context/copywriter.md",
     "agents/context/weekly-report.md",
     "agents/context/dept-review.md",
@@ -210,18 +217,11 @@
     "strategy/AEO-MASTER-PLAN.md",
     "strategy",
     "agents/Reddit Rules & Limits.md",
-    "deliverables/cloudflare-worker-v3.js",
     "deliverables/reddit-drafts/draft-05-reply-is-crypto-bot-safe.md",
     "deliverables/reddit-drafts/draft-04-execution-quality-post.md",
     "deliverables/reddit-drafts/draft-03-reply-3commas-alternative.md",
     "deliverables/reddit-drafts/draft-02-reply-best-crypto-bot.md",
     "deliverables/reddit-drafts/draft-01-comparison-post.md",
-    "deliverables/updated-cloudflare-worker.js",
-    "deliverables/reddit-seeding-pack.md",
-    "deliverables/compare-altcoinist-vs-trojan.md",
-    "deliverables/compare-altcoinist-vs-maestro.md",
-    "deliverables/compare-altcoinist-vs-basedbot.md",
-    "deliverables/compare-altcoinist-vs-banana-gun.md",
-    "deliverables/brand-facts.md"
+    "deliverables/reddit-seeding-pack.md"
   ]
 }
