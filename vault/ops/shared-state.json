@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_updated": "2026-02-28T08:31:03.481733Z",
+  "last_updated": "2026-02-28T10:03:01Z",
   "agents": {
     "research": {
       "last_run": null,
@@ -23,9 +23,9 @@
       "status": "ok"
     },
     "builder": {
-      "last_run": null,
-      "items_shipped_this_week": 0,
-      "last_shipped": null,
+      "last_run": "2026-02-28T10:03:01Z",
+      "items_shipped_this_week": 1,
+      "last_shipped": "gap-001",
       "status": "ok"
     },
     "strategy": {
@@ -90,6 +90,17 @@
       "data": {
         "brief": "Blocked: Reddit API app not configured; scheduler cannot post approved drafts.",
         "reason": "no_api_app"
+      }
+    },
+    {
+      "timestamp": "2026-02-28T10:03:01Z",
+      "agent": "builder",
+      "event": "build_shipped",
+      "data": {
+        "queue_item_id": "gap-001",
+        "page": "/guides/best-crypto-trading-bots-2026/",
+        "change": "Added FAQ: 'What is the minimum amount to start trading Solana memecoins?' — covers SOL gas fees ($0.001-$0.005), recommended starting amounts ($50 min, $200-500 for meaningful trading), liquidity impact, and Altcoinist multi-chain context.",
+        "date": "2026-02-28"
       }
     }
   ],
