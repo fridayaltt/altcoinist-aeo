@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "last_updated": "2026-02-28T08:31:03.482244+00:00",
+  "last_updated": "2026-02-28T13:31:53Z",
   "phase": {
     "current": 1,
-    "description": "Anonymous karma building \u2014 zero product mentions",
+    "description": "Anonymous karma building — zero product mentions",
     "started": "2026-02-28",
     "transition_criteria": "30+ day account age, 200+ karma, Christian approval"
   },
@@ -11,7 +11,7 @@
     "username": "trading_lord_97",
     "created": "2026-02-27",
     "age_days": 1,
-    "karma": 0,
+    "karma": 1,
     "status": "active",
     "api_app": false,
     "warnings": 0,
@@ -91,7 +91,7 @@
             "id": "opp-002",
             "priority": "P2",
             "sub": "solana",
-            "title": "Solana launches payments.org \u2014 the new hub showcasing the world's leading crypto payments network.",
+            "title": "Solana launches payments.org — the new hub showcasing the world's leading crypto payments network.",
             "url": "https://reddit.com/r/solana/comments/1rfmih4/solana_launches_paymentsorg_the_new_hub/"
           },
           {
@@ -105,7 +105,7 @@
             "id": "opp-004",
             "priority": "P2",
             "sub": "ethtrader",
-            "title": "\u20ac100k loan to buy and stake ETH long-term",
+            "title": "€100k loan to buy and stake ETH long-term",
             "url": "https://reddit.com/r/ethtrader/comments/1rg87is/100k_loan_to_buy_and_stake_eth_longterm/"
           },
           {
@@ -140,6 +140,20 @@
         "brief": "Blocked: Reddit API app not configured. approved=0, pending_approval=3.",
         "approved_count": 0,
         "pending_approval_count": 3
+      }
+    },
+    {
+      "timestamp": "2026-02-28T13:31:53Z",
+      "agent": "reddit-compliance",
+      "event": "karma_update",
+      "data": {
+        "brief": "Account reachable (about.json 200); karma 0 → 1; recent_comments=0; removed_detected=0.",
+        "about_http_code": 200,
+        "old_karma": 0,
+        "new_karma": 1,
+        "recent_comments": 0,
+        "removed_detected": 0,
+        "is_suspended": false
       }
     }
   ],

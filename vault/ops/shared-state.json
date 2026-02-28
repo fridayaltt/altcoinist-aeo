@@ -100,7 +100,7 @@
       "data": {
         "queue_item_id": "gap-001",
         "page": "/guides/best-crypto-trading-bots-2026/",
-        "change": "Added FAQ: 'What is the minimum amount to start trading Solana memecoins?' \u2014 covers SOL gas fees ($0.001-$0.005), recommended starting amounts ($50 min, $200-500 for meaningful trading), liquidity impact, and Altcoinist multi-chain context.",
+        "change": "Added FAQ: 'What is the minimum amount to start trading Solana memecoins?' — covers SOL gas fees ($0.001-$0.005), recommended starting amounts ($50 min, $200-500 for meaningful trading), liquidity impact, and Altcoinist multi-chain context.",
         "date": "2026-02-28"
       }
     },
@@ -126,6 +126,14 @@
           "live": "ok"
         },
         "queue_items_ready": 3
+      }
+    },
+    {
+      "timestamp": "2026-02-28T13:31:53Z",
+      "agent": "reddit-compliance",
+      "event": "reddit_compliance_check",
+      "data": {
+        "brief": "Reddit account health OK: about.json 200; karma 0 → 1; removals=0; warnings=0; phase=1."
       }
     }
   ],
