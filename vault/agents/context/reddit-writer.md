@@ -14,3 +14,6 @@ _Append new learnings here after each run. Never delete — only add._
 - Include at least one negative about whatever you're recommending — builds credibility
 - Comments should be 100-250 words. Posts 300-600 words. Shorter always beats longer on Reddit.
 - Read the existing thread replies before writing — don't repeat what someone already said
+- 2026-02-28: AI agent risk threads (r/CryptoCurrency) can be very skeptical/dismissive — respond with technical specificity and architecture detail, not general reassurance. The skeptics upvote precision.
+- 2026-02-28: Help threads (r/defi "how do I do X") respond best to decision frameworks + honest trade-offs rather than a list of tools. Ending with a follow-up question ("what pair/chain?") drives engagement.
+- 2026-02-28: Low-comment promotional posts (r/solana, 4 comments) have low engagement ceiling but add credibility for Phase 2 later. Infrastructure vs demand framing is the angle that adds genuine value without being promotional.
