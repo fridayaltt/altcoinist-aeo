@@ -2,11 +2,12 @@
 
 Every AEO agent MUST follow this protocol. Read this BEFORE your skill file.
 
-## Step 0a: Load Your Identity & Learnings
+## Step 0a: Load Department Map + Your Identity
 ```
+Read: projects/altcoinist-aeo/vault/AEO-DEPARTMENT.md
 Read: projects/altcoinist-aeo/vault/agents/context/{your_name}.md
 ```
-This gives you your soul (how you think and operate) and learnings from previous runs.
+The department file shows you the full org — who you are, where you fit, how information flows between agents, and what the daily/weekly rhythm looks like. Your context file gives you your soul and learnings.
 Agent names map to files: research, tracker, ops, cso, builder, strategy, data-refresh, dept-review, weekly-report.
 
 **After your run:** If you learned something new (a gotcha, a better approach, a path that moved), append it to your learnings section. This is how you get smarter over time.
