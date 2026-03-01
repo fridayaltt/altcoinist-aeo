@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_updated": "2026-03-01T05:47:30.000000Z",
+  "last_updated": "2026-03-01T07:31:00.000000Z",
   "agents": {
     "research": {
       "last_run": null,
@@ -14,8 +14,9 @@
       "status": "ok"
     },
     "ops": {
-      "last_run": "2026-02-28T07:31:34.414057Z",
-      "status": "ok"
+      "last_run": "2026-03-01T07:31:00.000000Z",
+      "status": "ok",
+      "note": "CSO, Dept Review, Reddit Compliance showing 1 consecutive error each (timeout-related from Feb 28). Blockers at day 2."
     },
     "cso": {
       "last_run": null,
@@ -68,7 +69,7 @@
       }
     },
     {
-      "timestamp": "2026-02-28T05:47:50.029704+00:00",
+      "timestamp": "2026-02-28T05:47:50.029704Z",
       "agent": "reddit-writer",
       "event": "reddit_drafts_created",
       "data": {
@@ -137,15 +138,6 @@
       }
     },
     {
-      "timestamp": "2026-03-01T05:47:30.000000Z",
-      "agent": "reddit-writer",
-      "event": "reddit_drafts_created",
-      "data": {
-        "brief": "3 Reddit drafts created for Christian approval (Phase 1): opp-001 smart-money-bot/solana (P2), opp-002 high-yield-defi-strategies/defi (P2), opp-003 eth-entry/ethtrader (P3).",
-        "pending_count": 6
-      }
-    },
-    {
       "timestamp": "2026-03-01T04:06:55.747633Z",
       "agent": "reddit-scout",
       "event": "reddit_opportunities",
@@ -160,7 +152,7 @@
           "age_hours": 21.6,
           "flair": "Dev/Tech",
           "priority": "P2",
-          "suggested_angle": "Give a concrete “smart money” methodology: wallet filters, timeframe, labeling, and how to validate results without survivorship bias. Explain automation options (vaults/auto-rebalancers) + key risks (IL, fee volatility, contract risk).",
+          "suggested_angle": "Give a concrete \"smart money\" methodology: wallet filters, timeframe, labeling, and how to validate results without survivorship bias.",
           "aeo_relevance": "Phase 1: value-only response (no links / no product mentions).",
           "id": "opp-001"
         },
@@ -169,6 +161,23 @@
           "P2": 2,
           "P3": 6
         }
+      }
+    },
+    {
+      "timestamp": "2026-03-01T05:47:30.000000Z",
+      "agent": "reddit-writer",
+      "event": "reddit_drafts_created",
+      "data": {
+        "brief": "3 Reddit drafts created for Christian approval (Phase 1): opp-001 smart-money-bot/solana (P2), opp-002 high-yield-defi-strategies/defi (P2), opp-003 eth-entry/ethtrader (P3). Total pending: 6.",
+        "pending_count": 6
+      }
+    },
+    {
+      "timestamp": "2026-03-01T07:31:00.000000Z",
+      "agent": "ops",
+      "event": "ops_report_posted",
+      "data": {
+        "brief": "Daily status posted to #aeo. Flagged: CSO/Dept Review/Reddit Compliance 1x consecutive error each. Reddit API app blocker day 2 (3-day threshold tomorrow). 6 drafts awaiting approval. Strategy Agent first run tonight 21:00 CET."
       }
     }
   ],
