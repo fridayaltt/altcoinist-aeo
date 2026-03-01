@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_updated": "2026-03-01T08:00:00.000000Z",
+  "last_updated": "2026-03-01T08:31:06Z",
   "agents": {
     "research": {
       "last_run": null,
@@ -102,7 +102,7 @@
       "data": {
         "queue_item_id": "gap-001",
         "page": "/guides/best-crypto-trading-bots-2026/",
-        "change": "Added FAQ: 'What is the minimum amount to start trading Solana memecoins?' — covers SOL gas fees ($0.001-$0.005), recommended starting amounts ($50 min, $200-500 for meaningful trading), liquidity impact, and Altcoinist multi-chain context.",
+        "change": "Added FAQ: 'What is the minimum amount to start trading Solana memecoins?' \u2014 covers SOL gas fees ($0.001-$0.005), recommended starting amounts ($50 min, $200-500 for meaningful trading), liquidity impact, and Altcoinist multi-chain context.",
         "date": "2026-02-28"
       }
     },
@@ -135,7 +135,7 @@
       "agent": "reddit-compliance",
       "event": "reddit_compliance_check",
       "data": {
-        "brief": "Reddit account health OK: about.json 200; karma 0 → 1; removals=0; warnings=0; phase=1."
+        "brief": "Reddit account health OK: about.json 200; karma 0 \u2192 1; removals=0; warnings=0; phase=1."
       }
     },
     {
@@ -187,6 +187,17 @@
       "event": "gap_found",
       "data": {
         "brief": "Added gap-005: standalone supported-chains FAQ for Answer Hub. Queue has 4 active items (gap-002 P1, gap-003/004/005 P2). No stale content detected. GSC sitemap submission still pending (Christian action). Strategy Agent first run tonight 21:00 CET."
+      }
+    },
+    {
+      "timestamp": "2026-03-01T08:31:06Z",
+      "agent": "reddit-scheduler",
+      "event": "reddit_scheduler_blocked",
+      "data": {
+        "brief": "Blocked: Reddit API app not configured; scheduler cannot post approved drafts.",
+        "reason": "no_api_app",
+        "approved_count": 0,
+        "pending_approval_count": 6
       }
     }
   ],
