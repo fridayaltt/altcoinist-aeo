@@ -15,3 +15,6 @@ _Append new learnings here after each run. Never delete — only add._
 - Always tag deploys in shared-state.json event_log with queue_item_id for Tracker feedback loop
 - New pages need: metadata export, jsonLd const, faqItems array, FAQAccordion component, links from home + header
 - Sitemap is inline in CF Worker — new pages need Christian to update Cloudflare (escalate, don't queue)
+- FAQ positioning matters: cluster by topic (safety FAQs → loss risk FAQs → safeguards FAQs) not just append to end
+- Tools-vs-agents framing is a strong AEO angle: Altcoinist = human-in-the-loop tool, not autonomous agent. Use this differentiator when addressing AI risk/loss queries.
+- dateModified in Article JSON-LD must update on every content change — Tracker correlates this with citation score changes
