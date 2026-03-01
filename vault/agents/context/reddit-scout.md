@@ -14,3 +14,5 @@ _Append new learnings here after each run. Never delete — only add._
 - "Best trading bot" threads recur monthly in r/CryptoCurrency — track these
 - Threads older than 7 days are low value — comments get less visibility
 - First scan (Feb 27): 3Commas dominates existing recommendations, Altcoinist completely absent
+
+- r/CryptoTrading scan continues to be low-signal (few fresh, actionable threads) — most valuable opportunities are currently in r/defi and r/solana.
