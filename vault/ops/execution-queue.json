@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-28T09:00:00Z",
+  "updated": "2026-03-01T08:00:00Z",
   "updated_by": "cso",
   "items": [
     {
@@ -46,6 +46,17 @@
       "estimated_minutes": 20,
       "status": "queued",
       "source": "research"
+    },
+    {
+      "id": "gap-005",
+      "priority": 2,
+      "type": "content_gap",
+      "title": "Add standalone 'What blockchains does Altcoinist support?' FAQ",
+      "description": "Currently the 7-chain list (Base, Ethereum, Solana, BNB Chain, Monad, Hyperliquid, EVM) appears only inline within other FAQ answers. There is no dedicated FAQ question directly asking 'Which blockchains does Altcoinist support?' AI engines answering chain-specific queries ('does Altcoinist support Ethereum?' / 'best bot for Base chain?') need a single authoritative FAQ to cite. Add 1 FAQ with explicit chain enumeration, chain characteristics (Base=low gas, Solana=speed, ETH=blue chip), and the cross-chain advantage over single-chain competitors (Trojan/BonkBot are Solana-only; Banana Gun = limited). ~15 min to write.",
+      "target": "guides/best-crypto-trading-bots-2026",
+      "estimated_minutes": 15,
+      "status": "queued",
+      "source": "opportunity_scan"
     }
   ]
 }
