@@ -13,3 +13,9 @@ _Append new learnings here after each run. Never delete — only add._
 - Research + Tracker scripts load as modules — test with importlib.util
 - All agent context files are in vault/agents/context/{name}.md — check these exist
 - stuck queue items: reset to "queued" if in_progress >24h, max 3 retries then "blocked"
+- `openclaw cron edit <full-uuid> --timeout-seconds <n>` changes agent job timeout (not --timeout which is ms for other uses)
+- `openclaw cron list` needs `list` not `ls`, and doesn't support --json flag — parse the text output or read /Users/friday/.openclaw/cron/jobs.json directly (structure: {"version":1,"jobs":{<uuid>:<number>}}) — the jobs dict is actually indexed differently, use cron list text output
+- CF Worker routing: always test altcoinist.com AEO paths directly (not just Vercel). If Vercel=200 but altcoinist.com=404 → old CF worker deployed. Fix = paste cloudflare-worker-v3.js in CF dashboard. No CF API token on file, no Wrangler installed → must escalate to Christian
+- Discord DM to Christian (user:973303074816934038) fails ("Cannot send messages to this user") — escalate via #aeo instead with @mention or note clearly in the review post
+- FAQ grep: use `grep -c "question:"` (not `"question"` with double quotes) — page uses JS object property syntax not JSON string keys
+- Idle crons (tracker, copywriter, strategy, data-refresh, weekly-report) are normal — they're on weekly/conditional schedules. Don't flag as errors.
