@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_updated": "2026-03-01T10:03:00Z",
+  "last_updated": "2026-03-01T13:00:00Z",
   "agents": {
     "research": {
       "last_run": null,
@@ -41,10 +41,11 @@
       "status": "ok"
     },
     "dept_review": {
-      "last_run": "2026-02-28T12:05:30.556690Z",
-      "issues_fixed": 3,
+      "last_run": "2026-03-01T13:00:00Z",
+      "issues_fixed": 1,
       "status": "ok",
-      "summary": "Fixed timeouts: aeo-ops (600s), aeo-cso (900s), reddit-scout (600s). APIs OK. Quality gate passed. No stuck queue items."
+      "summary": "Fixed reddit-compliance timeout 600s→900s. CF Worker routing broken (altcoinist.com AEO paths 404) — escalated to Christian. All Vercel pages OK. Quality gate passed (19 FAQs, schemas OK). Pipeline healthy (3 queued items). Kanban updated (3 stale In-Progress → Done).",
+      "escalations": ["CF Worker routing — needs Cloudflare dashboard update"]
     }
   },
   "event_log": [
@@ -102,7 +103,7 @@
       "data": {
         "queue_item_id": "gap-001",
         "page": "/guides/best-crypto-trading-bots-2026/",
-        "change": "Added FAQ: 'What is the minimum amount to start trading Solana memecoins?' \u2014 covers SOL gas fees ($0.001-$0.005), recommended starting amounts ($50 min, $200-500 for meaningful trading), liquidity impact, and Altcoinist multi-chain context.",
+        "change": "Added FAQ: 'What is the minimum amount to start trading Solana memecoins?' — covers SOL gas fees ($0.001-$0.005), recommended starting amounts ($50 min, $200-500 for meaningful trading), liquidity impact, and Altcoinist multi-chain context.",
         "date": "2026-02-28"
       }
     },
@@ -135,7 +136,7 @@
       "agent": "reddit-compliance",
       "event": "reddit_compliance_check",
       "data": {
-        "brief": "Reddit account health OK: about.json 200; karma 0 \u2192 1; removals=0; warnings=0; phase=1."
+        "brief": "Reddit account health OK: about.json 200; karma 0 → 1; removals=0; warnings=0; phase=1."
       }
     },
     {
@@ -209,6 +210,27 @@
         "page": "/guides/best-crypto-trading-bots-2026/",
         "change": "Added 2 FAQs targeting AI autonomy risk queries: 'Can an AI trading bot lose all my money?' and 'What safeguards does Altcoinist have to prevent catastrophic trading losses?' — directly captures queries triggered by viral $450K autonomous agent loss story. Tools-vs-agents framing differentiates Altcoinist from fully autonomous AI agents.",
         "date": "2026-03-01"
+      }
+    },
+    {
+      "timestamp": "2026-03-01T13:00:00Z",
+      "agent": "dept_review",
+      "event": "issue_fixed",
+      "data": {
+        "brief": "Fixed reddit-compliance timeout 600s→900s. Detected CF Worker routing broken: altcoinist.com /guides/ /compare/ /brand-facts/ all return 404 — Vercel fine (200), v3 script ready at vault/deliverables/cloudflare-worker-v3.js. Escalated to Christian. Kanban updated: 3 stale In-Progress items moved to Done.",
+        "fixes": ["reddit-compliance timeout 600s→900s", "Kanban 3 stale items → Done"],
+        "escalations": ["CF Worker — altcoinist.com AEO paths 404 — paste cloudflare-worker-v3.js in CF dashboard"],
+        "apis": {
+          "xai": "ok",
+          "posthog": "ok",
+          "vercel": "ok"
+        },
+        "content_quality": {
+          "faq_count": 19,
+          "schemas": "ok",
+          "live_vercel": "ok",
+          "live_production": "blocked_cf_worker"
+        }
       }
     }
   ],

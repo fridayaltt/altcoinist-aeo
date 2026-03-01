@@ -32,12 +32,7 @@ kanban-plugin: board
 
 ## 🟢 In Progress
 
-- [ ] **Build Ops Agent + cron** #p0 #agent
-	  Daily status posts to #aeo, blocker tracking, agent health checks.
-- [ ] **Build Strategy Agent + cron** #p0 #agent
-	  Weekly synthesis: research + tracker → priorities + experiments.
-- [ ] **AEO weekly report cron** #p1
-	  Friday automated department report to Christian.
+_(nothing — all agents operational)_
 
 
 ## ✅ Done
@@ -66,6 +61,9 @@ kanban-plugin: board
 - [x] Reddit account created (`trading_lord_97`) #p1
 - [x] Sitemap live at `/sitemap.xml` #p1
 - [x] Vault restructure @{2026-02-27} #p0
+- [x] Build Ops Agent + cron (`085c5b59`) @{2026-02-27} #p0
+- [x] Build Strategy Agent + cron (`ea7f863a`) @{2026-02-28} #p0
+- [x] AEO weekly report cron (`63b87557`) @{2026-02-28} #p1
 
 
 
