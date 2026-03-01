@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_updated": "2026-03-01T13:31:24Z",
+  "last_updated": "2026-03-01T18:00:00Z",
   "agents": {
     "research": {
       "last_run": null,
@@ -31,9 +31,16 @@
       "status": "ok"
     },
     "strategy": {
-      "last_run": null,
-      "current_priorities": [],
-      "status": "ok"
+      "last_run": "2026-03-01T18:00:00Z",
+      "current_priorities": [
+        "Fix CF Worker routing (Christian: paste cloudflare-worker-v3.js in CF dashboard — AEO paths 404 on production)",
+        "Copywriter Week 1: BonkBot comparison page (Mon Mar 3 run) + Builder ships gap-003/004/005",
+        "Entity signal sweep: Brand Facts entity claims + supported-chains FAQ (Builder, <30min)"
+      ],
+      "status": "ok",
+      "weekly_brief_posted": "2026-03-01",
+      "no_tracker_data": true,
+      "next_tracker_run": "2026-03-03"
     },
     "data_refresh": {
       "last_run": null,
@@ -254,6 +261,18 @@
         "phase": 1,
         "age_days": 2,
         "is_suspended": false
+      }
+    },
+    {
+      "timestamp": "2026-03-01T18:00:00Z",
+      "agent": "strategy",
+      "event": "strategy_brief_posted",
+      "data": {
+        "brief": "Week 1 strategy brief posted to #aeo. Top priorities: (1) CF Worker fix — production 404s blocking AI crawler indexing; (2) Copywriter Week 1 BonkBot comparison page + gap-003/004/005; (3) Brand Facts entity enrichment + chains FAQ. No tracker data yet (first run Mon Mar 3). No experiments — fundamentals not solid until CF Worker resolved.",
+        "priorities_count": 3,
+        "tracker_data": false,
+        "baseline_score": "0/50 Grok organic",
+        "reddit_days_to_eligible": 28
       }
     }
   ],
