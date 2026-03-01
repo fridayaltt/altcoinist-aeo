@@ -11,6 +11,7 @@ kanban-plugin: board
 - [ ] **Perplexity API key** #p1 #blocker
 	  Sign up at https://www.perplexity.ai/settings/api → generate API key → save to `~/.openclaw/credentials/perplexity-api-key.txt`. Needed to measure Perplexity citations.
 
+
 ## 🟡 To Do
 
 - [ ] **Submit sitemap to GSC** #p1
@@ -28,6 +29,7 @@ kanban-plugin: board
 - [ ] **YouTube content strategy** #p3
 	  Screen-recorded Altcoinist setup tutorial. Gets cited by LLMs for "how to" queries. Flag to Konstantin.
 
+
 ## 🟢 In Progress
 
 - [ ] **Build Ops Agent + cron** #p0 #agent
@@ -36,6 +38,7 @@ kanban-plugin: board
 	  Weekly synthesis: research + tracker → priorities + experiments.
 - [ ] **AEO weekly report cron** #p1
 	  Friday automated department report to Christian.
+
 
 ## ✅ Done
 
@@ -65,8 +68,10 @@ kanban-plugin: board
 - [x] Vault restructure @{2026-02-27} #p0
 
 
+
+
 %% kanban:settings
 ```
-{"kanban-plugin":"board","lane-width":300,"show-checkboxes":true}
+{"kanban-plugin":"board","lane-width":300,"show-checkboxes":true,"list-collapse":[null]}
 ```
 %%

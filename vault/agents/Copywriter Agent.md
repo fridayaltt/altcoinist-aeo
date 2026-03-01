@@ -1,6 +1,6 @@
 ---
 status: deferred
-cron_id: null
+cron_id:
 schedule: Monthly + on-demand (after Strategy Agent runs 2 weeks)
 model: anthropic/claude-sonnet-4-6
 skill: skills/aeo-content/SKILL.md (existing, will extend)

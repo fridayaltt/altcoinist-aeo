@@ -32,9 +32,19 @@ Before doing your work, scan the last 10 events in `event_log[]` for anything re
 ## Step 2: Do Your Work
 Follow your skill file (SKILL.md).
 
-## Step 3: Write Your State Back
+## Step 3: Write Your State Back (with validation)
 After completing your work, update `shared-state.json`:
 
+### 3a. Validate before writing
+Before updating shared state, sanity-check your output:
+- **Scores/metrics:** If a score changed by >5 points from previous value, flag it as anomalous in the event. Don't silently write a jump from 0 to 15.
+- **Queue items:** If adding to execution queue, verify the gap actually exists by checking the source data (Tracker scores, Research findings). Don't queue items based on assumptions.
+- **Product stats:** If updating stats, verify the new number is within 20% of the previous value. A jump from 17,000 to 50,000 traders is a data error, not growth.
+- **Event descriptions:** Must be specific and falsifiable. "Found 3 opportunities" is good. "Improved things" is not.
+
+If something looks wrong, log it as an anomaly event and DO NOT update the field. Let Dept Review investigate.
+
+### 3b. Update your entry
 1. Update your entry in `agents.{your_name}`:
    - `last_run`: ISO timestamp
    - `status`: "ok" or "error"
@@ -69,7 +79,17 @@ git commit -m "state: {agent_name} update $(date +%Y-%m-%d)" --no-verify
 git push origin main
 ```
 
-## Step 4: Error Recovery
+## Step 4: Pipeline Boundary Validation (Builder + Copywriter only)
+Before executing any queue item or Strategy directive, verify:
+1. **Source check:** Does the queue item reference a real data source? (e.g., "Tracker query #7 scores 0" → check Tracker's actual output, not just the CSO's claim)
+2. **Duplicate check:** Has this exact content already been built? Search existing pages for the topic.
+3. **Relevance check:** Does this gap still exist, or was it already addressed by a previous build?
+
+If any check fails → mark the item "invalid" with reason, skip it, pick the next one.
+
+This prevents contagion: if the CSO hallucinates a gap, the Builder catches it before shipping useless content.
+
+## Step 5: Error Recovery
 If you find a queue item stuck in "in_progress" for >24 hours:
 - Reset it to "queued" with a note: `"retry_reason": "previous run timed out"`
 - Increment `"retry_count"` (create if missing)
