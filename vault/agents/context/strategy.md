@@ -12,3 +12,7 @@ _Append new learnings here after each run. Never delete — only add._
 - YouTube is an untapped citation source for "how to" queries
 - Our baseline: 0/50 organic on Grok, 3Commas at 14/50. Gap is authority signals.
 - AEO video key insight: 6x conversion from LLM traffic vs Google organic
+- CF Worker routing is a P0 dependency — if production domain returns 404, AI crawlers can't index anything regardless of content quality. Always check CF Worker health before evaluating content strategy.
+- First strategy run (Day 3): no tracker data yet. Week 1 strategy is 80% infrastructure unblocking, 20% content direction. Only pivot to pure content optimization when the measurement layer is working.
+- Research agent finds mostly trade-press P1-P2 findings early on — highest-signal inputs come from Reddit Scout's opportunism detection (e.g., $450K AI loss story → AI autonomy risk FAQs). Cross-agent synthesis matters.
+- Google organic ranking ≠ AI citation. Research confirmed this directly (r/SEO viral thread). Multi-surface entity signals (Brand Facts, chains FAQ, structured data) are the delta between ranking #1 and being cited by AI.
