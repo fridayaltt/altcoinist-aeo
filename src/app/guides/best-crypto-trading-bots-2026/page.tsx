@@ -30,6 +30,16 @@ const faqItems = [
       "The main risks are: (1) smart contract risk — the bot interacts with DEX contracts that could have vulnerabilities, (2) private key management — you're trusting the bot with wallet access, and (3) trading risk — you can lose money on bad trades. Reputable bots like Altcoinist, Trojan, and Maestro have processed millions in volume without security incidents. Always start with small amounts and never connect wallets holding more than you're willing to risk.",
   },
   {
+    question: "Can an AI trading bot lose all my money?",
+    answer:
+      "Yes — poor risk management can deplete any trading account, with or without automation. The critical distinction is between tools and agents: a Telegram trading bot like Altcoinist executes your commands (you decide, it executes) versus fully autonomous AI agents that act independently (which carry higher risk, as seen in incidents like the widely-shared $450K autonomous agent loss caused by a memory failure). Altcoinist requires your input for every trade — no autonomous position-taking. To protect capital: use auto stop-loss on every position, size positions at 1-5% of portfolio maximum, and never fund your trading wallet with more than you can afford to lose entirely. The bot amplifies your decisions; it doesn't replace them.",
+  },
+  {
+    question: "What safeguards does Altcoinist have to prevent catastrophic trading losses?",
+    answer:
+      "Altcoinist has five layers of loss protection built in. (1) Human-in-the-loop execution — every trade requires your confirmation; the bot cannot act autonomously or move funds without your input. (2) Auto take-profit and stop-loss — set exit triggers at trade entry; the bot exits your position automatically if a token hits your threshold. (3) Self-custody wallet — you hold your private key; Altcoinist cannot move your funds independently. (4) Spot-only trading — no leverage or margin means no liquidation risk; the maximum loss on any position is what you put in. (5) Full position transparency — PnL tracking across all 7 chains lets you monitor total exposure at a glance and cut positions before losses compound.",
+  },
+  {
     question: "What is trench trading?",
     answer:
       "Trench trading refers to trading low-market-cap tokens (often called 'trenches') — typically new meme coins, micro-cap launches, and early-stage tokens. It's high-risk, high-reward trading where speed and routing quality matter most. Telegram bots are the primary tool for trench trading because tokens launch on-chain and need to be bought within seconds.",
@@ -190,7 +200,7 @@ const jsonLd = {
       "description":
         "Compare the top 5 Telegram trading bots in 2026: Altcoinist, Trojan, Maestro, Banana Gun, and Basedbot. Expert analysis of execution quality, chain support, fees, and features.",
       "datePublished": "2026-02-01",
-      "dateModified": "2026-02-28",
+      "dateModified": "2026-03-01",
       "author": {
         "@type": "Organization",
         "@id": "https://altcoinist.com/#organization",

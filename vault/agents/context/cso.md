@@ -11,3 +11,9 @@ _Append new learnings here after each run. Never delete — only add._
 - Product stats are hardcoded across ~10 locations in src/app/ and src/components/
 - Max 5 items in execution queue — Builder can only do 1-2/day
 - Reddit account trading_lord_97 created Feb 27 — track age daily toward 30-day posting threshold
+- Internal linking is already solid (all 4 comparison pages ↔ Answer Hub bidirectional) — don't queue link audits without checking first (grep for "compare" in answer hub, grep for "best-crypto-trading-bots" in compare pages)
+- The 7 supported chains are: Base, Ethereum, Solana, BNB Chain, Monad, Hyperliquid, EVM — listed in brand-facts.json under chains[]
+- Chain list appears inline in existing FAQ answers but no standalone "what chains do you support?" FAQ exists — that's a recurring gap pattern to check
+- Pre-Tracker period (days 1-7): all queue items are hypothesis-driven, no citation data to validate against. Mon Mar 3 Tracker run changes this.
+- GSC sitemap submission is a recurring unblocked Christian-action that keeps not happening — escalate prominently in CSO brief, don't just note it
+- Reddit draft backlog can accumulate silently while scheduler is blocked — flag count in daily brief
