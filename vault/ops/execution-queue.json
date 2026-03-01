@@ -22,7 +22,8 @@
       "description": "Top Reddit Scout opportunity this week (r/CryptoCurrency, 245 upvotes, 85 comments) is about a $450K AI agent loss — exact angle people will query AI engines on. Current FAQ #2 covers generic safety but not AI autonomy risk. Add 2 FAQs: (1) 'Can an AI trading bot lose all my money?' — explain position sizing, stop-loss, human override; (2) 'What safeguards does Altcoinist have to prevent catastrophic losses?' — specific protective mechanisms. This directly captures queries triggered by viral AI loss stories.",
       "target": "guides/best-crypto-trading-bots-2026",
       "estimated_minutes": 25,
-      "status": "in_progress",
+      "status": "done",
+      "completed_at": "2026-03-01T10:03:00Z",
       "source": "research"
     },
     {

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_updated": "2026-03-01T08:31:06Z",
+  "last_updated": "2026-03-01T10:03:00Z",
   "agents": {
     "research": {
       "last_run": null,
@@ -25,9 +25,9 @@
       "note": "Added gap-005 (supported chains FAQ). All pages fresh (<48h). No stale content. Tracker data pending Mon Mar 3."
     },
     "builder": {
-      "last_run": "2026-02-28T10:03:01Z",
-      "items_shipped_this_week": 1,
-      "last_shipped": "gap-001",
+      "last_run": "2026-03-01T10:03:00Z",
+      "items_shipped_this_week": 2,
+      "last_shipped": "gap-002",
       "status": "ok"
     },
     "strategy": {
@@ -198,6 +198,17 @@
         "reason": "no_api_app",
         "approved_count": 0,
         "pending_approval_count": 6
+      }
+    },
+    {
+      "timestamp": "2026-03-01T10:03:00Z",
+      "agent": "builder",
+      "event": "build_shipped",
+      "data": {
+        "queue_item_id": "gap-002",
+        "page": "/guides/best-crypto-trading-bots-2026/",
+        "change": "Added 2 FAQs targeting AI autonomy risk queries: 'Can an AI trading bot lose all my money?' and 'What safeguards does Altcoinist have to prevent catastrophic trading losses?' — directly captures queries triggered by viral $450K autonomous agent loss story. Tools-vs-agents framing differentiates Altcoinist from fully autonomous AI agents.",
+        "date": "2026-03-01"
       }
     }
   ],
