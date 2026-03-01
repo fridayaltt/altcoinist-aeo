@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_updated": "2026-03-01T04:03:16.191131Z",
+  "last_updated": "2026-03-01T04:06:55.747633Z",
   "phase": {
     "current": 1,
     "description": "Anonymous karma building — zero product mentions",
@@ -157,22 +157,22 @@
       }
     },
     {
-      "timestamp": "2026-03-01T04:03:16.191131Z",
+      "timestamp": "2026-03-01T04:06:55.747633Z",
       "agent": "reddit-scout",
       "event": "opportunities_found",
       "data": {
-        "brief": "Scanned 7 subs (CryptoTrading, defi, solana, CryptoCurrency tier1 + ethtrader, SolanaMemeCoins, BaseChainDegen tier2), 173 unique listings; found 10 opportunities (P1/P2/P3 = 0/4/6).",
+        "brief": "Scanned 7 subs, 173 unique listings; selected 8 opportunities (P1/P2/P3 = 0/2/6). Excluded 3 already-drafted threads.",
         "scan_date": "2026-03-01",
         "top": {
-          "sub": "defi",
-          "title": "DeFi dead or alive?",
-          "url": "https://reddit.com/r/defi/comments/1rgfsd4/defi_dead_or_alive/",
-          "score": 7,
-          "comments": 11,
-          "age_hours": 32.9,
-          "flair": ":discuss: Discussion",
+          "sub": "solana",
+          "title": "Need your help for my smart money finder bot!",
+          "url": "https://reddit.com/r/solana/comments/1rgvdcq/need_your_help_for_my_smart_money_finder_bot/",
+          "score": 5,
+          "comments": 12,
+          "age_hours": 21.6,
+          "flair": "Dev/Tech",
           "priority": "P2",
-          "suggested_angle": "Explain options for automated CL management (vaults, auto-rebalancers) + risk tradeoffs (IL, fees, smart contract risk).",
+          "suggested_angle": "Give a concrete “smart money” methodology: wallet filters, timeframe, labeling, and how to validate results without survivorship bias. Explain automation options (vaults/auto-rebalancers) + key risks (IL, fee volatility, contract risk).",
           "aeo_relevance": "Phase 1: value-only response (no links / no product mentions).",
           "id": "opp-001"
         },
@@ -180,9 +180,9 @@
           {
             "id": "opp-001",
             "priority": "P2",
-            "sub": "defi",
-            "title": "DeFi dead or alive?",
-            "url": "https://reddit.com/r/defi/comments/1rgfsd4/defi_dead_or_alive/"
+            "sub": "solana",
+            "title": "Need your help for my smart money finder bot!",
+            "url": "https://reddit.com/r/solana/comments/1rgvdcq/need_your_help_for_my_smart_money_finder_bot/"
           },
           {
             "id": "opp-002",
@@ -193,59 +193,45 @@
           },
           {
             "id": "opp-003",
-            "priority": "P2",
-            "sub": "solana",
-            "title": "Just got my DeFi calculator approved for the Solana dApp Store. Built it to make on-the-go math a bit easier.",
-            "url": "https://reddit.com/r/solana/comments/1rgleh6/just_got_my_defi_calculator_approved_for_the/"
+            "priority": "P3",
+            "sub": "ethtrader",
+            "title": "ETH at $1,852 — Is This a Good Entry or Are We Headed for Another Bear Market Dip?",
+            "url": "https://reddit.com/r/ethtrader/comments/1rgy6y4/eth_at_1852_is_this_a_good_entry_or_are_we_headed/"
           },
           {
             "id": "opp-004",
-            "priority": "P2",
-            "sub": "solana",
-            "title": "Need your help for my smart money finder bot!",
-            "url": "https://reddit.com/r/solana/comments/1rgvdcq/need_your_help_for_my_smart_money_finder_bot/"
-          },
-          {
-            "id": "opp-005",
-            "priority": "P3",
-            "sub": "CryptoCurrency",
-            "title": "Polymarket Iran Bets Hit $529 Million as New Wallets Raise Insider Concerns",
-            "url": "https://reddit.com/r/CryptoCurrency/comments/1rhgjui/polymarket_iran_bets_hit_529_million_as_new/"
-          },
-          {
-            "id": "opp-006",
-            "priority": "P3",
-            "sub": "CryptoCurrency",
-            "title": "$4.8M in crypto stolen after Korean tax agency exposes wallet seed",
-            "url": "https://reddit.com/r/CryptoCurrency/comments/1rh6a4w/48m_in_crypto_stolen_after_korean_tax_agency/"
-          },
-          {
-            "id": "opp-007",
-            "priority": "P3",
-            "sub": "solana",
-            "title": "Axiom Exchange Hit with Insider Trading Allegations - Employee Accused of Abusing User Wallet Data for Solana Meme Trades",
-            "url": "https://reddit.com/r/solana/comments/1rfhlzb/axiom_exchange_hit_with_insider_trading/"
-          },
-          {
-            "id": "opp-008",
             "priority": "P3",
             "sub": "solana",
             "title": "Swapping solana to btc in phantom?",
             "url": "https://reddit.com/r/solana/comments/1rgjh4m/swapping_solana_to_btc_in_phantom/"
           },
           {
-            "id": "opp-009",
+            "id": "opp-005",
             "priority": "P3",
-            "sub": "defi",
-            "title": "Zypto Wallet App Update: KuCoin Pay On-Ramp + Native Chainlink CCIP Bridging",
-            "url": "https://reddit.com/r/defi/comments/1rfc5g5/zypto_wallet_app_update_kucoin_pay_onramp_native/"
+            "sub": "solana",
+            "title": "What’s the most money you’ve missed out on because you had to switch apps to paste a contract address?",
+            "url": "https://reddit.com/r/solana/comments/1rgbqb0/whats_the_most_money_youve_missed_out_on_because/"
           },
           {
-            "id": "opp-010",
+            "id": "opp-006",
             "priority": "P3",
             "sub": "solana",
             "title": "What would be the most cost effective way to download mass amounts of transaction history from wallets?",
             "url": "https://reddit.com/r/solana/comments/1rh5kwl/what_would_be_the_most_cost_effective_way_to/"
+          },
+          {
+            "id": "opp-007",
+            "priority": "P3",
+            "sub": "defi",
+            "title": "DeFi dead or alive?",
+            "url": "https://reddit.com/r/defi/comments/1rgfsd4/defi_dead_or_alive/"
+          },
+          {
+            "id": "opp-008",
+            "priority": "P3",
+            "sub": "solana",
+            "title": "Just got my DeFi calculator approved for the Solana dApp Store. Built it to make on-the-go math a bit easier.",
+            "url": "https://reddit.com/r/solana/comments/1rgleh6/just_got_my_defi_calculator_approved_for_the/"
           }
         ]
       }

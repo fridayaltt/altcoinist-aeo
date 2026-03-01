@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_updated": "2026-03-01T04:03:16.191131Z",
+  "last_updated": "2026-03-01T04:06:55.747633Z",
   "agents": {
     "research": {
       "last_run": null,
@@ -137,27 +137,27 @@
       }
     },
     {
-      "timestamp": "2026-03-01T04:03:16.191131Z",
+      "timestamp": "2026-03-01T04:06:55.747633Z",
       "agent": "reddit-scout",
       "event": "reddit_opportunities",
       "data": {
-        "brief": "Reddit Scout found 10 opportunities for Phase 1 responses (no product mentions).",
+        "brief": "Reddit Scout selected 8 opportunities for Phase 1 responses (excluded 3 already drafted).",
         "top": {
-          "sub": "defi",
-          "title": "DeFi dead or alive?",
-          "url": "https://reddit.com/r/defi/comments/1rgfsd4/defi_dead_or_alive/",
-          "score": 7,
-          "comments": 11,
-          "age_hours": 32.9,
-          "flair": ":discuss: Discussion",
+          "sub": "solana",
+          "title": "Need your help for my smart money finder bot!",
+          "url": "https://reddit.com/r/solana/comments/1rgvdcq/need_your_help_for_my_smart_money_finder_bot/",
+          "score": 5,
+          "comments": 12,
+          "age_hours": 21.6,
+          "flair": "Dev/Tech",
           "priority": "P2",
-          "suggested_angle": "Explain options for automated CL management (vaults, auto-rebalancers) + risk tradeoffs (IL, fees, smart contract risk).",
+          "suggested_angle": "Give a concrete “smart money” methodology: wallet filters, timeframe, labeling, and how to validate results without survivorship bias. Explain automation options (vaults/auto-rebalancers) + key risks (IL, fee volatility, contract risk).",
           "aeo_relevance": "Phase 1: value-only response (no links / no product mentions).",
           "id": "opp-001"
         },
         "counts": {
           "P1": 0,
-          "P2": 4,
+          "P2": 2,
           "P3": 6
         }
       }
