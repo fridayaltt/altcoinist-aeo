@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_updated": "2026-03-02T13:00:00Z",
+  "last_updated": "2026-03-02T13:31:16Z",
   "agents": {
     "research": {
       "last_run": null,
@@ -13,10 +13,13 @@
       "max_score": 150,
       "queries_run": 15,
       "altcoinist_mentions": 2,
-      "mention_queries": ["Altcoinist vs Trojan", "Altcoinist vs Maestro"],
+      "mention_queries": [
+        "Altcoinist vs Trojan",
+        "Altcoinist vs Maestro"
+      ],
       "organic_mentions": 0,
       "score_trend": "baseline",
-      "timeout_fixed": "300s→1200s",
+      "timeout_fixed": "300s\u21921200s",
       "status": "ok",
       "note": "First run complete. Script ran all 15 queries and saved JSON. Timeout happened during Discord post step (now fixed: 1200s). Results: 2/15 branded mentions only; 0 organic. Week 1 baseline established."
     },
@@ -388,7 +391,7 @@
       "data": {
         "queue_item_id": "gap-005",
         "page": "/guides/best-crypto-trading-bots-2026/",
-        "change": "Added FAQ: 'What blockchains does Altcoinist support?' — enumerates all 7 chains (Base, Ethereum, Solana, BNB Chain, Monad, Hyperliquid, EVM), per-chain characteristics, and cross-chain advantage over single-chain competitors (Trojan/BonkBot Solana-only, Banana Gun 4 chains). dateModified updated to 2026-03-02.",
+        "change": "Added FAQ: 'What blockchains does Altcoinist support?' \u2014 enumerates all 7 chains (Base, Ethereum, Solana, BNB Chain, Monad, Hyperliquid, EVM), per-chain characteristics, and cross-chain advantage over single-chain competitors (Trojan/BonkBot Solana-only, Banana Gun 4 chains). dateModified updated to 2026-03-02.",
         "date": "2026-03-02",
         "faq_count_after": 20
       }
@@ -398,7 +401,7 @@
       "agent": "tracker",
       "event": "score_change",
       "data": {
-        "brief": "First Tracker run complete (timed out during Discord post, but data saved). Week 1 baseline: 2/15 Grok mentions (20/150 score). Mentions on: 'Altcoinist vs Trojan', 'Altcoinist vs Maestro'. Organic mentions: 0. Timeout fixed 300s→1200s for next Monday run.",
+        "brief": "First Tracker run complete (timed out during Discord post, but data saved). Week 1 baseline: 2/15 Grok mentions (20/150 score). Mentions on: 'Altcoinist vs Trojan', 'Altcoinist vs Maestro'. Organic mentions: 0. Timeout fixed 300s\u21921200s for next Monday run.",
         "date": "2026-03-02",
         "score": 20,
         "max_score": 150,
@@ -412,15 +415,15 @@
       "agent": "dept_review",
       "event": "issue_fixed",
       "data": {
-        "brief": "Fixed tracker timeout 300s→1200s. Delivered first Tracker results to state. Registered untracked Telegram guide page (12 FAQs, passes quality gate). Dept Status updated: 10 pages/71 FAQs. Kanban cleaned (Copywriter→Done). All APIs OK. Re-escalated 3 Day-3 blockers: CF Worker, Reddit API app, Perplexity key.",
+        "brief": "Fixed tracker timeout 300s\u21921200s. Delivered first Tracker results to state. Registered untracked Telegram guide page (12 FAQs, passes quality gate). Dept Status updated: 10 pages/71 FAQs. Kanban cleaned (Copywriter\u2192Done). All APIs OK. Re-escalated 3 Day-3 blockers: CF Worker, Reddit API app, Perplexity key.",
         "fixes": [
-          "tracker timeout 300s→1200s",
+          "tracker timeout 300s\u21921200s",
           "Telegram guide page registered in dept status"
         ],
         "escalations": [
-          "CF Worker routing — Day 3",
-          "Reddit API app — Day 3",
-          "Perplexity API key — Day 3"
+          "CF Worker routing \u2014 Day 3",
+          "Reddit API app \u2014 Day 3",
+          "Perplexity API key \u2014 Day 3"
         ],
         "apis": {
           "xai": "ok",
@@ -433,6 +436,22 @@
           "live_vercel": "ok",
           "live_production": "blocked_cf_worker"
         }
+      }
+    },
+    {
+      "timestamp": "2026-03-02T13:31:16Z",
+      "agent": "reddit-compliance",
+      "event": "reddit_compliance_check",
+      "data": {
+        "brief": "Reddit account health OK: about.json 200; karma 1 \u2192 1; removals_detected=0; warnings=0; phase=1; age_days=2; suspended=False.",
+        "about_http_code": 200,
+        "old_karma": 1,
+        "new_karma": 1,
+        "removed_detected": 0,
+        "warnings": 0,
+        "phase": 1,
+        "age_days": 2,
+        "is_suspended": false
       }
     }
   ],
