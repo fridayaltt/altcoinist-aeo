@@ -14,7 +14,7 @@
 | Ops | ✅ Active | `085c5b59` | Daily 09:30 CET | codex gpt-5.2 | 2026-03-02 08:33 CET ✅ (running now) |
 | Strategy | ✅ Active | `ea7f863a` | Sun 20:00 CET | sonnet 4.6 | 2026-03-01 21:00 CET ✅ (brief posted) |
 | CSO | ✅ Active | `c461fab7` | Daily 10:00 CET | sonnet 4.6 | 2026-03-01 10:00 CET ✅ (gap-005 added) |
-| Builder | ✅ Active | `510d30b3` | Daily 12:00 CET | sonnet 4.6 | 2026-03-01 12:00 CET ✅ (shipped gap-002) |
+| Builder | ✅ Active | `510d30b3` | Daily 12:00 CET | sonnet 4.6 | 2026-03-02 11:00 CET ✅ (shipped gap-005) |
 | Data Refresh | ⏸️ Pending | `d077e99a` | Wed 08:00 CET | codex gpt-5.2 | First run Wed Mar 4 |
 | Copywriter | ✅ Active | `2210e4da` | Mon+Thu 08:00 CET | sonnet 4.6 | 2026-03-02 08:00 CET ✅ (shipped /compare/altcoinist-vs-bonkbot/) |
 | Weekly Report | ⏸️ Pending | `63b87557` | Fri 19:00 CET | codex gpt-5.2 | First run Fri Mar 6 |
@@ -28,7 +28,7 @@
 
 | Page | URL | FAQs | JSON-LD | Last Updated |
 |------|-----|------|---------|-------------|
-| Answer Hub | `/guides/best-crypto-trading-bots-2026/` | 19 | ✅ Article + FAQPage + ItemList | 2026-03-01 |
+| Answer Hub | `/guides/best-crypto-trading-bots-2026/` | 20 | ✅ Article + FAQPage + ItemList | 2026-03-02 |
 | vs Trojan | `/compare/altcoinist-vs-trojan/` | 8 | ✅ Article + FAQPage | 2026-02-27 |
 | vs Banana Gun | `/compare/altcoinist-vs-banana-gun/` | 8 | ✅ Article + FAQPage | 2026-02-27 |
 | vs Maestro | `/compare/altcoinist-vs-maestro/` | 7 | ✅ Article + FAQPage | 2026-02-27 |
@@ -38,7 +38,7 @@
 | brand-facts.json | `/.well-known/brand-facts.json` | — | N/A (raw JSON) | 2026-02-27 |
 | Sitemap | `/sitemap.xml` | — | N/A | 2026-03-02 |
 
-**Total: 9 pages, 58 FAQs, 9 pages with structured data**
+**Total: 9 pages, 59 FAQs, 9 pages with structured data**
 
 ## Citation Score
 
@@ -57,7 +57,7 @@
 | gap-002 | ✅ Done | AI trading bot risk/loss FAQs (shipped 2026-03-01) |
 | gap-003 | 🟡 Queued | BonkBot comparison FAQs to Answer Hub (full page shipped separately by Copywriter) |
 | gap-004 | 🟡 Queued | Brand Facts structured entity claims |
-| gap-005 | 🟡 Queued | Standalone supported-chains FAQ |
+| gap-005 | ✅ Done | Standalone supported-chains FAQ (shipped 2026-03-02) |
 
 ## Blockers
 
@@ -96,7 +96,7 @@
 | 2026-02-27 | Department launched, site live, FAQ expansion |
 | 2026-02-28 | Builder shipped gap-001. Timeout fixes applied to 3 crons. |
 | 2026-03-01 | Builder shipped gap-002. Strategy Agent first run. CF Worker routing 404s detected. |
-| 2026-03-02 | Copywriter shipped /compare/altcoinist-vs-bonkbot/. Tracker first run (11:00 CET today) 🎯 |
+| 2026-03-02 | Copywriter shipped /compare/altcoinist-vs-bonkbot/. Tracker first run (11:00 CET). Builder shipped gap-005 (chains FAQ, 20 total FAQs). |
 | 2026-03-04 | First Data Refresh run (Wed) |
 | 2026-03-07 | Create Wikidata entity (target) |
 | 2026-03-10 | Pitch review sites (target) |
