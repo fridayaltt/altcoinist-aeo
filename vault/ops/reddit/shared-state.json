@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_updated": "2026-03-02T04:05:00Z",
+  "last_updated": "2026-03-02T05:55:00Z",
   "phase": {
     "current": 1,
     "description": "Anonymous karma building — zero product mentions",
@@ -81,6 +81,29 @@
         "sub": "ethtrader",
         "priority": "P3",
         "created": "2026-03-01T05:47:30.000000Z"
+      },
+      {
+        "id": "2026-03-02-opp-003",
+        "file": "vault/ops/reddit/drafts/2026-03-02-opp-003.md",
+        "sub": "solana",
+        "priority": "P3",
+        "created": "2026-03-02T05:55:00Z"
+      },
+      {
+        "id": "2026-03-02-opp-005",
+        "file": "vault/ops/reddit/drafts/2026-03-02-opp-005.md",
+        "sub": "defi",
+        "priority": "P3",
+        "note": "AUTO-MOD RISK: r/defi removes new account comments. Account age 2 days, karma 1. Hold until older.",
+        "created": "2026-03-02T05:55:00Z"
+      },
+      {
+        "id": "2026-03-02-opp-002",
+        "file": "vault/ops/reddit/drafts/2026-03-02-opp-002.md",
+        "sub": "solana",
+        "priority": "P3",
+        "note": "Thread OP resolved but useful for future search traffic — explains HTLC atomic swap mechanics",
+        "created": "2026-03-02T05:55:00Z"
       }
     ],
     "approved": [],
@@ -370,6 +393,21 @@
             "url": "https://reddit.com/r/solana/comments/1ri1m1g/solana_ecosystem_news_february_282026/"
           }
         ]
+      }
+    },
+    {
+      "timestamp": "2026-03-02T05:55:00Z",
+      "agent": "reddit-writer",
+      "event": "drafts_created",
+      "data": {
+        "brief": "3 drafts created for 2026-03-02: opp-003 (P3/solana tx-history), opp-005 (P3/defi DeFi-dead-or-alive — auto-mod risk flagged), opp-002 (P3/solana atomic-swap mechanics). All Phase 1 compliant. Total pending now 9. Backlog alert: 6 drafts from Feb 28 + Mar 1 still awaiting approval.",
+        "drafts": ["2026-03-02-opp-003", "2026-03-02-opp-005", "2026-03-02-opp-002"],
+        "phase": 1,
+        "flags": {
+          "backlog_total": 9,
+          "defi_automod_risk": true,
+          "oldest_draft_age_days": 3
+        }
       }
     }
   ],
