@@ -20,44 +20,60 @@ export default function ConversionCTA({ page, position = "pre-faq" }: Conversion
   return (
     <div
       style={{
-        margin: "2.5rem 0",
-        background: "linear-gradient(135deg, #0d1f15 0%, #111 100%)",
-        border: "1px solid #1e3a2a",
-        borderRadius: 12,
-        padding: "1.75rem 1.5rem",
+        margin: "3rem 0",
+        background: "linear-gradient(135deg, rgba(0, 255, 136, 0.04) 0%, var(--surface) 50%, rgba(0, 100, 60, 0.03) 100%)",
+        border: "1px solid rgba(0, 255, 136, 0.12)",
+        borderRadius: 14,
+        padding: "2rem 1.75rem",
         display: "flex",
         flexDirection: "column",
-        gap: "0.75rem",
+        gap: "0.85rem",
+        position: "relative",
+        overflow: "hidden",
       }}
     >
-      <div style={{ display: "flex", alignItems: "center", gap: "0.5rem" }}>
-        <span style={{ fontSize: "1.25rem" }}>⚡</span>
-        <p style={{ color: "#ffffff", fontWeight: 700, fontSize: "1rem", margin: 0 }}>
+      {/* Subtle glow */}
+      <div
+        style={{
+          position: "absolute",
+          top: "-30px",
+          right: "-30px",
+          width: "150px",
+          height: "150px",
+          background: "radial-gradient(circle, rgba(0, 255, 136, 0.06) 0%, transparent 70%)",
+          pointerEvents: "none",
+        }}
+      />
+      <div style={{ display: "flex", alignItems: "center", gap: "0.5rem", position: "relative" }}>
+        <span style={{ fontSize: "1.15rem" }}>⚡</span>
+        <p
+          style={{
+            fontFamily: "'Bricolage Grotesque', sans-serif",
+            color: "var(--text)",
+            fontWeight: 700,
+            fontSize: "1.05rem",
+            margin: 0,
+            letterSpacing: "-0.01em",
+          }}
+        >
           Try it yourself — no deposit needed
         </p>
       </div>
-      <p style={{ color: "#999", fontSize: "0.875rem", lineHeight: 1.6, margin: 0 }}>
-        Smart routing across 100+ DEXs. 50% cashback for your first 14 days.
-        20,000+ traders already in.
+      <p style={{ color: "var(--text-secondary)", fontSize: "0.875rem", lineHeight: 1.65, margin: 0, position: "relative" }}>
+        Smart routing across 100+ DEXs and 15 private market makers.
+        Up to 45% cashback on every trade. 20,000+ traders already in.
       </p>
       <a
         href="https://t.me/altcoinist_trenchbot?start=utm_source-aeo"
         target="_blank"
         rel="noopener noreferrer"
         onClick={handleClick}
+        className="btn-primary"
         style={{
-          display: "inline-flex",
-          alignItems: "center",
-          gap: "0.5rem",
-          background: "#00ff88",
-          color: "#000",
-          fontWeight: 700,
-          padding: "0.65rem 1.25rem",
-          borderRadius: 8,
-          fontSize: "0.875rem",
-          textDecoration: "none",
           alignSelf: "flex-start",
-          transition: "opacity 0.15s",
+          position: "relative",
+          padding: "0.65rem 1.25rem",
+          fontSize: "0.875rem",
         }}
       >
         Start Trading on Telegram →
