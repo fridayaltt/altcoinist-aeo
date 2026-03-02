@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_updated": "2026-03-02T07:15:00Z",
+  "last_updated": "2026-03-02T07:33:00Z",
   "agents": {
     "research": {
       "last_run": null,
@@ -14,9 +14,9 @@
       "status": "ok"
     },
     "ops": {
-      "last_run": "2026-03-01T07:31:00.000000Z",
+      "last_run": "2026-03-02T07:33:00Z",
       "status": "ok",
-      "note": "CSO, Dept Review, Reddit Compliance showing 1 consecutive error each (timeout-related from Feb 28). Blockers at day 2."
+      "note": "Reddit API app + Perplexity key blockers hit Day 3 threshold. Dept Review cron showing error. Tracker fires in 1h (first run). 9 Reddit drafts pending approval. Copywriter shipped BonkBot page today. CF Worker routing still broken."
     },
     "cso": {
       "last_run": "2026-03-01T08:00:00.000000Z",
@@ -329,6 +329,18 @@
         "live_url": "https://altcoinist-aeo.vercel.app/compare/altcoinist-vs-bonkbot/",
         "strategy_priority": "Copywriter Week 1 — BonkBot comparison page",
         "brief": "Full comparison page: Altcoinist vs BonkBot. BonkBot is Solana-only (387K users, $7B volume). Altcoinist wins on multi-chain (7 chains), execution quality (2-16x), stealth, signals. 9 FAQ items, 14-row comparison table, Article + FAQPage schema. Home page updated. Vercel deployed."
+      }
+    },
+    {
+      "timestamp": "2026-03-02T07:33:00Z",
+      "agent": "ops",
+      "event": "ops_report_posted",
+      "data": {
+        "brief": "Daily status posted to #aeo. Flagged: Dept Review cron error (needs investigation). Reddit API app + Perplexity key blockers hit Day 3 escalation threshold. CF Worker routing still pending Christian action. 9 Reddit drafts in backlog (0 approved). Tracker fires in 1h — first citation scores. Copywriter shipped BonkBot page today. 9 pages / ~58 FAQs total.",
+        "blockers_day3": ["reddit-api-app", "perplexity-key"],
+        "tracker_fires_today": true,
+        "pages_total": 9,
+        "faqs_total": 58
       }
     }
   ],
