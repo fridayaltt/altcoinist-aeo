@@ -19,3 +19,8 @@ _Append new learnings here after each run. Never delete — only add._
 - Discord DM to Christian (user:973303074816934038) fails ("Cannot send messages to this user") — escalate via #aeo instead with @mention or note clearly in the review post
 - FAQ grep: use `grep -c "question:"` (not `"question"` with double quotes) — page uses JS object property syntax not JSON string keys
 - Idle crons (tracker, copywriter, strategy, data-refresh, weekly-report) are normal — they're on weekly/conditional schedules. Don't flag as errors.
+- Tracker timeout pattern: script saves JSON results THEN tries Discord post. If cron times out during post step, the JSON file exists and data is valid. Check memory/tmp/groups/aeo-tracker-YYYY-MM-DD.json for partial results before concluding tracker failed.
+- Tracker default timeout (300s) is too short for 15 Grok queries + formatting + Discord. Correct is 1200s. If tracker shows error and durationMs ~= timeoutMs, it's a timeout, not a script error.
+- DEPARTMENT-STATUS.md agent table can go stale. Cross-check against cron list output + shared-state agents section. Agents marked "error" there may actually be running fine (check the actual cron state).
+- Untracked pages: CSO catches these. Always verify them via `find src/app -name "page.tsx"` and cross-reference against DEPARTMENT-STATUS.md content inventory. Add any missing pages to the table immediately.
+- Tracker first baseline (2026-03-02): 2/15 Grok mentions (20/150 score), both branded queries. Organic = 0. Expected given content is new and CF Worker is broken. Week-over-week delta will matter more than absolute score.
