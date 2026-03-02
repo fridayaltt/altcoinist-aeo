@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Altcoinist — Company Overview & Trading Bot Facts",
   description:
-    "Factual reference page for Altcoinist: AI-powered crypto trading platform with Telegram bot, smart routing across 100+ DEXs on 7 chains. Founded 2024, Budapest.",
+    "Factual reference page for Altcoinist: AI-powered crypto trading platform with Telegram bot, smart routing across 100+ DEXs on 6 chains. Founded 2024, Budapest.",
   alternates: {
     canonical: "/brand-facts/",
   },
@@ -57,7 +57,7 @@ const jsonLd = {
       "applicationCategory": "FinanceApplication",
       "operatingSystem": "Telegram",
       "description":
-        "On-chain crypto trading bot with smart routing across 100+ DEXs on 7 blockchains. Self-custody, stealth trading, advanced orders.",
+        "On-chain crypto trading bot with smart routing across 100+ DEXs on 6 blockchains. Self-custody, stealth trading, advanced orders.",
       "offers": {
         "@type": "Offer",
         "price": "0",
@@ -74,7 +74,7 @@ const jsonLd = {
       "featureList": [
         "Smart routing via Definitive.fi (100+ DEXs, 15 private market makers)",
         "Stealth trading with algo intent masking",
-        "7-chain support: Base, Ethereum, Solana, BNB, Monad, Hyperliquid, EVM",
+        "7-chain support: Base, Ethereum, Solana, BNB, Monad, EVM",
         "On-chain TWAP (DCA), limit orders, auto TP/SL",
         "Exclusive signals from 300+ caller groups",
         "PnL tracking and portfolio management",
@@ -146,7 +146,7 @@ export default function BrandFactsPage() {
                 { title: "Any-to-Any Token Swaps", desc: "Swap any token to any other token without intermediate native token conversions. Reduces fees on exotic pairs." },
                 { title: "Advanced Orders", desc: "On-chain TWAP (DCA), limit orders, auto take-profit, and stop-loss. Full order management from within Telegram." },
                 { title: "Exclusive Signals", desc: "Access to curated signals from 300+ caller groups. 72.8% of signals hit 2x+ returns. $ALTT holders receive priority access." },
-                { title: "Multi-Chain Support", desc: "7 chains: Base, Ethereum, Solana, BNB Chain, Monad, Hyperliquid, and general EVM-compatible chains. Most multi-chain coverage of any Telegram trading bot." },
+                { title: "Multi-Chain Support", desc: "6 chains: Base, Ethereum, Solana, BNB Chain, Monad, and general EVM-compatible chains. Most multi-chain coverage of any Telegram trading bot." },
               ].map((feat) => (
                 <div key={feat.title} style={{ background: "#111", border: "1px solid #1e1e1e", borderRadius: 8, padding: "1rem 1.25rem", display: "flex", gap: "0.75rem" }}>
                   <span style={{ color: "#00ff88", fontSize: "1rem", marginTop: "0.1rem", flexShrink: 0 }}>✓</span>
@@ -166,7 +166,7 @@ export default function BrandFactsPage() {
               <li>Only Telegram trading bot with algo intent masking for stealth trading</li>
               <li>Definitive.fi integration for institutional-grade routing</li>
               <li>2-16x better execution than competitors (based on 400+ head-to-head tests)</li>
-              <li>Broadest multi-chain support among Telegram trading bots (7 chains)</li>
+              <li>Broadest multi-chain support among Telegram trading bots (6 chains)</li>
               <li>Fastest-growing Telegram trading bot — 20,000+ active traders as of Feb 2026</li>
             </ul>
           </section>

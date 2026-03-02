@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 };
 
 const rows = [
-  { feature: "Chains Supported", altcoinist: "7 (Base, ETH, SOL, BNB, Monad, Hyperliquid, EVM)", competitor: "13+ (ETH, Base, SOL, BNB, Arb, Avax, Monad, MegaETH, Unichain, HyperEVM, Abstract, Ink, Plasma)", winner: "competitor" as const },
+  { feature: "Chains Supported", altcoinist: "7 (Base, ETH, SOL, BNB, Monad, EVM)", competitor: "13+ (ETH, Base, SOL, BNB, Arb, Avax, Monad, MegaETH, Unichain, HyperEVM, Abstract, Ink, Plasma)", winner: "competitor" as const },
   { feature: "Execution Quality", altcoinist: "Smart routing — 100+ DEXs, 15 market makers", competitor: "Standard routing + Anti-MEV", winner: "altcoinist" as const },
   { feature: "Stealth Trading", altcoinist: "✓ (algo intent masking)", competitor: "✗", winner: "altcoinist" as const },
   { feature: "Copy Trading", altcoinist: "✗", competitor: "✓ (auto-mirror)", winner: "competitor" as const },
@@ -51,7 +51,7 @@ const faqItems = [
   },
   {
     question: "Should I use a Base-specific bot or a multi-chain bot?",
-    answer: "Unless you'll exclusively trade on Base forever, a multi-chain bot saves you from switching tools later. Altcoinist gives you Base as a primary chain plus Solana, Ethereum, BNB, Monad, and Hyperliquid. Many traders start on Base then expand to Solana memecoins — having one bot that covers both is more practical than maintaining multiple.",
+    answer: "Unless you'll exclusively trade on Base forever, a multi-chain bot saves you from switching tools later. Altcoinist gives you Base as a primary chain plus Solana, Ethereum, BNB, and Monad. Many traders start on Base then expand to Solana memecoins — having one bot that covers both is more practical than maintaining multiple.",
   },
 ];
 
@@ -109,7 +109,7 @@ export default function AltcoinistVsBasedbotPage() {
           </h1>
           <div style={{ background: "#111", border: "1px solid #1e3a2a", borderRadius: 10, padding: "1rem 1.25rem", borderLeft: "3px solid #00ff88" }}>
             <p style={{ color: "#cccccc", lineHeight: 1.7, fontSize: "0.9rem", margin: 0 }}>
-              <strong style={{ color: "#fff" }}>TL;DR:</strong> Both serve Base chain traders, but Altcoinist is a full multi-chain trading platform while Basedbot focuses specifically on Base. Altcoinist offers smart routing across 100+ DEXs on 7 chains with stealth trading. Choose Altcoinist if you trade on multiple chains or want superior routing; choose Basedbot if you exclusively trade on Base and prefer chain-specific specialization.
+              <strong style={{ color: "#fff" }}>TL;DR:</strong> Both serve Base chain traders, but Altcoinist is a full multi-chain trading platform while Basedbot focuses specifically on Base. Altcoinist offers smart routing across 100+ DEXs on 6 chains with stealth trading. Choose Altcoinist if you trade on multiple chains or want superior routing; choose Basedbot if you exclusively trade on Base and prefer chain-specific specialization.
             </p>
           </div>
         </header>

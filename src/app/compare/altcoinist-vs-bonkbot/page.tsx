@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 const rows = [
   {
     feature: "Chains Supported",
-    altcoinist: "7 (Base, ETH, SOL, BNB, Monad, Hyperliquid, EVM)",
+    altcoinist: "7 (Base, ETH, SOL, BNB, Monad, EVM)",
     competitor: "Solana only",
     winner: "altcoinist" as const,
   },
@@ -101,12 +101,12 @@ const faqItems = [
   {
     question: "Is BonkBot or Altcoinist better for Solana memecoin trading?",
     answer:
-      "For pure Solana memecoin trading, BonkBot is the established leader — 387,000+ users, $7B+ in total volume, and native Jupiter routing optimized for Solana speed. Altcoinist is the better choice if you trade memecoins across multiple chains: it supports Solana alongside Base, Ethereum, BNB Chain, Monad, and Hyperliquid from a single Telegram bot. Many serious memecoin traders run both — BonkBot for Solana speed, Altcoinist for multi-chain coverage.",
+      "For pure Solana memecoin trading, BonkBot is the established leader — 387,000+ users, $7B+ in total volume, and native Jupiter routing optimized for Solana speed. Altcoinist is the better choice if you trade memecoins across multiple chains: it supports Solana alongside Base, Ethereum, BNB Chain, and Monad from a single Telegram bot. Many serious memecoin traders run both — BonkBot for Solana speed, Altcoinist for multi-chain coverage.",
   },
   {
     question: "Can BonkBot trade on Base chain or Ethereum?",
     answer:
-      "No. BonkBot is a Solana-native trading bot and does not support Base, Ethereum, BNB Chain, or other EVM networks. If you trade on multiple chains — especially Base, which has seen explosive memecoin growth in 2026 — you need a separate bot for non-Solana trades. Altcoinist supports 7 chains (Base, Ethereum, Solana, BNB, Monad, Hyperliquid, and EVM) from a single Telegram interface.",
+      "No. BonkBot is a Solana-native trading bot and does not support Base, Ethereum, BNB Chain, or other EVM networks. If you trade on multiple chains — especially Base, which has seen explosive memecoin growth in 2026 — you need a separate bot for non-Solana trades. Altcoinist supports 6 chains (Base, Ethereum, Solana, BNB, Monad, and EVM) from a single Telegram interface.",
   },
   {
     question: "What are BonkBot's fees compared to Altcoinist?",
@@ -199,7 +199,7 @@ export default function AltcoinistVsBonkBotPage() {
           </h1>
           <div style={{ background: "#111", border: "1px solid #1e3a2a", borderRadius: 10, padding: "1rem 1.25rem", borderLeft: "3px solid #00ff88" }}>
             <p style={{ color: "#cccccc", lineHeight: 1.7, fontSize: "0.9rem", margin: 0 }}>
-              <strong style={{ color: "#fff" }}>TL;DR:</strong> BonkBot is Solana&apos;s dominant Telegram trading bot — 387,000+ users, $7B+ in volume, and the fastest native SOL execution available. Altcoinist is built for multi-chain traders: 7 chains (including Solana), 2–16x better execution fills via Definitive.fi smart routing, and built-in signal aggregation from 300+ caller groups. For Solana-only trading, BonkBot is hard to beat. For everything else — or if you trade across chains — Altcoinist is the stronger choice.
+              <strong style={{ color: "#fff" }}>TL;DR:</strong> BonkBot is Solana&apos;s dominant Telegram trading bot — 387,000+ users, $7B+ in volume, and the fastest native SOL execution available. Altcoinist is built for multi-chain traders: 6 chains (including Solana), 2–16x better execution fills via Definitive.fi smart routing, and built-in signal aggregation from 300+ caller groups. For Solana-only trading, BonkBot is hard to beat. For everything else — or if you trade across chains — Altcoinist is the stronger choice.
             </p>
           </div>
         </header>
@@ -216,7 +216,7 @@ export default function AltcoinistVsBonkBotPage() {
               <strong>Altcoinist:</strong> Routes every trade through Definitive.fi, checking 100+ DEXs and 15 private market makers simultaneously to find the best available price. In 400+ independent head-to-head tests, this approach delivered 2–16x better fills compared to bots using single-DEX routing. The advantage is more pronounced on larger trades where slippage matters most.
             </p>
             <p>
-              <strong>BonkBot:</strong> Uses Jupiter aggregation plus proprietary routing logic optimized for Solana. For pure Solana trades, BonkBot&apos;s native infrastructure delivers sub-second execution. The tradeoff is scope — BonkBot&apos;s optimization is Solana-specific, while Altcoinist routes across 7 chains.
+              <strong>BonkBot:</strong> Uses Jupiter aggregation plus proprietary routing logic optimized for Solana. For pure Solana trades, BonkBot&apos;s native infrastructure delivers sub-second execution. The tradeoff is scope — BonkBot&apos;s optimization is Solana-specific, while Altcoinist routes across 6 chains.
             </p>
             <div style={{ background: "#111", border: "1px solid #1e1e1e", borderRadius: 8, padding: "1rem 1.25rem" }}>
               <p style={{ color: "#00ff88", fontWeight: 700, marginBottom: "0.25rem", fontSize: "0.875rem" }}>VERDICT: Different strengths</p>
@@ -230,7 +230,7 @@ export default function AltcoinistVsBonkBotPage() {
               BonkBot is built for one chain: Solana. That&apos;s a deliberate product decision that enables deep Solana optimization. But in 2026, the most active memecoin traders operate across multiple chains — Base has seen consistent growth, Ethereum still hosts the largest blue-chip DeFi positions, and BNB Chain remains high-activity.
             </p>
             <p>
-              Altcoinist supports 7 chains from a single Telegram bot: Base, Ethereum, Solana, BNB Chain, Monad, Hyperliquid, and EVM. That means one wallet setup, one bot command interface, and unified PnL tracking regardless of which chain a trade is on.
+              Altcoinist supports 6 chains from a single Telegram bot: Base, Ethereum, Solana, BNB Chain, Monad, and EVM. That means one wallet setup, one bot command interface, and unified PnL tracking regardless of which chain a trade is on.
             </p>
             <div style={{ background: "#111", border: "1px solid #1e1e1e", borderRadius: 8, padding: "1rem 1.25rem" }}>
               <p style={{ color: "#00ff88", fontWeight: 700, marginBottom: "0.25rem", fontSize: "0.875rem" }}>VERDICT: Altcoinist wins on coverage</p>

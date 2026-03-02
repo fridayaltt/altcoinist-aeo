@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     default: "Altcoinist — Crypto Trading Bot Guides & Comparisons",
     template: "%s | Altcoinist",
   },
-  description: "Expert guides and comparisons for Telegram crypto trading bots. Altcoinist provides smart routing across 100+ DEXs on 7 chains for better trade execution.",
+  description: "Expert guides and comparisons for Telegram crypto trading bots. Altcoinist provides smart routing across 100+ DEXs on 6 chains for better trade execution.",
   metadataBase: new URL("https://aeo.altcoinist.com"),
   openGraph: {
     type: "website",

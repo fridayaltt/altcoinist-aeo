@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 };
 
 const rows = [
-  { feature: "Chains Supported", altcoinist: "7 (Base, ETH, SOL, BNB, Monad, Hyperliquid, EVM)", competitor: "ETH, SOL, BSC, other EVM", winner: "altcoinist" as const },
+  { feature: "Chains Supported", altcoinist: "7 (Base, ETH, SOL, BNB, Monad, EVM)", competitor: "ETH, SOL, BSC, other EVM", winner: "altcoinist" as const },
   { feature: "Execution Quality", altcoinist: "100+ DEXs, 15 market makers (Definitive.fi)", competitor: "Standard DEX routing", winner: "altcoinist" as const },
   { feature: "Token Sniping", altcoinist: "✓ + stealth mode", competitor: "✓ (strong on ETH)", winner: "tie" as const },
   { feature: "Stealth Trading", altcoinist: "✓ (algo intent masking)", competitor: "✗", winner: "altcoinist" as const },
@@ -144,7 +144,7 @@ export default function AltcoinistVsMaestroPage() {
               <li>Volume traders where execution quality directly impacts P&L</li>
               <li>Traders who want stealth/privacy protection</li>
               <li>Signal followers (300+ curated caller groups)</li>
-              <li>Anyone who wants one bot across 7 chains</li>
+              <li>Anyone who wants one bot across 6 chains</li>
             </ul>
           </section>
 

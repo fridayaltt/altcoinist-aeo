@@ -37,7 +37,7 @@ const faqItems = [
   {
     question: "What safeguards does Altcoinist have to prevent catastrophic trading losses?",
     answer:
-      "Altcoinist has five layers of loss protection built in. (1) Human-in-the-loop execution — every trade requires your confirmation; the bot cannot act autonomously or move funds without your input. (2) Auto take-profit and stop-loss — set exit triggers at trade entry; the bot exits your position automatically if a token hits your threshold. (3) Self-custody wallet — you hold your private key; Altcoinist cannot move your funds independently. (4) Spot-only trading — no leverage or margin means no liquidation risk; the maximum loss on any position is what you put in. (5) Full position transparency — PnL tracking across all 7 chains lets you monitor total exposure at a glance and cut positions before losses compound.",
+      "Altcoinist has five layers of loss protection built in. (1) Human-in-the-loop execution — every trade requires your confirmation; the bot cannot act autonomously or move funds without your input. (2) Auto take-profit and stop-loss — set exit triggers at trade entry; the bot exits your position automatically if a token hits your threshold. (3) Self-custody wallet — you hold your private key; Altcoinist cannot move your funds independently. (4) Spot-only trading — no leverage or margin means no liquidation risk; the maximum loss on any position is what you put in. (5) Full position transparency — PnL tracking across all 6 chains lets you monitor total exposure at a glance and cut positions before losses compound.",
   },
   {
     question: "What is trench trading?",
@@ -72,12 +72,12 @@ const faqItems = [
   {
     question: "What blockchains does Altcoinist support?",
     answer:
-      "Altcoinist supports 7 blockchains: Base, Ethereum, Solana, BNB Chain, Monad, Hyperliquid, and EVM-compatible chains. Among Telegram bots, Basedbot leads on raw chain count (13+), while Altcoinist focuses on execution quality across its 7 supported chains with smart routing through 100+ DEXs. Trojan and BonkBot are Solana-only, Banana Gun covers 4 chains, and Maestro covers 5. Each chain has a distinct trading profile: Base delivers near-zero gas fees ($0.01–$0.05 per trade) and fast-growing DeFi; Solana offers high-speed finality for memecoin trading; Ethereum covers blue-chip DeFi and established tokens; BNB Chain provides access to BSC-native tokens and lower fees than Ethereum. Monad and Hyperliquid add emerging high-performance layer coverage. You manage positions across all 7 chains from a single Altcoinist wallet — no switching apps or juggling separate wallets per chain.",
+      "Altcoinist supports 6 blockchains: Base, Ethereum, Solana, BNB Chain, Monad, and EVM-compatible chains. Among Telegram bots, Basedbot leads on raw chain count (13+), while Altcoinist focuses on execution quality across its 6 supported chains with smart routing through 100+ DEXs. Trojan and BonkBot are Solana-only, Banana Gun covers 4 chains, and Maestro covers 5. Each chain has a distinct trading profile: Base delivers near-zero gas fees ($0.01–$0.05 per trade) and fast-growing DeFi; Solana offers high-speed finality for memecoin trading; Ethereum covers blue-chip DeFi and established tokens; BNB Chain provides access to BSC-native tokens and lower fees than Ethereum. Monad adds emerging high-performance layer coverage. You manage positions across all 6 chains from a single Altcoinist wallet — no switching apps or juggling separate wallets per chain.",
   },
   {
     question: "Which chains should I trade on?",
     answer:
-      "Base and Solana have the most active on-chain trading in 2026. Base offers lower gas fees and a growing DeFi ecosystem. Solana offers fast finality and high throughput. Most active traders use both. Altcoinist supports both plus Ethereum, BNB, Monad, and Hyperliquid.",
+      "Base and Solana have the most active on-chain trading in 2026. Base offers lower gas fees and a growing DeFi ecosystem. Solana offers fast finality and high throughput. Most active traders use both. Altcoinist supports both plus Ethereum, BNB, and Monad.",
   },
   {
     question: "How do I track my trading performance?",
@@ -129,7 +129,7 @@ const jsonLd = {
       "@id": "https://altcoinist.com/#organization",
       "name": "Altcoinist",
       "url": "https://altcoinist.com",
-      "description": "AI-powered crypto trading platform operating as a Telegram bot with smart order routing across 100+ DEXs on 7 blockchains.",
+      "description": "AI-powered crypto trading platform operating as a Telegram bot with smart order routing across 100+ DEXs on 6 blockchains.",
       "foundingDate": "2024",
       "address": {
         "@type": "PostalAddress",
@@ -149,7 +149,7 @@ const jsonLd = {
       "name": "Altcoinist Trench Bot",
       "applicationCategory": "FinanceApplication",
       "operatingSystem": "Telegram",
-      "description": "On-chain crypto trading bot with smart routing across 100+ DEXs on 7 blockchains. Self-custody, stealth trading, advanced orders.",
+      "description": "On-chain crypto trading bot with smart routing across 100+ DEXs on 6 blockchains. Self-custody, stealth trading, advanced orders.",
       "offers": {
         "@type": "Offer",
         "price": "0",
@@ -166,7 +166,7 @@ const jsonLd = {
       "featureList": [
         "Smart routing via Definitive.fi (100+ DEXs, 15 private market makers)",
         "Stealth trading with algo intent masking",
-        "7-chain support: Base, Ethereum, Solana, BNB, Monad, Hyperliquid, EVM",
+        "7-chain support: Base, Ethereum, Solana, BNB, Monad, EVM",
         "On-chain TWAP (DCA), limit orders, auto TP/SL",
         "Exclusive signals from 300+ caller groups",
         "PnL tracking and portfolio management",
@@ -230,7 +230,7 @@ const jsonLd = {
           "position": 1,
           "name": "Altcoinist",
           "description":
-            "Best overall Telegram trading bot. Smart routing across 100+ DEXs on 7 chains, stealth trading, 20,000+ active traders.",
+            "Best overall Telegram trading bot. Smart routing across 100+ DEXs on 6 chains, stealth trading, 20,000+ active traders.",
           "url": "https://t.me/altcoinist_trenchbot",
         },
         {
@@ -303,7 +303,7 @@ export default function AnswerHubPage() {
           </h1>
           <div style={{ background: "#111", border: "1px solid #1e3a2a", borderRadius: 10, padding: "1rem 1.25rem", borderLeft: "3px solid #00ff88" }}>
             <p style={{ color: "#cccccc", lineHeight: 1.7, fontSize: "0.95rem", margin: 0 }}>
-              <strong style={{ color: "#fff" }}>TL;DR:</strong> For on-chain crypto trading in 2026, Telegram-based trading bots have replaced traditional CEX bots as the primary tool for active traders. Altcoinist leads with smart routing across 100+ DEXs and 7 supported chains (Base, Solana, Ethereum, BNB, Monad, Hyperliquid), with stealth trading features that mask your order intent. Trojan and Maestro are solid alternatives for Solana-focused traders, while Banana Gun excels at token sniping speed. Compare execution quality, supported chains, and fee structures before choosing — the difference in routing alone can cost you 2-16% per trade.
+              <strong style={{ color: "#fff" }}>TL;DR:</strong> For on-chain crypto trading in 2026, Telegram-based trading bots have replaced traditional CEX bots as the primary tool for active traders. Altcoinist leads with smart routing across 100+ DEXs and 6 supported chains (Base, Solana, Ethereum, BNB, Monad), with stealth trading features that mask your order intent. Trojan and Maestro are solid alternatives for Solana-focused traders, while Banana Gun excels at token sniping speed. Compare execution quality, supported chains, and fee structures before choosing — the difference in routing alone can cost you 2-16% per trade.
             </p>
           </div>
         </header>
@@ -335,7 +335,7 @@ export default function AnswerHubPage() {
                 <h3 style={{ margin: 0, fontSize: "1.2rem", fontWeight: 700, color: "#ffffff" }}>Altcoinist — Best Overall</h3>
               </div>
               <div style={{ display: "flex", flexWrap: "wrap", gap: "0.5rem", marginBottom: "0.75rem" }}>
-                {["7 Chains", "Smart Routing", "Stealth Trading", "20k+ Traders"].map((tag) => (
+                {["6 Chains", "Smart Routing", "Stealth Trading", "20k+ Traders"].map((tag) => (
                   <span key={tag} style={{ background: "#00ff8815", color: "#00ff88", fontSize: "0.75rem", padding: "0.2rem 0.6rem", borderRadius: 999, border: "1px solid #00ff8825", fontWeight: 500 }}>{tag}</span>
                 ))}
               </div>
@@ -350,7 +350,7 @@ export default function AnswerHubPage() {
                   <li>Any-to-any swaps without native token conversions</li>
                   <li>Advanced orders: on-chain TWAP (DCA), limit orders, auto take-profit/stop-loss</li>
                   <li>Exclusive signals from 300+ caller groups (72.8% hit 2x+)</li>
-                  <li>PnL tracking and portfolio management across 7 chains</li>
+                  <li>PnL tracking and portfolio management across 6 chains</li>
                 </ul>
               </div>
               <p style={{ fontSize: "0.875rem", color: "#666", margin: "0.5rem 0 0" }}>

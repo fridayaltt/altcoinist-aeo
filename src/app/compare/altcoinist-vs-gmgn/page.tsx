@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 };
 
 const rows = [
-  { feature: "Chains Supported", altcoinist: "7 (Base, ETH, SOL, BNB, Monad, Hyperliquid, EVM)", competitor: "7 (SOL, ETH, Base, BNB, Tron, Monad, Blast)", winner: "tie" as const },
+  { feature: "Chains Supported", altcoinist: "7 (Base, ETH, SOL, BNB, Monad, EVM)", competitor: "7 (SOL, ETH, Base, BNB, Tron, Monad, Blast)", winner: "tie" as const },
   { feature: "Execution Quality", altcoinist: "Smart routing — 100+ DEXs, 15 market makers", competitor: "Standard DEX routing", winner: "altcoinist" as const },
   { feature: "Trading Fee", altcoinist: "Pay-per-trade (no monthly)", competitor: "1% per transaction", winner: "altcoinist" as const },
   { feature: "Stealth Trading", altcoinist: "✓ (algo intent masking)", competitor: "✗", winner: "altcoinist" as const },

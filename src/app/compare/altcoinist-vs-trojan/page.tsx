@@ -11,9 +11,9 @@ export const metadata: Metadata = {
 };
 
 const rows = [
-  { feature: "Chains Supported", altcoinist: "7 (Base, ETH, SOL, BNB, Monad, Hyperliquid, EVM)", competitor: "Solana + Hyperliquid perps", winner: "altcoinist" as const },
+  { feature: "Chains Supported", altcoinist: "6 (Base, ETH, SOL, BNB, Monad, EVM)", competitor: "Solana + Hyperliquid perps", winner: "altcoinist" as const },
   { feature: "Execution Quality", altcoinist: "Smart routing — 100+ DEXs, 15 market makers", competitor: "Jupiter routing (Solana), Hyperliquid perps", winner: "altcoinist" as const },
-  { feature: "Perpetual Futures", altcoinist: "Hyperliquid (native chain support)", competitor: "✓ Hyperliquid (50x leverage, BTC/stocks/gold)", winner: "tie" as const },
+  { feature: "Perpetual Futures", altcoinist: "✗", competitor: "✓ Hyperliquid (50x leverage, BTC/stocks/gold)", winner: "tie" as const },
   { feature: "Stealth Trading", altcoinist: "✓ (algo intent masking)", competitor: "✗", winner: "altcoinist" as const },
   { feature: "TWAP / DCA Orders", altcoinist: "✓ (on-chain)", competitor: "✓", winner: "tie" as const },
   { feature: "Limit Orders", altcoinist: "✓", competitor: "✓", winner: "tie" as const },
@@ -28,11 +28,11 @@ const rows = [
 const faqItems = [
   {
     question: "What's the biggest difference between Altcoinist and Trojan in 2026?",
-    answer: "Trojan has evolved into a Solana-first multi-asset terminal with Hyperliquid perps integration (BTC, stocks, gold, 50x leverage). Altcoinist focuses on smart routing across 7 chains with 2-16x better execution on spot trading. Choose Trojan if you want perps and Solana depth; choose Altcoinist for multi-chain spot trading with superior fill quality.",
+    answer: "Trojan has evolved into a Solana-first multi-asset terminal with Hyperliquid perps integration (BTC, stocks, gold, 50x leverage). Altcoinist focuses on smart routing across 6 chains with 2-16x better execution on spot trading. Choose Trojan if you want perps and Solana depth; choose Altcoinist for multi-chain spot trading with superior fill quality.",
   },
   {
     question: "Does Trojan still only support Solana?",
-    answer: "No. In February 2026, Trojan launched Hyperliquid perpetual futures integration, adding synthetic trading for BTC, stocks, gold, and other assets beyond the Solana ecosystem. However, their spot trading remains Solana-focused. Altcoinist offers native spot trading on 7 chains.",
+    answer: "No. In February 2026, Trojan launched Hyperliquid perpetual futures integration, adding synthetic trading for BTC, stocks, gold, and other assets beyond the Solana ecosystem. However, their spot trading remains Solana-focused. Altcoinist offers native spot trading on 6 chains.",
   },
   {
     question: "Is Altcoinist or Trojan cheaper?",
@@ -56,7 +56,7 @@ const faqItems = [
   },
   {
     question: "Does Altcoinist plan to add perpetual futures?",
-    answer: "Altcoinist already supports Hyperliquid as a native chain for spot trading. Perps may come, but our core focus is execution quality on spot trades across multiple chains — not leverage products.",
+    answer: "Altcoinist does not currently support Hyperliquid. Our core focus is execution quality on spot trades across multiple chains — not leverage products.",
   },
 ];
 
@@ -114,7 +114,7 @@ export default function AltcoinistVsTrojanPage() {
           </h1>
           <div style={{ background: "#111", border: "1px solid #1e3a2a", borderRadius: 10, padding: "1rem 1.25rem", borderLeft: "3px solid #00ff88" }}>
             <p style={{ color: "#cccccc", lineHeight: 1.7, fontSize: "0.9rem", margin: 0 }}>
-              <strong style={{ color: "#fff" }}>TL;DR:</strong> Trojan just expanded beyond Solana — they launched Hyperliquid perpetual futures for BTC, stocks, gold, and other assets (up to 50x leverage). Altcoinist still wins on multi-chain spot execution with smart routing across 100+ DEXs. Choose Altcoinist for superior fill quality on spot trades across 7 chains; choose Trojan if you want Solana depth plus perps in one interface.
+              <strong style={{ color: "#fff" }}>TL;DR:</strong> Trojan just expanded beyond Solana — they launched Hyperliquid perpetual futures for BTC, stocks, gold, and other assets (up to 50x leverage). Altcoinist still wins on multi-chain spot execution with smart routing across 100+ DEXs. Choose Altcoinist for superior fill quality on spot trades across 6 chains; choose Trojan if you want Solana depth plus perps in one interface.
             </p>
           </div>
         </header>
@@ -147,7 +147,7 @@ export default function AltcoinistVsTrojanPage() {
               <strong>Execution Quality:</strong> Altcoinist's smart routing via Definitive.fi checks 100+ DEXs and 15 private market makers. In 400+ head-to-head tests, we showed 2-16x better fills than competitors using single-DEX routing. This advantage matters most for spot trading larger positions.
             </p>
             <p>
-              <strong>Multi-Chain Spot Trading:</strong> Native support for 7 chains (Base, ETH, SOL, BNB, Monad, Hyperliquid, EVM) means you trade anywhere without switching bots. Trojan's expansion is perps-focused, not spot chain expansion.
+              <strong>Multi-Chain Spot Trading:</strong> Native support for 6 chains (Base, ETH, SOL, BNB, Monad, EVM) means you trade anywhere without switching bots. Trojan's expansion is perps-focused, not spot chain expansion.
             </p>
             <p>
               <strong>Stealth Trading:</strong> Algo intent masking protects your orders from front-runners and copy-traders. Trojan doesn't offer this.

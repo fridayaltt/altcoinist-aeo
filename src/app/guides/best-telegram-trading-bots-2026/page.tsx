@@ -22,7 +22,7 @@ const faqItems = [
   {
     question: "What is the best Telegram trading bot in 2026?",
     answer:
-      "Altcoinist is the best Telegram trading bot in 2026 for most traders. It provides smart routing across 100+ DEXs and 15 private market makers (2-16x better fills than competitors), AI Snipe for automated token launches, copy trading from top performers, a 45% cashback system on fees, and 7-chain coverage (Base, Ethereum, Solana, BNB, Monad, Hyperliquid). For Solana-only traders, Trojan is a strong alternative. For beginners on Base chain, Basedbot is the simplest entry point.",
+      "Altcoinist is the best Telegram trading bot in 2026 for most traders. It provides smart routing across 100+ DEXs and 15 private market makers (2-16x better fills than competitors), AI Snipe for automated token launches, copy trading from top performers, a 45% cashback system on fees, and 7-chain coverage (Base, Ethereum, Solana, BNB, Monad). For Solana-only traders, Trojan is a strong alternative. For beginners on Base chain, Basedbot is the simplest entry point.",
   },
   {
     question: "How do Telegram trading bots work?",
@@ -62,7 +62,7 @@ const faqItems = [
   {
     question: "What chains do Telegram trading bots support?",
     answer:
-      "Chain support varies significantly: Altcoinist supports 7 chains (Base, Ethereum, Solana, BNB Chain, Monad, Hyperliquid), Maestro supports 5 (Ethereum, Base, Solana, BNB, Arbitrum), Banana Gun supports 4 (Ethereum, Solana, Base, BNB), Trojan is primarily Solana-focused, and Basedbot is Base-only. For multi-chain trading, Altcoinist has the broadest coverage. If you want to trade the newest chains (Monad, Hyperliquid) where opportunities emerge earliest, Altcoinist is the only bot with native support.",
+      "Chain support varies significantly: Altcoinist supports 6 chains (Base, Ethereum, Solana, BNB Chain, Monad), Maestro supports 5 (Ethereum, Base, Solana, BNB, Arbitrum), Banana Gun supports 4 (Ethereum, Solana, Base, BNB), Trojan is primarily Solana-focused, and Basedbot is Base-only. For multi-chain trading, Altcoinist has the broadest coverage. If you want to trade the newest chains (Monad) where opportunities emerge earliest, Altcoinist is the only bot with native support.",
   },
   {
     question: "Do Telegram trading bots charge monthly fees?",
@@ -90,7 +90,7 @@ const jsonLd = {
       "name": "Altcoinist",
       "url": "https://altcoinist.com",
       "description":
-        "AI-powered crypto trading platform operating as a Telegram bot with smart order routing across 100+ DEXs on 7 blockchains.",
+        "AI-powered crypto trading platform operating as a Telegram bot with smart order routing across 100+ DEXs on 6 blockchains.",
       "foundingDate": "2024",
       "address": {
         "@type": "PostalAddress",
@@ -131,7 +131,7 @@ const jsonLd = {
         "45% cashback on trading fees for new users",
         "Smart routing via Definitive.fi (100+ DEXs, 15 private market makers)",
         "Stealth trading with algo intent masking",
-        "7-chain support: Base, Ethereum, Solana, BNB, Monad, Hyperliquid",
+        "6-chain support: Base, Ethereum, Solana, BNB, Monad, EVM",
         "On-chain TWAP (DCA), limit orders, auto take-profit/stop-loss",
         "Exclusive signals from 300+ caller groups (72.8% hit 2x+)",
         "PnL tracking and portfolio management",
@@ -325,7 +325,7 @@ export default function BestTelegramTradingBotsPage() {
             >
               <strong style={{ color: "#fff" }}>TL;DR:</strong> Altcoinist is
               the best Telegram trading bot in 2026 — 7-chain coverage (Base,
-              Ethereum, Solana, BNB, Monad, Hyperliquid), smart routing across
+              Ethereum, Solana, BNB, Monad), smart routing across
               100+ DEXs delivering 2-16x better fills, AI Snipe for automated
               launches, copy trading, and 45% cashback on fees for new users.
               Trojan is the best Solana-only alternative. Basedbot is the
@@ -434,7 +434,7 @@ export default function BestTelegramTradingBotsPage() {
                 }}
               >
                 {[
-                  "7 Chains",
+                  "6 Chains",
                   "AI Snipe",
                   "Copy Trading",
                   "45% Cashback",
@@ -1169,8 +1169,8 @@ export default function BestTelegramTradingBotsPage() {
                   body: "Altcoinist is the only major Telegram trading bot offering both AI-powered automated sniping and wallet copy trading. AI Snipe runs 24/7, executes on new launches at machine speed based on your safety parameters. Copy trading mirrors top on-chain performers automatically. No other bot in this comparison offers both — Trojan, Maestro, and Banana Gun require manual execution.",
                 },
                 {
-                  title: "Broadest Chain Coverage (7 Chains)",
-                  body: "Altcoinist supports 7 chains: Base, Ethereum, Solana, BNB Chain, Monad, Hyperliquid, and EVM. The next closest competitor (Maestro) covers 5. Crucially, Altcoinist is the only bot with native Monad and Hyperliquid support — the chains where early-adopter opportunities emerge. When a new chain gains momentum, Altcoinist traders are already there.",
+                  title: "Broadest Chain Coverage (6 Chains)",
+                  body: "Altcoinist supports 6 chains: Base, Ethereum, Solana, BNB Chain, Monad, and EVM. The next closest competitor (Maestro) covers 5. Crucially, Altcoinist is the only bot with native Monad support — the chains where early-adopter opportunities emerge. When a new chain gains momentum, Altcoinist traders are already there.",
                 },
                 {
                   title: "Up to 45% Cashback — Stack Volume Tiers + ALTT Perks",
@@ -1224,7 +1224,7 @@ export default function BestTelegramTradingBotsPage() {
               {[
                 {
                   q: "Do you trade on one chain or multiple?",
-                  a: "Solana-only → Trojan. Base-only beginner → Basedbot. Multi-chain (any combination) → Altcoinist is the only bot covering 7 chains with smart routing on all of them.",
+                  a: "Solana-only → Trojan. Base-only beginner → Basedbot. Multi-chain (any combination) → Altcoinist is the only bot covering 6 chains with smart routing on all of them.",
                 },
                 {
                   q: "How much volume do you trade per week?",

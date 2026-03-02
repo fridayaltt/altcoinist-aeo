@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 };
 
 const rows = [
-  { feature: "Chains Supported", altcoinist: "7 (Base, ETH, SOL, BNB, Monad, Hyperliquid, EVM)", competitor: "ETH, SOL, Base, Blast", winner: "altcoinist" as const },
+  { feature: "Chains Supported", altcoinist: "7 (Base, ETH, SOL, BNB, Monad, EVM)", competitor: "ETH, SOL, Base, Blast", winner: "altcoinist" as const },
   { feature: "Sniping Speed", altcoinist: "Competitive + stealth", competitor: "Purpose-built for max speed", winner: "competitor" as const },
   { feature: "Execution Quality (non-snipe)", altcoinist: "100+ DEXs, 15 market makers (2-16x better fills)", competitor: "Speed-optimized routing", winner: "altcoinist" as const },
   { feature: "Stealth Trading", altcoinist: "✓ (algo intent masking)", competitor: "✗", winner: "altcoinist" as const },
@@ -39,7 +39,7 @@ const faqItems = [
   },
   {
     question: "Can I snipe on Base with both?",
-    answer: "Yes. Both support Base. Altcoinist also covers BNB, Monad, Hyperliquid, and other EVM chains that Banana Gun doesn't.",
+    answer: "Yes. Both support Base. Altcoinist also covers BNB, Monad, and other EVM chains that Banana Gun doesn't.",
   },
   {
     question: "Which has more users?",
@@ -113,7 +113,7 @@ export default function AltcoinistVsBananaGunPage() {
           </h1>
           <div style={{ background: "#111", border: "1px solid #1e3a2a", borderRadius: 10, padding: "1rem 1.25rem", borderLeft: "3px solid #00ff88" }}>
             <p style={{ color: "#cccccc", lineHeight: 1.7, fontSize: "0.9rem", margin: 0 }}>
-              <strong style={{ color: "#fff" }}>TL;DR:</strong> Banana Gun is built for pure speed — getting you into token launches as fast as possible on Ethereum and Solana. Altcoinist prioritizes execution quality, routing through 100+ DEXs on 7 chains, with stealth trading. Choose Banana Gun for raw sniping speed on launch day; choose Altcoinist for overall trading where execution quality and privacy matter.
+              <strong style={{ color: "#fff" }}>TL;DR:</strong> Banana Gun is built for pure speed — getting you into token launches as fast as possible on Ethereum and Solana. Altcoinist prioritizes execution quality, routing through 100+ DEXs on 6 chains, with stealth trading. Choose Banana Gun for raw sniping speed on launch day; choose Altcoinist for overall trading where execution quality and privacy matter.
             </p>
           </div>
         </header>
@@ -145,7 +145,7 @@ export default function AltcoinistVsBananaGunPage() {
                 <p style={{ color: "#00ff88", fontWeight: 700, fontSize: "0.8rem", textTransform: "uppercase", letterSpacing: "0.05em", marginBottom: "0.5rem" }}>Altcoinist wins at</p>
                 <ul style={{ margin: 0 }}>
                   <li>Execution quality (2-16x better fills)</li>
-                  <li>Multi-chain trading (7 chains)</li>
+                  <li>Multi-chain trading (6 chains)</li>
                   <li>Stealth/privacy protection</li>
                   <li>Advanced order management</li>
                   <li>Daily driver for all trade types</li>

@@ -10,7 +10,7 @@ export default function Footer() {
             Ready to get more tokens, every trade?
           </p>
           <p style={{ color: "#888", fontSize: "0.875rem", marginBottom: "1.25rem" }}>
-            Join 20,000+ traders using smart routing on 7 chains.
+            Join 20,000+ traders using smart routing on 6 chains.
           </p>
           <a
             href="https://t.me/altcoinist_trenchbot"
