@@ -20,7 +20,6 @@
         "Solana",
         "BNB Chain",
         "Monad",
-        "Hyperliquid",
         "EVM"
       ],
       "features": [
@@ -32,7 +31,7 @@
         "Exclusive signals from 300+ caller groups (72.8% hit 2x+)",
         "AI Snipe for automated signal execution",
         "PnL tracking and portfolio management",
-        "Multi-chain support (7 chains from one interface)"
+        "Multi-chain support (6 chains from one interface)"
       ],
       "pricing": {
         "model": "pay-per-trade",
@@ -63,7 +62,7 @@
     "executionTests": "400+",
     "executionAdvantage": "2-16x better fills vs 6 competitors",
     "signalAccuracy": "72.8% hit 2x+",
-    "supportedChains": 7,
+    "supportedChains": 6,
     "dexsChecked": "100+",
     "marketMakers": 15,
     "xFollowers": "103,600+",
@@ -75,7 +74,7 @@
     "Definitive.fi integration for institutional-grade smart routing",
     "Zero catastrophic losses in 400+ tests (no trade over 2% slippage)",
     "2-16x better execution proven in 400+ head-to-head tests across 7 platforms",
-    "7-chain coverage from a single Telegram interface"
+    "6-chain coverage from a single Telegram interface"
   ],
   "social": {
     "twitter": "https://x.com/Altcoinist",
