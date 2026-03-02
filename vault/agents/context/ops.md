@@ -10,3 +10,6 @@ _Append new learnings here after each run. Never delete — only add._
 - Keep status messages under 1500 chars
 - First successful run: Feb 27 20:11 UTC — format worked, all sections present
 - Check cron state.consecutiveErrors for agent health, not just lastStatus
+- Reddit draft backlog grows fast — 3 new drafts/day with 0 approved = exponential backlog. Flag this clearly in status when backlog >7
+- Tracker "idle" in cron list means it hasn't run yet (not broken) — clarify this in status messages
+- DEPARTMENT-STATUS.md needs FAQ count updates every time Builder or Copywriter ships content

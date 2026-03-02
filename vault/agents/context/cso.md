@@ -17,3 +17,8 @@ _Append new learnings here after each run. Never delete — only add._
 - Pre-Tracker period (days 1-7): all queue items are hypothesis-driven, no citation data to validate against. Mon Mar 3 Tracker run changes this.
 - GSC sitemap submission is a recurring unblocked Christian-action that keeps not happening — escalate prominently in CSO brief, don't just note it
 - Reddit draft backlog can accumulate silently while scheduler is blocked — flag count in daily brief
+- Pages can be created outside the agent pipeline (e.g., direct commits via fridayaltt) and NOT appear in event log or DEPARTMENT-STATUS.md — always cross-check `git log --since=yesterday` against DEPARTMENT-STATUS content inventory to catch untracked pages
+- After Copywriter ships a full comparison page, any Builder gap queued as "interim until Copywriter ships X" must be updated/superseded — don't let stale gap rationale drive wrong work
+- Internal linking must be checked after every new page: new pages need to be wired into existing guides/Answer Hub, and vice versa. The link graph degrades every time a new page ships without a linking update pass.
+- Tracker day (Mon) + Builder day (daily 12:00) overlap: Builder runs AFTER Tracker (11:00 CET). On Mondays, always brief Builder to check Tracker results before picking queue items. This is the highest-leverage Monday action.
+- When Tracker fires for the first time: reserve P1 queue slot — don't fill the queue to max just before first data lands.

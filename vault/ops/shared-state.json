@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_updated": "2026-03-02T09:00:00Z",
+  "last_updated": "2026-03-02T08:31:25Z",
   "agents": {
     "research": {
       "last_run": null,
@@ -22,7 +22,7 @@
       "last_run": "2026-03-02T09:00:00Z",
       "gaps_found_today": 1,
       "status": "ok",
-      "note": "Updated gap-003 (internal linking catch-up: Answer Hub + Telegram guide → BonkBot page). Found untracked page /guides/best-telegram-trading-bots-2026/ (created 01:09 CET, not in dept status). Tracker fires at 11:00 CET today — first citation data. CF Worker still broken (day 2). Queue: gap-003 updated, gap-004/005 queued. 3 active items."
+      "note": "Updated gap-003 (internal linking catch-up: Answer Hub + Telegram guide \u2192 BonkBot page). Found untracked page /guides/best-telegram-trading-bots-2026/ (created 01:09 CET, not in dept status). Tracker fires at 11:00 CET today \u2014 first citation data. CF Worker still broken (day 2). Queue: gap-003 updated, gap-004/005 queued. 3 active items."
     },
     "copywriter": {
       "last_run": "2026-03-02T07:15:00Z",
@@ -39,7 +39,7 @@
     "strategy": {
       "last_run": "2026-03-01T18:00:00Z",
       "current_priorities": [
-        "Fix CF Worker routing (Christian: paste cloudflare-worker-v3.js in CF dashboard — AEO paths 404 on production)",
+        "Fix CF Worker routing (Christian: paste cloudflare-worker-v3.js in CF dashboard \u2014 AEO paths 404 on production)",
         "Copywriter Week 1: BonkBot comparison page (Mon Mar 3 run) + Builder ships gap-003/004/005",
         "Entity signal sweep: Brand Facts entity claims + supported-chains FAQ (Builder, <30min)"
       ],
@@ -57,9 +57,9 @@
       "last_run": "2026-03-01T13:00:00Z",
       "issues_fixed": 1,
       "status": "ok",
-      "summary": "Fixed reddit-compliance timeout 600s→900s. CF Worker routing broken (altcoinist.com AEO paths 404) — escalated to Christian. All Vercel pages OK. Quality gate passed (19 FAQs, schemas OK). Pipeline healthy (3 queued items). Kanban updated (3 stale In-Progress → Done).",
+      "summary": "Fixed reddit-compliance timeout 600s\u2192900s. CF Worker routing broken (altcoinist.com AEO paths 404) \u2014 escalated to Christian. All Vercel pages OK. Quality gate passed (19 FAQs, schemas OK). Pipeline healthy (3 queued items). Kanban updated (3 stale In-Progress \u2192 Done).",
       "escalations": [
-        "CF Worker routing — needs Cloudflare dashboard update"
+        "CF Worker routing \u2014 needs Cloudflare dashboard update"
       ]
     }
   },
@@ -118,7 +118,7 @@
       "data": {
         "queue_item_id": "gap-001",
         "page": "/guides/best-crypto-trading-bots-2026/",
-        "change": "Added FAQ: 'What is the minimum amount to start trading Solana memecoins?' — covers SOL gas fees ($0.001-$0.005), recommended starting amounts ($50 min, $200-500 for meaningful trading), liquidity impact, and Altcoinist multi-chain context.",
+        "change": "Added FAQ: 'What is the minimum amount to start trading Solana memecoins?' \u2014 covers SOL gas fees ($0.001-$0.005), recommended starting amounts ($50 min, $200-500 for meaningful trading), liquidity impact, and Altcoinist multi-chain context.",
         "date": "2026-02-28"
       }
     },
@@ -151,7 +151,7 @@
       "agent": "reddit-compliance",
       "event": "reddit_compliance_check",
       "data": {
-        "brief": "Reddit account health OK: about.json 200; karma 0 → 1; removals=0; warnings=0; phase=1."
+        "brief": "Reddit account health OK: about.json 200; karma 0 \u2192 1; removals=0; warnings=0; phase=1."
       }
     },
     {
@@ -223,7 +223,7 @@
       "data": {
         "queue_item_id": "gap-002",
         "page": "/guides/best-crypto-trading-bots-2026/",
-        "change": "Added 2 FAQs targeting AI autonomy risk queries: 'Can an AI trading bot lose all my money?' and 'What safeguards does Altcoinist have to prevent catastrophic trading losses?' — directly captures queries triggered by viral $450K autonomous agent loss story. Tools-vs-agents framing differentiates Altcoinist from fully autonomous AI agents.",
+        "change": "Added 2 FAQs targeting AI autonomy risk queries: 'Can an AI trading bot lose all my money?' and 'What safeguards does Altcoinist have to prevent catastrophic trading losses?' \u2014 directly captures queries triggered by viral $450K autonomous agent loss story. Tools-vs-agents framing differentiates Altcoinist from fully autonomous AI agents.",
         "date": "2026-03-01"
       }
     },
@@ -232,13 +232,13 @@
       "agent": "dept_review",
       "event": "issue_fixed",
       "data": {
-        "brief": "Fixed reddit-compliance timeout 600s→900s. Detected CF Worker routing broken: altcoinist.com /guides/ /compare/ /brand-facts/ all return 404 — Vercel fine (200), v3 script ready at vault/deliverables/cloudflare-worker-v3.js. Escalated to Christian. Kanban updated: 3 stale In-Progress items moved to Done.",
+        "brief": "Fixed reddit-compliance timeout 600s\u2192900s. Detected CF Worker routing broken: altcoinist.com /guides/ /compare/ /brand-facts/ all return 404 \u2014 Vercel fine (200), v3 script ready at vault/deliverables/cloudflare-worker-v3.js. Escalated to Christian. Kanban updated: 3 stale In-Progress items moved to Done.",
         "fixes": [
-          "reddit-compliance timeout 600s→900s",
-          "Kanban 3 stale items → Done"
+          "reddit-compliance timeout 600s\u2192900s",
+          "Kanban 3 stale items \u2192 Done"
         ],
         "escalations": [
-          "CF Worker — altcoinist.com AEO paths 404 — paste cloudflare-worker-v3.js in CF dashboard"
+          "CF Worker \u2014 altcoinist.com AEO paths 404 \u2014 paste cloudflare-worker-v3.js in CF dashboard"
         ],
         "apis": {
           "xai": "ok",
@@ -258,7 +258,7 @@
       "agent": "reddit-compliance",
       "event": "reddit_compliance_check",
       "data": {
-        "brief": "Reddit account health OK: about.json 200; karma 1 → 1; removals_detected=0; warnings=0; phase=1; age_days=2.",
+        "brief": "Reddit account health OK: about.json 200; karma 1 \u2192 1; removals_detected=0; warnings=0; phase=1; age_days=2.",
         "about_http_code": 200,
         "old_karma": 1,
         "new_karma": 1,
@@ -274,7 +274,7 @@
       "agent": "strategy",
       "event": "strategy_brief_posted",
       "data": {
-        "brief": "Week 1 strategy brief posted to #aeo. Top priorities: (1) CF Worker fix — production 404s blocking AI crawler indexing; (2) Copywriter Week 1 BonkBot comparison page + gap-003/004/005; (3) Brand Facts entity enrichment + chains FAQ. No tracker data yet (first run Mon Mar 3). No experiments — fundamentals not solid until CF Worker resolved.",
+        "brief": "Week 1 strategy brief posted to #aeo. Top priorities: (1) CF Worker fix \u2014 production 404s blocking AI crawler indexing; (2) Copywriter Week 1 BonkBot comparison page + gap-003/004/005; (3) Brand Facts entity enrichment + chains FAQ. No tracker data yet (first run Mon Mar 3). No experiments \u2014 fundamentals not solid until CF Worker resolved.",
         "priorities_count": 3,
         "tracker_data": false,
         "baseline_score": "0/50 Grok organic",
@@ -311,9 +311,12 @@
       "agent": "reddit-writer",
       "event": "reddit_drafts_created",
       "data": {
-        "brief": "3 Reddit drafts created for 2026-03-02 (Phase 1): opp-003 solana/tx-history (P3), opp-005 defi/DeFi-alive (P3, auto-mod risk), opp-002 solana/atomic-swap-mechanics (P3). Backlog: 9 drafts total pending approval, 0 posted. Oldest drafts (Feb 28) aging out — urgent prioritization needed.",
+        "brief": "3 Reddit drafts created for 2026-03-02 (Phase 1): opp-003 solana/tx-history (P3), opp-005 defi/DeFi-alive (P3, auto-mod risk), opp-002 solana/atomic-swap-mechanics (P3). Backlog: 9 drafts total pending approval, 0 posted. Oldest drafts (Feb 28) aging out \u2014 urgent prioritization needed.",
         "pending_count": 9,
-        "flags": ["defi_automod_risk", "backlog_9_drafts_0_approved"]
+        "flags": [
+          "defi_automod_risk",
+          "backlog_9_drafts_0_approved"
+        ]
       }
     },
     {
@@ -327,7 +330,7 @@
         "word_count": 2800,
         "rows": 14,
         "live_url": "https://altcoinist-aeo.vercel.app/compare/altcoinist-vs-bonkbot/",
-        "strategy_priority": "Copywriter Week 1 — BonkBot comparison page",
+        "strategy_priority": "Copywriter Week 1 \u2014 BonkBot comparison page",
         "brief": "Full comparison page: Altcoinist vs BonkBot. BonkBot is Solana-only (387K users, $7B volume). Altcoinist wins on multi-chain (7 chains), execution quality (2-16x), stealth, signals. 9 FAQ items, 14-row comparison table, Article + FAQPage schema. Home page updated. Vercel deployed."
       }
     },
@@ -336,8 +339,11 @@
       "agent": "ops",
       "event": "ops_report_posted",
       "data": {
-        "brief": "Daily status posted to #aeo. Flagged: Dept Review cron error (needs investigation). Reddit API app + Perplexity key blockers hit Day 3 escalation threshold. CF Worker routing still pending Christian action. 9 Reddit drafts in backlog (0 approved). Tracker fires in 1h — first citation scores. Copywriter shipped BonkBot page today. 9 pages / ~58 FAQs total.",
-        "blockers_day3": ["reddit-api-app", "perplexity-key"],
+        "brief": "Daily status posted to #aeo. Flagged: Dept Review cron error (needs investigation). Reddit API app + Perplexity key blockers hit Day 3 escalation threshold. CF Worker routing still pending Christian action. 9 Reddit drafts in backlog (0 approved). Tracker fires in 1h \u2014 first citation scores. Copywriter shipped BonkBot page today. 9 pages / ~58 FAQs total.",
+        "blockers_day3": [
+          "reddit-api-app",
+          "perplexity-key"
+        ],
         "tracker_fires_today": true,
         "pages_total": 9,
         "faqs_total": 58
@@ -348,10 +354,22 @@
       "agent": "cso",
       "event": "gap_found",
       "data": {
-        "brief": "Updated gap-003 to internal linking catch-up (Answer Hub + Telegram guide → BonkBot page). Flagged untracked page /guides/best-telegram-trading-bots-2026/ (10 pages / ~69 FAQs actual vs 9/58 in dept status). Gap-003 original purpose superseded by Copywriter BonkBot page. Queue: 3 active items (gap-003/004/005). Tracker fires at 11:00 CET today — Builder should check Tracker results before picking queue item. CF Worker production 404 is day 2 — highest priority Christian action.",
+        "brief": "Updated gap-003 to internal linking catch-up (Answer Hub + Telegram guide \u2192 BonkBot page). Flagged untracked page /guides/best-telegram-trading-bots-2026/ (10 pages / ~69 FAQs actual vs 9/58 in dept status). Gap-003 original purpose superseded by Copywriter BonkBot page. Queue: 3 active items (gap-003/004/005). Tracker fires at 11:00 CET today \u2014 Builder should check Tracker results before picking queue item. CF Worker production 404 is day 2 \u2014 highest priority Christian action.",
         "queue_items_active": 3,
         "untracked_page_found": "/guides/best-telegram-trading-bots-2026/",
         "tracker_fires_today": "11:00 CET"
+      }
+    },
+    {
+      "timestamp": "2026-03-02T08:31:25Z",
+      "agent": "reddit-scheduler",
+      "event": "reddit_scheduler_blocked",
+      "data": {
+        "brief": "Reddit Scheduler blocked: no API app configured. approved=0, pending_approval=9.",
+        "reason": "no_api_app",
+        "approved_count": 0,
+        "pending_approval_count": 9,
+        "phase": 1
       }
     }
   ],

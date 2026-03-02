@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "last_updated": "2026-03-02T05:55:00Z",
+  "last_updated": "2026-03-02T08:31:25Z",
   "phase": {
     "current": 1,
-    "description": "Anonymous karma building — zero product mentions",
+    "description": "Anonymous karma building \u2014 zero product mentions",
     "started": "2026-02-28",
     "transition_criteria": "30+ day account age, 200+ karma, Christian approval"
   },
@@ -102,7 +102,7 @@
         "file": "vault/ops/reddit/drafts/2026-03-02-opp-002.md",
         "sub": "solana",
         "priority": "P3",
-        "note": "Thread OP resolved but useful for future search traffic — explains HTLC atomic swap mechanics",
+        "note": "Thread OP resolved but useful for future search traffic \u2014 explains HTLC atomic swap mechanics",
         "created": "2026-03-02T05:55:00Z"
       }
     ],
@@ -135,7 +135,7 @@
             "id": "opp-002",
             "priority": "P2",
             "sub": "solana",
-            "title": "Solana launches payments.org — the new hub showcasing the world's leading crypto payments network.",
+            "title": "Solana launches payments.org \u2014 the new hub showcasing the world's leading crypto payments network.",
             "url": "https://reddit.com/r/solana/comments/1rfmih4/solana_launches_paymentsorg_the_new_hub/"
           },
           {
@@ -149,7 +149,7 @@
             "id": "opp-004",
             "priority": "P2",
             "sub": "ethtrader",
-            "title": "€100k loan to buy and stake ETH long-term",
+            "title": "\u20ac100k loan to buy and stake ETH long-term",
             "url": "https://reddit.com/r/ethtrader/comments/1rg87is/100k_loan_to_buy_and_stake_eth_longterm/"
           },
           {
@@ -191,7 +191,7 @@
       "agent": "reddit-compliance",
       "event": "karma_update",
       "data": {
-        "brief": "Account reachable (about.json 200); karma 0 → 1; recent_comments=0; removed_detected=0.",
+        "brief": "Account reachable (about.json 200); karma 0 \u2192 1; recent_comments=0; removed_detected=0.",
         "about_http_code": 200,
         "old_karma": 0,
         "new_karma": 1,
@@ -230,7 +230,7 @@
           "age_hours": 21.6,
           "flair": "Dev/Tech",
           "priority": "P2",
-          "suggested_angle": "Give a concrete “smart money” methodology: wallet filters, timeframe, labeling, and how to validate results without survivorship bias. Explain automation options (vaults/auto-rebalancers) + key risks (IL, fee volatility, contract risk).",
+          "suggested_angle": "Give a concrete \u201csmart money\u201d methodology: wallet filters, timeframe, labeling, and how to validate results without survivorship bias. Explain automation options (vaults/auto-rebalancers) + key risks (IL, fee volatility, contract risk).",
           "aeo_relevance": "Phase 1: value-only response (no links / no product mentions).",
           "id": "opp-001"
         },
@@ -253,7 +253,7 @@
             "id": "opp-003",
             "priority": "P3",
             "sub": "ethtrader",
-            "title": "ETH at $1,852 — Is This a Good Entry or Are We Headed for Another Bear Market Dip?",
+            "title": "ETH at $1,852 \u2014 Is This a Good Entry or Are We Headed for Another Bear Market Dip?",
             "url": "https://reddit.com/r/ethtrader/comments/1rgy6y4/eth_at_1852_is_this_a_good_entry_or_are_we_headed/"
           },
           {
@@ -267,7 +267,7 @@
             "id": "opp-005",
             "priority": "P3",
             "sub": "solana",
-            "title": "What’s the most money you’ve missed out on because you had to switch apps to paste a contract address?",
+            "title": "What\u2019s the most money you\u2019ve missed out on because you had to switch apps to paste a contract address?",
             "url": "https://reddit.com/r/solana/comments/1rgbqb0/whats_the_most_money_youve_missed_out_on_because/"
           },
           {
@@ -309,7 +309,7 @@
       "agent": "reddit-compliance",
       "event": "karma_update",
       "data": {
-        "brief": "Account reachable (about.json 200); karma 1 → 1; recent_comments=0; removed_detected=0.",
+        "brief": "Account reachable (about.json 200); karma 1 \u2192 1; recent_comments=0; removed_detected=0.",
         "about_http_code": 200,
         "old_karma": 1,
         "new_karma": 1,
@@ -400,14 +400,29 @@
       "agent": "reddit-writer",
       "event": "drafts_created",
       "data": {
-        "brief": "3 drafts created for 2026-03-02: opp-003 (P3/solana tx-history), opp-005 (P3/defi DeFi-dead-or-alive — auto-mod risk flagged), opp-002 (P3/solana atomic-swap mechanics). All Phase 1 compliant. Total pending now 9. Backlog alert: 6 drafts from Feb 28 + Mar 1 still awaiting approval.",
-        "drafts": ["2026-03-02-opp-003", "2026-03-02-opp-005", "2026-03-02-opp-002"],
+        "brief": "3 drafts created for 2026-03-02: opp-003 (P3/solana tx-history), opp-005 (P3/defi DeFi-dead-or-alive \u2014 auto-mod risk flagged), opp-002 (P3/solana atomic-swap mechanics). All Phase 1 compliant. Total pending now 9. Backlog alert: 6 drafts from Feb 28 + Mar 1 still awaiting approval.",
+        "drafts": [
+          "2026-03-02-opp-003",
+          "2026-03-02-opp-005",
+          "2026-03-02-opp-002"
+        ],
         "phase": 1,
         "flags": {
           "backlog_total": 9,
           "defi_automod_risk": true,
           "oldest_draft_age_days": 3
         }
+      }
+    },
+    {
+      "timestamp": "2026-03-02T08:31:25Z",
+      "agent": "reddit-scheduler",
+      "event": "scheduler_blocked_no_api",
+      "data": {
+        "brief": "Blocked: Reddit API app not configured. approved=0, pending_approval=9.",
+        "approved_count": 0,
+        "pending_approval_count": 9,
+        "phase": 1
       }
     }
   ],
