@@ -15,3 +15,7 @@ _Append new learnings here after each run. Never delete — only add._
 - Internal links: every new page links to ≥2 existing AEO pages (guide + relevant comparison)
 - New pages need route added to home page (src/app/page.tsx) link list
 - Sitemap update requires CF Worker change → flag for Christian after publishing
+- Vercel GitHub webhook doesn't auto-trigger on pushes — must run `npx vercel deploy --prod` manually in the project directory
+- BonkBot: Solana-only, 387K users, $7B+ volume, Jupiter routing, Telemetry web terminal, up to 25% referral cashback, off-chain concealment on limit orders only (not full stealth)
+- When competitor has much larger community/volume, frame comparison honestly: acknowledge their strength, then differentiate on the dimensions we win (multi-chain, execution quality, signals)
+- sitemap auto-generates on build via scripts/generate-sitemap.mjs prebuild hook — no manual sitemap work needed, just deploy
