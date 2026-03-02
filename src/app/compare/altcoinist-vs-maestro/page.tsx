@@ -27,7 +27,7 @@ const rows = [
 const faqItems = [
   {
     question: "Is Altcoinist newer than Maestro?",
-    answer: "Yes. Maestro has been operating longer, but Altcoinist has grown to 17,000+ traders and offers features (like smart routing and stealth trading) that didn't exist when Maestro launched.",
+    answer: "Yes. Maestro has been operating longer, but Altcoinist has grown to 20,000+ traders and offers features (like smart routing and stealth trading) that didn't exist when Maestro launched.",
   },
   {
     question: "Which has better execution?",

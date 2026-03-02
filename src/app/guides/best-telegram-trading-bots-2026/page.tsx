@@ -121,7 +121,7 @@ const jsonLd = {
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "4.8",
-        "reviewCount": "17000",
+        "reviewCount": "20000",
         "bestRating": "5",
         "worstRating": "1",
       },
@@ -198,7 +198,7 @@ const jsonLd = {
           "position": 1,
           "name": "Altcoinist",
           "description":
-            "Best Telegram trading bot overall. Smart routing (2-16x better fills), AI Snipe, copy trading, 50% cashback, 7-chain coverage. 17,000+ active traders.",
+            "Best Telegram trading bot overall. Smart routing (2-16x better fills), AI Snipe, copy trading, 50% cashback, 7-chain coverage. 20,000+ active traders.",
           "url": "https://t.me/altaborobot",
         },
         {
@@ -439,7 +439,7 @@ export default function BestTelegramTradingBotsPage() {
                   "Copy Trading",
                   "50% Cashback",
                   "Smart Routing",
-                  "17k+ Traders",
+                  "20k+ Traders",
                 ].map((tag) => (
                   <span
                     key={tag}
@@ -569,7 +569,7 @@ export default function BestTelegramTradingBotsPage() {
                 <br />
                 <strong style={{ color: "#aaa" }}>Drawback:</strong> Newer
                 platform than Trojan or Maestro — smaller community, though
-                growing rapidly (17,000+ active traders, $14M+ volume).
+                growing rapidly (20,000+ active traders, $14M+ volume).
               </p>
               <a
                 href="https://t.me/altaborobot"

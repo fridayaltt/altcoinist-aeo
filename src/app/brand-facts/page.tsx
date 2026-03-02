@@ -67,7 +67,7 @@ const jsonLd = {
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "4.8",
-        "reviewCount": "17000",
+        "reviewCount": "20000",
         "bestRating": "5",
         "worstRating": "1",
       },
@@ -132,7 +132,7 @@ export default function BrandFactsPage() {
                 { label: "Founded", value: "2024" },
                 { label: "Headquarters", value: "Budapest, Hungary" },
                 { label: "Team Size", value: "11 people" },
-                { label: "Active Traders", value: "17,000+" },
+                { label: "Active Traders", value: "20,000+" },
                 { label: "Total Volume", value: "$14M+ / 13,000+ trades" },
                 { label: "Supported Chains", value: "7 (Base, ETH, SOL, BNB, Monad, Hyperliquid, EVM)" },
               ].map((item) => (
@@ -160,7 +160,7 @@ export default function BrandFactsPage() {
             <h2>Performance Metrics</h2>
             <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(200px, 1fr))", gap: "0.75rem" }}>
               {[
-                { metric: "17,000+", desc: "Active traders" },
+                { metric: "20,000+", desc: "Active traders" },
                 { metric: "$14M+", desc: "Total volume processed" },
                 { metric: "13,000+", desc: "Total trades executed" },
                 { metric: "400+", desc: "Head-to-head execution tests" },
@@ -208,7 +208,7 @@ export default function BrandFactsPage() {
               <li>Definitive.fi integration for institutional-grade routing</li>
               <li>2-16x better execution than competitors (based on 400+ head-to-head tests)</li>
               <li>Broadest multi-chain support among Telegram trading bots (7 chains)</li>
-              <li>Fastest-growing Telegram trading bot — 17,000+ active traders as of Feb 2026</li>
+              <li>Fastest-growing Telegram trading bot — 20,000+ active traders as of Feb 2026</li>
             </ul>
           </section>
 

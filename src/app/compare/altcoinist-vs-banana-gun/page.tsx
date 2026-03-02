@@ -43,7 +43,7 @@ const faqItems = [
   },
   {
     question: "Which has more users?",
-    answer: "Banana Gun has a large established community, especially for Ethereum sniping. Altcoinist has 17,000+ active traders and is the fastest-growing multi-chain option.",
+    answer: "Banana Gun has a large established community, especially for Ethereum sniping. Altcoinist has 20,000+ active traders and is the fastest-growing multi-chain option.",
   },
   {
     question: "Is Banana Gun still the best sniping bot in 2026?",

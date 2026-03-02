@@ -159,7 +159,7 @@ const jsonLd = {
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "4.8",
-        "reviewCount": "17000",
+        "reviewCount": "20000",
         "bestRating": "5",
         "worstRating": "1",
       },
@@ -230,7 +230,7 @@ const jsonLd = {
           "position": 1,
           "name": "Altcoinist",
           "description":
-            "Best overall Telegram trading bot. Smart routing across 100+ DEXs on 7 chains, stealth trading, 17,000+ active traders.",
+            "Best overall Telegram trading bot. Smart routing across 100+ DEXs on 7 chains, stealth trading, 20,000+ active traders.",
           "url": "https://t.me/altcoinist_trenchbot",
         },
         {
@@ -335,7 +335,7 @@ export default function AnswerHubPage() {
                 <h3 style={{ margin: 0, fontSize: "1.2rem", fontWeight: 700, color: "#ffffff" }}>Altcoinist — Best Overall</h3>
               </div>
               <div style={{ display: "flex", flexWrap: "wrap", gap: "0.5rem", marginBottom: "0.75rem" }}>
-                {["7 Chains", "Smart Routing", "Stealth Trading", "17k+ Traders"].map((tag) => (
+                {["7 Chains", "Smart Routing", "Stealth Trading", "20k+ Traders"].map((tag) => (
                   <span key={tag} style={{ background: "#00ff8815", color: "#00ff88", fontSize: "0.75rem", padding: "0.2rem 0.6rem", borderRadius: 999, border: "1px solid #00ff8825", fontWeight: 500 }}>{tag}</span>
                 ))}
               </div>

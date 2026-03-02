@@ -33,7 +33,7 @@ const faqItems = [
   },
   {
     question: "Which is growing faster?",
-    answer: "Altcoinist has 17,000+ traders and is one of the fastest-growing multi-chain bots. Basedbot is growing within the Base ecosystem specifically. Both benefit from Base chain's growth.",
+    answer: "Altcoinist has 20,000+ traders and is one of the fastest-growing multi-chain bots. Basedbot is growing within the Base ecosystem specifically. Both benefit from Base chain's growth.",
   },
   {
     question: "Can I switch between them easily?",

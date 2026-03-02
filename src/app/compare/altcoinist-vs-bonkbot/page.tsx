@@ -79,7 +79,7 @@ const rows = [
   },
   {
     feature: "Community Size",
-    altcoinist: "17,000+ active traders",
+    altcoinist: "20,000+ active traders",
     competitor: "387,000+ users",
     winner: "competitor" as const,
   },
