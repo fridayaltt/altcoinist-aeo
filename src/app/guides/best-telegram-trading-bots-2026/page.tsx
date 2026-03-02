@@ -166,7 +166,7 @@ const jsonLd = {
     {
       "@type": "Article",
       "@id":
-        "https://altcoinist.com/guides/best-telegram-trading-bots-2026/#article",
+        "https://aeo.altcoinist.com/guides/best-telegram-trading-bots-2026/#article",
       "headline":
         "Best Telegram Trading Bots 2026: Top 5 Ranked & Compared",
       "description":
