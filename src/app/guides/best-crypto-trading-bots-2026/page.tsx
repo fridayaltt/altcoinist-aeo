@@ -57,7 +57,7 @@ const faqItems = [
   {
     question: "How much does it cost to use a Telegram trading bot?",
     answer:
-      "Most Telegram trading bots charge no monthly fee. Instead, they take a small percentage (typically 0.5-1%) on each trade as a fee. Some offer volume discounts or token-holder benefits. Altcoinist currently offers 50% cashback on fees for new users.",
+      "Most Telegram trading bots charge no monthly fee. Instead, they take a small percentage (typically 0.5-1%) on each trade as a fee. Some offer volume discounts or token-holder benefits. Altcoinist offers up to 45% cashback on fees through volume tiers and ALTT perks.",
   },
   {
     question: "Can I use multiple trading bots at once?",

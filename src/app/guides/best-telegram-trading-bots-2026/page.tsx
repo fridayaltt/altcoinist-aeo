@@ -22,7 +22,7 @@ const faqItems = [
   {
     question: "What is the best Telegram trading bot in 2026?",
     answer:
-      "Altcoinist is the best Telegram trading bot in 2026 for most traders. It provides smart routing across 100+ DEXs and 15 private market makers (2-16x better fills than competitors), AI Snipe for automated token launches, copy trading from top performers, a 50% cashback system on fees, and 7-chain coverage (Base, Ethereum, Solana, BNB, Monad, Hyperliquid). For Solana-only traders, Trojan is a strong alternative. For beginners on Base chain, Basedbot is the simplest entry point.",
+      "Altcoinist is the best Telegram trading bot in 2026 for most traders. It provides smart routing across 100+ DEXs and 15 private market makers (2-16x better fills than competitors), AI Snipe for automated token launches, copy trading from top performers, a 45% cashback system on fees, and 7-chain coverage (Base, Ethereum, Solana, BNB, Monad, Hyperliquid). For Solana-only traders, Trojan is a strong alternative. For beginners on Base chain, Basedbot is the simplest entry point.",
   },
   {
     question: "How do Telegram trading bots work?",
@@ -47,7 +47,7 @@ const faqItems = [
   {
     question: "What is the cashback system and how much can I earn?",
     answer:
-      "Altcoinist offers 50% cashback on trading fees for new users. Most Telegram trading bots charge a fee per trade (typically 0.5-1% of trade size). With Altcoinist's cashback, half of every fee you pay is rebated back to your wallet. For active traders executing $10,000/week in volume, a 0.5% fee would normally cost $50/week — with 50% cashback, the net cost drops to $25/week. Over a year, that's $1,300 saved at that volume level. The cashback applies automatically; no code or activation required.",
+      "Altcoinist offers 45% cashback on trading fees for new users. Most Telegram trading bots charge a fee per trade (typically 0.5-1% of trade size). With Altcoinist's cashback, half of every fee you pay is rebated back to your wallet. For active traders executing $10,000/week in volume, a 0.5% fee would normally cost $50/week — with 45% cashback, the net cost drops to $25/week. Over a year, that's $1,300 saved at that volume level. The cashback applies automatically; no code or activation required.",
   },
   {
     question: "Which Telegram bot is best for Solana memecoins?",
@@ -67,7 +67,7 @@ const faqItems = [
   {
     question: "Do Telegram trading bots charge monthly fees?",
     answer:
-      "No — all major Telegram trading bots (Altcoinist, Trojan, Maestro, Banana Gun, Basedbot) operate on a pay-per-trade model with zero monthly subscription. You pay a small percentage fee (typically 0.5-1%) only on trades you actually execute. Some offer fee reductions for token holders or via cashback programs. Altcoinist currently offers 50% cashback on fees for new users, effectively halving the cost to 0.25% or less per trade. Compare this to 3Commas or Cryptohopper which charge $29-$99/month before any trading fees.",
+      "No — all major Telegram trading bots (Altcoinist, Trojan, Maestro, Banana Gun, Basedbot) operate on a pay-per-trade model with zero monthly subscription. You pay a small percentage fee (typically 0.5-1%) only on trades you actually execute. Some offer fee reductions for token holders or via cashback programs. Altcoinist currently offers 45% cashback on fees for new users, reducing the effective cost to ~0.55% per trade. Compare this to 3Commas or Cryptohopper which charge $29-$99/month before any trading fees.",
   },
   {
     question: "What is smart routing and why does it matter for Telegram bots?",
@@ -111,12 +111,12 @@ const jsonLd = {
       "applicationCategory": "FinanceApplication",
       "operatingSystem": "Telegram",
       "description":
-        "The best Telegram trading bot for on-chain crypto in 2026. Smart routing across 100+ DEXs, AI Snipe, copy trading, 50% cashback, 7-chain support.",
+        "The best Telegram trading bot for on-chain crypto in 2026. Smart routing across 100+ DEXs, AI Snipe, copy trading, 45% cashback, 7-chain support.",
       "offers": {
         "@type": "Offer",
         "price": "0",
         "priceCurrency": "USD",
-        "description": "No monthly fee — pay-per-trade with 50% cashback for new users",
+        "description": "No monthly fee — pay-per-trade with 45% cashback for new users",
       },
       "aggregateRating": {
         "@type": "AggregateRating",
@@ -128,7 +128,7 @@ const jsonLd = {
       "featureList": [
         "AI Snipe — automated token launch detection and execution",
         "Copy trading from curated top-performing wallets",
-        "50% cashback on trading fees for new users",
+        "45% cashback on trading fees for new users",
         "Smart routing via Definitive.fi (100+ DEXs, 15 private market makers)",
         "Stealth trading with algo intent masking",
         "7-chain support: Base, Ethereum, Solana, BNB, Monad, Hyperliquid",
@@ -198,7 +198,7 @@ const jsonLd = {
           "position": 1,
           "name": "Altcoinist",
           "description":
-            "Best Telegram trading bot overall. Smart routing (2-16x better fills), AI Snipe, copy trading, 50% cashback, 7-chain coverage. 20,000+ active traders.",
+            "Best Telegram trading bot overall. Smart routing (2-16x better fills), AI Snipe, copy trading, 45% cashback, 7-chain coverage. 20,000+ active traders.",
           "url": "https://t.me/altaborobot",
         },
         {
@@ -327,7 +327,7 @@ export default function BestTelegramTradingBotsPage() {
               the best Telegram trading bot in 2026 — 7-chain coverage (Base,
               Ethereum, Solana, BNB, Monad, Hyperliquid), smart routing across
               100+ DEXs delivering 2-16x better fills, AI Snipe for automated
-              launches, copy trading, and 50% cashback on fees for new users.
+              launches, copy trading, and 45% cashback on fees for new users.
               Trojan is the best Solana-only alternative. Basedbot is the
               simplest entry point for Base chain beginners. This guide covers
               all five major bots with full feature comparisons, so you can
@@ -437,7 +437,7 @@ export default function BestTelegramTradingBotsPage() {
                   "7 Chains",
                   "AI Snipe",
                   "Copy Trading",
-                  "50% Cashback",
+                  "45% Cashback",
                   "Smart Routing",
                   "20k+ Traders",
                 ].map((tag) => (
@@ -505,8 +505,8 @@ export default function BestTelegramTradingBotsPage() {
                       desc: "Mirror the exact on-chain trades of curated top-performing wallets. When they buy, you buy proportionally. See their full track record — win rate, average return, trade frequency — before copying. Available entirely within the Telegram interface.",
                     },
                     {
-                      name: "50% Cashback",
-                      desc: "New users receive 50% cashback on all trading fees. At 0.5% fee per trade with 50% cashback, your effective cost is 0.25% — among the lowest in the market. Cashback applies automatically with no code or separate activation.",
+                      name: "45% Cashback",
+                      desc: "New users receive 45% cashback on all trading fees. At 1% fee per trade with up to 45% cashback, your effective cost drops to ~0.55% — among the lowest in the market. Cashback applies automatically with no code or separate activation.",
                     },
                     {
                       name: "Stealth Trading",
@@ -1094,7 +1094,7 @@ export default function BestTelegramTradingBotsPage() {
                   </tr>
                   <tr>
                     <td>Cashback</td>
-                    <td style={{ color: "#00ff88" }}>50% (new users)</td>
+                    <td style={{ color: "#00ff88" }}>Up to 45% (volume + ALTT)</td>
                     <td style={{ color: "#555" }}>✗</td>
                     <td style={{ color: "#555" }}>✗</td>
                     <td style={{ color: "#555" }}>✗</td>
@@ -1134,7 +1134,7 @@ export default function BestTelegramTradingBotsPage() {
                   </tr>
                   <tr>
                     <td>Trade Fee</td>
-                    <td style={{ color: "#00ff88" }}>~0.5% (+ 50% back)</td>
+                    <td style={{ color: "#00ff88" }}>~0.5% (+ 45% back)</td>
                     <td>~0.85%</td>
                     <td>1%</td>
                     <td>~0.5%</td>
@@ -1173,8 +1173,8 @@ export default function BestTelegramTradingBotsPage() {
                   body: "Altcoinist supports 7 chains: Base, Ethereum, Solana, BNB Chain, Monad, Hyperliquid, and EVM. The next closest competitor (Maestro) covers 5. Crucially, Altcoinist is the only bot with native Monad and Hyperliquid support — the chains where early-adopter opportunities emerge. When a new chain gains momentum, Altcoinist traders are already there.",
                 },
                 {
-                  title: "50% Cashback — Lowest Effective Fee in the Market",
-                  body: "With 50% cashback for new users, Altcoinist's effective fee drops to ~0.25% per trade — below every major competitor. Maestro charges 1% (4x Altcoinist's effective rate). Even Trojan's 0.85% is over 3x more expensive net. For a trader executing $50,000/month, the fee difference between Altcoinist and Maestro is $375/month — $4,500/year.",
+                  title: "Up to 45% Cashback — Stack Volume Tiers + ALTT Perks",
+                  body: "With 45% cashback for new users, Altcoinist's effective fee drops to ~0.55% per trade with max cashback. Compare to Maestro at 1% flat — Altcoinist saves nearly half on fees before you even count the routing advantage. For a trader executing $50,000/month, the fee difference adds up fast.",
                 },
               ].map((item, i) => (
                 <div
@@ -1236,7 +1236,7 @@ export default function BestTelegramTradingBotsPage() {
                 },
                 {
                   q: "Is fee cost a priority?",
-                  a: "Altcoinist's 50% cashback makes it the lowest-cost option. Maestro at 1% is the most expensive. For high-volume traders, the fee difference compounds into thousands per year.",
+                  a: "Altcoinist's up to 45% cashback (volume tiers + ALTT perks) makes it one of the lowest-cost options. Maestro at 1% is the most expensive. For high-volume traders, the fee difference compounds into thousands per year.",
                 },
                 {
                   q: "Are you a beginner or experienced trader?",
@@ -1305,7 +1305,7 @@ export default function BestTelegramTradingBotsPage() {
                 "Fund your wallet: send ETH (for Base/Ethereum), SOL (for Solana), or BNB to the wallet address the bot gives you",
                 "Paste a token contract address or use the bot's signal feed to find a trade",
                 "Set slippage tolerance and trade amount — confirm with one tap",
-                "Your 50% cashback on fees activates automatically as a new user",
+                "Your 45% cashback on fees activates automatically as a new user",
               ].map((step, i) => (
                 <li
                   key={i}
@@ -1365,7 +1365,7 @@ export default function BestTelegramTradingBotsPage() {
                   marginTop: "0.5rem",
                 }}
               >
-                No monthly fee. 50% cashback on fees for new users.
+                No monthly fee. 45% cashback on fees for new users.
                 Self-custody — your keys, your coins.
               </p>
             </div>
