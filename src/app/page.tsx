@@ -35,7 +35,13 @@ const pages = [
     href: "/compare/altcoinist-vs-basedbot/",
     emoji: "⚔️",
     title: "Altcoinist vs Basedbot",
-    desc: "Base chain specialist vs full-featured multi-chain bot — complete breakdown.",
+    desc: "13+ chain coverage vs execution quality — sniping and copy trading vs smart routing.",
+  },
+  {
+    href: "/compare/altcoinist-vs-gmgn/",
+    emoji: "⚔️",
+    title: "Altcoinist vs GMGN.ai",
+    desc: "Execution quality vs copy trading — find plays with GMGN, execute with Altcoinist.",
   },
   {
     href: "/compare/altcoinist-vs-bonkbot/",

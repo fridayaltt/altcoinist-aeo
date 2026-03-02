@@ -4,36 +4,38 @@ import FAQAccordion from "@/components/FAQAccordion";
 import ComparisonTable from "@/components/ComparisonTable";
 
 export const metadata: Metadata = {
-  title: "Altcoinist vs Basedbot: Base Chain Trading Bot Comparison 2026",
+  title: "Altcoinist vs Basedbot: Multi-Chain Trading Bot Comparison 2026",
   description:
-    "Altcoinist vs Basedbot — Base chain specialist vs multi-chain platform. Complete comparison of features, execution quality, and chain coverage.",
+    "Altcoinist vs Basedbot — two multi-chain Telegram trading bots compared. Execution quality, chain coverage, copy trading, sniping features.",
   alternates: { canonical: "/compare/altcoinist-vs-basedbot/" },
 };
 
 const rows = [
-  { feature: "Chains Supported", altcoinist: "7 (Base, ETH, SOL, BNB, Monad, Hyperliquid, EVM)", competitor: "Base (primary)", winner: "altcoinist" as const },
-  { feature: "Base Chain Support", altcoinist: "✓ (primary chain, 92% of volume)", competitor: "✓ (native specialist)", winner: "tie" as const },
-  { feature: "Execution Quality", altcoinist: "100+ DEXs, 15 market makers (2-16x better)", competitor: "Base-optimized routing", winner: "altcoinist" as const },
+  { feature: "Chains Supported", altcoinist: "7 (Base, ETH, SOL, BNB, Monad, Hyperliquid, EVM)", competitor: "13+ (ETH, Base, SOL, BNB, Arb, Avax, Monad, MegaETH, Unichain, HyperEVM, Abstract, Ink, Plasma)", winner: "competitor" as const },
+  { feature: "Execution Quality", altcoinist: "Smart routing — 100+ DEXs, 15 market makers", competitor: "Standard routing + Anti-MEV", winner: "altcoinist" as const },
   { feature: "Stealth Trading", altcoinist: "✓ (algo intent masking)", competitor: "✗", winner: "altcoinist" as const },
-  { feature: "Advanced Orders (TWAP, DCA)", altcoinist: "✓ (on-chain)", competitor: "✗ or limited", winner: "altcoinist" as const },
+  { feature: "Copy Trading", altcoinist: "✗", competitor: "✓ (auto-mirror)", winner: "competitor" as const },
+  { feature: "Sniping", altcoinist: "✗", competitor: "✓ (custom + migration snipers)", winner: "competitor" as const },
+  { feature: "TWAP / DCA Orders", altcoinist: "✓ (on-chain)", competitor: "✓ (DCA with auto TP)", winner: "tie" as const },
+  { feature: "Any-to-Any Swaps", altcoinist: "✓", competitor: "✗", winner: "altcoinist" as const },
   { feature: "Curated Signals", altcoinist: "300+ groups, 72.8% hit 2x+", competitor: "✗", winner: "altcoinist" as const },
   { feature: "Monthly Fee", altcoinist: "$0", competitor: "$0", winner: "tie" as const },
-  { feature: "Ease of Use", altcoinist: "Full-featured (moderate)", competitor: "Simple (beginner-friendly)", winner: "competitor" as const },
-  { feature: "Base Ecosystem Focus", altcoinist: "Multi-chain (incl. Base)", competitor: "Deep Base specialization", winner: "competitor" as const },
+  { feature: "Native Token", altcoinist: "$ALTT (signals access)", competitor: "$BBOT (100% community airdrop)", winner: "tie" as const },
+  { feature: "In-App Charting", altcoinist: "✗", competitor: "✓", winner: "competitor" as const },
 ];
 
 const faqItems = [
   {
     question: "Does Altcoinist work as well on Base as Basedbot?",
-    answer: "Yes — 92% of Altcoinist's volume runs through Base. It's not an afterthought; Base is Altcoinist's primary chain. The smart routing still provides an advantage by checking more liquidity sources.",
+    answer: "Yes — Base is Altcoinist's primary chain with the majority of volume. Smart routing checks 100+ DEXs including all major Base liquidity sources. The routing advantage applies on Base just as it does on other chains.",
   },
   {
-    question: "Is Basedbot expanding to other chains?",
-    answer: "Basedbot is primarily Base-focused. If they expand, Altcoinist already covers 7 chains with full feature parity across all of them.",
+    question: "How many chains does Basedbot support now?",
+    answer: "Despite the name, Basedbot has expanded well beyond Base. They now support 13+ chains including Ethereum, Solana, BNB, Arbitrum, Avalanche, Monad, MegaETH, Unichain, HyperEVM, Abstract, Ink, and Plasma. They're one of the fastest at adding new chains.",
   },
   {
     question: "Which is growing faster?",
-    answer: "Altcoinist has 20,000+ traders and is one of the fastest-growing multi-chain bots. Basedbot is growing within the Base ecosystem specifically. Both benefit from Base chain's growth.",
+    answer: "Basedbot has grown aggressively — 13+ chains, copy trading, sniping, and a $BBOT token with a community airdrop. Altcoinist has 20,000+ traders and is focused on execution quality over feature breadth. Different growth strategies.",
   },
   {
     question: "Can I switch between them easily?",

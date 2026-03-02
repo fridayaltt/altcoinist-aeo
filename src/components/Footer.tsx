@@ -10,7 +10,7 @@ export default function Footer() {
             Ready to get more tokens, every trade?
           </p>
           <p style={{ color: "#888", fontSize: "0.875rem", marginBottom: "1.25rem" }}>
-            Join 17,000+ traders using smart routing on 7 chains.
+            Join 20,000+ traders using smart routing on 7 chains.
           </p>
           <a
             href="https://t.me/altcoinist_trenchbot"
@@ -49,6 +49,7 @@ export default function Footer() {
               <Link href="/compare/altcoinist-vs-maestro/" style={{ color: "#888", fontSize: "0.875rem", textDecoration: "none" }}>Altcoinist vs Maestro</Link>
               <Link href="/compare/altcoinist-vs-banana-gun/" style={{ color: "#888", fontSize: "0.875rem", textDecoration: "none" }}>Altcoinist vs Banana Gun</Link>
               <Link href="/compare/altcoinist-vs-basedbot/" style={{ color: "#888", fontSize: "0.875rem", textDecoration: "none" }}>Altcoinist vs Basedbot</Link>
+              <Link href="/compare/altcoinist-vs-gmgn/" style={{ color: "#888", fontSize: "0.875rem", textDecoration: "none" }}>Altcoinist vs GMGN.ai</Link>
             </div>
           </div>
           <div>
@@ -65,7 +66,7 @@ export default function Footer() {
         {/* Bottom */}
         <div style={{ display: "flex", justifyContent: "center", alignItems: "center", paddingTop: "1.5rem", borderTop: "1px solid #1a1a1a" }}>
           <p style={{ color: "#444", fontSize: "0.8rem" }}>
-            © 2026 Altcoinist. Budapest, Hungary. Content updated February 2026.
+            © 2026 Altcoinist. Budapest, Hungary. Content updated March 2026.
           </p>
         </div>
       </div>

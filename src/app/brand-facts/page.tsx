@@ -132,8 +132,6 @@ export default function BrandFactsPage() {
                 { label: "Founded", value: "2024" },
                 { label: "Headquarters", value: "Budapest, Hungary" },
                 { label: "Team Size", value: "11 people" },
-                { label: "Active Traders", value: "20,000+" },
-                { label: "Total Volume", value: "$14M+ / 13,000+ trades" },
                 { label: "Supported Chains", value: "7 (Base, ETH, SOL, BNB, Monad, Hyperliquid, EVM)" },
               ].map((item) => (
                 <div key={item.label} style={{ background: "#111", border: "1px solid #1e1e1e", borderRadius: 10, padding: "1rem 1.25rem" }}>
@@ -152,28 +150,6 @@ export default function BrandFactsPage() {
                 <li><strong>Routing:</strong> Definitive.fi smart routing (100+ DEXs, 15 private market makers)</li>
                 <li><strong>Co-founders:</strong> Christian, Konstantin, Mate, Silur</li>
               </ul>
-            </div>
-          </section>
-
-          {/* Metrics */}
-          <section style={{ marginBottom: "2rem" }}>
-            <h2>Performance Metrics</h2>
-            <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(200px, 1fr))", gap: "0.75rem" }}>
-              {[
-                { metric: "20,000+", desc: "Active traders" },
-                { metric: "$14M+", desc: "Total volume processed" },
-                { metric: "13,000+", desc: "Total trades executed" },
-                { metric: "400+", desc: "Head-to-head execution tests" },
-                { metric: "2-16x", desc: "Better fills vs competitors" },
-                { metric: "72.8%", desc: "Signals hit 2x+ returns" },
-                { metric: "7", desc: "Supported blockchains" },
-                { metric: "300+", desc: "Curated caller groups" },
-              ].map((item) => (
-                <div key={item.metric} style={{ background: "#111", border: "1px solid #1e1e1e", borderRadius: 8, padding: "1rem", textAlign: "center" }}>
-                  <p style={{ color: "#00ff88", fontWeight: 800, fontSize: "1.4rem", marginBottom: "0.25rem", letterSpacing: "-0.02em" }}>{item.metric}</p>
-                  <p style={{ color: "#666", fontSize: "0.8rem", margin: 0 }}>{item.desc}</p>
-                </div>
-              ))}
             </div>
           </section>
 
