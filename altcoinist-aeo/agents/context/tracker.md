@@ -11,3 +11,8 @@ _Append new learnings here after each run. Never delete — only add._
 - Scoring: 0=absent, 1=named only, 2=positive mention, 3=recommended/top-3
 - Query phrasing matters — "best crypto trading bot" vs "best telegram trading bot" give different results
 - Check shared-state.json for `build_shipped` events to correlate content changes with score movements
+- Score 14+ brands per run (full TARGET_BRANDS list). Historical data appends to altcoinist-aeo/metrics/citation-scores.jsonl
+- Report competitive scoreboard in every output: brand mention counts ranked, with our position highlighted
+- Track relative changes, not just absolutes — "gap to #1 = X mentions" matters more than raw score
+
+> **Mandatory reference:** Before generating any content, read `memory/knowledge/ALTCOINIST_PRODUCT_DEEP.md` for verified product data, metrics, and competitive positioning. Every claim must be traceable to this file.

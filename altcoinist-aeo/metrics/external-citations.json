@@ -1,0 +1,13 @@
+{
+  "citations": [
+    {"source": "DappRadar", "type": "listing", "url": "https://dappradar.com/developers", "status": "not_submitted", "submitted": null, "notes": "May need Web3 tool category (not traditional dApp)"},
+    {"source": "DefiLlama", "type": "listing", "url": "https://github.com/DefiLlama/DefiLlama-Adapters", "status": "not_submitted", "submitted": null, "notes": "Needs adapter PR with contract addresses from Tiago"},
+    {"source": "CoinGecko", "type": "token_listing", "url": "https://www.coingecko.com/en/coins/listing", "status": "not_submitted", "submitted": null, "notes": "$ALTT token listing"},
+    {"source": "Product Hunt", "type": "launch", "url": "https://www.producthunt.com", "status": "not_submitted", "submitted": null, "notes": "Free launch, needs maker account"},
+    {"source": "Wikidata", "type": "entity", "url": "https://www.wikidata.org", "status": "deferred", "submitted": null, "notes": "Needs independent source first"},
+    {"source": "Schema.org / JSON-LD", "type": "structured_data", "url": "https://aeo.altcoinist.com", "status": "live", "submitted": "2026-02-26", "notes": "All AEO pages have full schema markup"}
+  ],
+  "total_external_mentions": 1,
+  "target": 5,
+  "last_updated": "2026-03-02"
+}

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "strategy/AEO-MASTER-PLAN.md",
+                "file": "knowledge/altcoinist-kb.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AEO-MASTER-PLAN"
+              "title": "altcoinist-kb"
             }
           }
         ]
@@ -188,6 +188,12 @@
   },
   "active": "0f1e18436d259fbd",
   "lastOpenFiles": [
+    "metrics/external-citations.json",
+    "metrics",
+    "strategy/external-citation-targets.md",
+    "strategy",
+    "strategy/AEO-MASTER-PLAN.md",
+    "strategy/focus-query.md",
     "knowledge/altcoinist-kb.md",
     "templates/Agent Profile.md",
     "knowledge/competitors-kb.md",
@@ -216,13 +222,7 @@
     "agents/context/dept-review.md",
     "agents/context/data-refresh.md",
     "agents/context/strategy.md",
-    "agents/context/builder.md",
-    "agents/context/cso.md",
-    "agents/context/ops.md",
-    "agents/context/tracker.md",
     "agents/context",
-    "ops/shared-state.json",
-    "ops/execution-queue.json",
-    "content/tmp"
+    "ops/shared-state.json"
   ]
 }

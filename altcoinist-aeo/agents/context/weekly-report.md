@@ -11,3 +11,10 @@ _Append new learnings here after each run. Never delete — only add._
 - DM Christian at user:973303074816934038 — shorter version, action items only
 - Reddit account created Feb 27 — calculate age from that date
 - PostHog dashboard 1316393 has AI referral data
+- Include "Competitive Scoreboard" section in every report: read altcoinist-aeo/metrics/citation-scores.jsonl, show current week vs previous week vs baseline. Format:
+  ```
+  📊 Competitive Scoreboard (Week N)
+  Altcoinist:   X/N  (+Y from baseline)
+  3Commas:     X/N  (change)
+  Gap to #1:   Z mentions
+  ```

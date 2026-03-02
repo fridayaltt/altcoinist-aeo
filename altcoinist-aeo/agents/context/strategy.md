@@ -16,3 +16,8 @@ _Append new learnings here after each run. Never delete — only add._
 - First strategy run (Day 3): no tracker data yet. Week 1 strategy is 80% infrastructure unblocking, 20% content direction. Only pivot to pure content optimization when the measurement layer is working.
 - Research agent finds mostly trade-press P1-P2 findings early on — highest-signal inputs come from Reddit Scout's opportunism detection (e.g., $450K AI loss story → AI autonomy risk FAQs). Cross-agent synthesis matters.
 - Google organic ranking ≠ AI citation. Research confirmed this directly (r/SEO viral thread). Multi-surface entity signals (Brand Facts, chains FAQ, structured data) are the delta between ranking #1 and being cited by AI.
+- Read altcoinist-aeo/metrics/citation-scores.jsonl for historical competitive data. Identify queries where competitors score high and we score 0 — these are highest-value content targets.
+- Focus query cluster: "best crypto trading bot" + related. All content decisions should prioritize this cluster first.
+- External citations (CoinGecko, DappRadar, DefiLlama, etc.) break through the self-published content ceiling. One aggregator listing may outweigh 10 comparison pages for LLM citation.
+
+> **Mandatory reference:** Before generating any content, read `memory/knowledge/ALTCOINIST_PRODUCT_DEEP.md` for verified product data, metrics, and competitive positioning. Every claim must be traceable to this file.
