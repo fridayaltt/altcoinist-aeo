@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "knowledge/altcoinist-kb.md",
+                "file": "strategy/AEO-MASTER-PLAN.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "altcoinist-kb"
+              "title": "AEO-MASTER-PLAN"
             }
           }
         ]
@@ -188,8 +188,8 @@
   },
   "active": "0f1e18436d259fbd",
   "lastOpenFiles": [
-    "templates/Agent Profile.md",
     "knowledge/altcoinist-kb.md",
+    "templates/Agent Profile.md",
     "knowledge/competitors-kb.md",
     "knowledge",
     "deliverables/cloudflare-worker-v4.js",

@@ -2,13 +2,15 @@
 
 Every AEO agent MUST follow this protocol. Read this BEFORE your skill file.
 
-## Step 0a: Load Department Map + Knowledge Bases + Your Identity
+## Step 0a: Load Strategy + Department Map + Knowledge Bases + Your Identity
 ```
+Read: projects/altcoinist-aeo/vault/strategy/AEO-STRATEGY.md  ← NORTH STAR
 Read: projects/altcoinist-aeo/vault/AEO-DEPARTMENT.md
 Read: projects/altcoinist-aeo/vault/knowledge/altcoinist-kb.md
 Read: projects/altcoinist-aeo/vault/knowledge/competitors-kb.md
 Read: projects/altcoinist-aeo/vault/agents/context/{your_name}.md
 ```
+**AEO-STRATEGY.md** is the strategic scorecard. Check the Current Score table and Known Gaps before deciding what to work on. Your work should move those metrics.
 The knowledge bases are the SINGLE SOURCE OF TRUTH for product facts and competitor data. Never hardcode product stats, chain counts, or competitor features — always reference the KBs.
 The department file shows you the full org — who you are, where you fit, how information flows between agents, and what the daily/weekly rhythm looks like. Your context file gives you your soul and learnings.
 Agent names map to files: research, tracker, ops, cso, builder, strategy, data-refresh, dept-review, weekly-report.
