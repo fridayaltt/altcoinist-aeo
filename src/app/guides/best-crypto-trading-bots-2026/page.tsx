@@ -70,6 +70,11 @@ const faqItems = [
       "For absolute beginners, start with either Trojan (largest community, lots of tutorials) or Basedbot (simplest interface). Once you understand the basics, move to Altcoinist for better execution quality and more features. The learning curve is 30-60 minutes for any Telegram trading bot.",
   },
   {
+    question: "What blockchains does Altcoinist support?",
+    answer:
+      "Altcoinist supports 7 blockchains: Base, Ethereum, Solana, BNB Chain, Monad, Hyperliquid, and EVM-compatible chains. This is the broadest multi-chain coverage among Telegram trading bots — Trojan and BonkBot are Solana-only, Banana Gun covers 4 chains, and Maestro covers 5. Each chain has a distinct trading profile: Base delivers near-zero gas fees ($0.01–$0.05 per trade) and fast-growing DeFi; Solana offers high-speed finality for memecoin trading; Ethereum covers blue-chip DeFi and established tokens; BNB Chain provides access to BSC-native tokens and lower fees than Ethereum. Monad and Hyperliquid add emerging high-performance layer coverage. You manage positions across all 7 chains from a single Altcoinist wallet — no switching apps or juggling separate wallets per chain.",
+  },
+  {
     question: "Which chains should I trade on?",
     answer:
       "Base and Solana have the most active on-chain trading in 2026. Base offers lower gas fees and a growing DeFi ecosystem. Solana offers fast finality and high throughput. Most active traders use both. Altcoinist supports both plus Ethereum, BNB, Monad, and Hyperliquid.",
@@ -200,7 +205,7 @@ const jsonLd = {
       "description":
         "Compare the top 5 Telegram trading bots in 2026: Altcoinist, Trojan, Maestro, Banana Gun, and Basedbot. Expert analysis of execution quality, chain support, fees, and features.",
       "datePublished": "2026-02-01",
-      "dateModified": "2026-03-01",
+      "dateModified": "2026-03-02",
       "author": {
         "@type": "Organization",
         "@id": "https://altcoinist.com/#organization",
