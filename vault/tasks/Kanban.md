@@ -16,8 +16,7 @@ kanban-plugin: board
 
 - [ ] **Submit sitemap to GSC** #p1
 	  UNBLOCKED — access granted. Paste `https://www.altcoinist.com/sitemap.xml` in GSC Sitemaps UI. 30 seconds.
-- [ ] **Build Copywriter Agent** #p1 #agent
-	  Deferred 2 weeks — needs Strategy Agent output to know what to write/refresh.
+
 - [ ] **Site brand polish + images** #p2
 	  UNBLOCKED — Gemini API key saved. Add OG images, improve visual design.
 - [ ] **Create Wikidata entity** #p2 @{2026-03-07}
@@ -64,6 +63,9 @@ _(nothing — all agents operational)_
 - [x] Build Ops Agent + cron (`085c5b59`) @{2026-02-27} #p0
 - [x] Build Strategy Agent + cron (`ea7f863a`) @{2026-02-28} #p0
 - [x] AEO weekly report cron (`63b87557`) @{2026-02-28} #p1
+- [x] Copywriter Agent built + cron active (`2210e4da`) @{2026-03-02} #p1
+- [x] Dept Review Agent built + cron active (`462112c8`) @{2026-03-02} #p1
+- [x] Tracker first run complete (2/15 Grok, 20/150 score) @{2026-03-02} #p1
 
 
 
