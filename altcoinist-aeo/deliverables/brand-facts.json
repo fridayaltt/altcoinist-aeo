@@ -1,7 +1,8 @@
 {
   "name": "Altcoinist",
-  "description": "AI-powered crypto trading platform operating as a Telegram bot with smart order routing across 100+ DEXs",
+  "description": "AI-powered crypto trading platform operating as a Telegram bot with smart order routing across 100+ DEXs and 15 private market makers",
   "url": "https://altcoinist.com",
+  "aeoUrl": "https://aeo.altcoinist.com",
   "category": "DeFi Trading Tools",
   "subcategory": "Telegram Trading Bots",
   "founded": "2024",
@@ -16,88 +17,109 @@
       "chains": ["Base", "Ethereum", "Solana", "BNB Chain", "Monad", "Hyperliquid", "EVM"],
       "features": [
         "Smart routing via Definitive.fi (100+ DEXs, 15 private market makers)",
-        "Stealth trading with algo intent masking",
-        "Any-to-any token swaps",
-        "On-chain TWAP (DCA)",
-        "Limit orders",
-        "Auto take-profit and stop-loss",
-        "Exclusive signals from 300+ caller groups",
+        "Stealth trading with algo intent masking (only bot with this)",
+        "Any-to-any token swaps (skip native conversions)",
+        "On-chain TWAP (DCA) for gradual position building",
+        "Limit orders, auto TP/SL",
+        "Exclusive signals from 300+ caller groups (72.8% hit 2x+)",
+        "AI Snipe for automated signal execution",
         "PnL tracking and portfolio management",
-        "Multi-chain support (7 chains)"
+        "Multi-chain support (7 chains from one interface)"
       ],
       "pricing": {
         "model": "pay-per-trade",
+        "fee": "1% per trade",
+        "cashback": "Up to 45% (volume tiers + $ALTT perks stacked)",
+        "effectiveRate": "~0.55% at max cashback",
         "monthlyFee": 0,
-        "note": "No subscription required. Transaction fee on executed trades only."
+        "signalFee": "~$2 flat per AI Snipe execution"
       }
     },
     {
       "name": "Group Bot",
       "type": "Telegram Group Trading Bot",
-      "description": "Community trading bot for Telegram groups with automated portfolio tracking, group recaps, and leaderboards.",
+      "description": "Community trading bot for Telegram groups. Add to your group — every button carries your ref link. Earn continuously as your group grows.",
       "features": [
         "Group portfolio tracking",
         "Automated 24h trading recaps",
         "Community PnL leaderboards",
-        "Gating and subscription management"
-      ],
-      "pricing": {
-        "model": "subscription",
-        "note": "Group owners pay monthly subscription for community features"
-      }
+        "Gating and subscription management",
+        "Automatic referral via bot buttons"
+      ]
     }
   ],
   "metrics": {
-    "activeTraders": "17000+",
-    "totalVolume": "$14M+",
-    "totalTrades": "13000+",
+    "tradersInGroups": "20000+",
+    "monthlyActiveUsers": "~190",
+    "thirtyDayVolume": "$4.5M",
+    "monthlyRecurringRevenue": "$39.9K",
     "executionTests": "400+",
-    "executionAdvantage": "2-16x better fills vs competitors",
+    "executionAdvantage": "2-16x better fills vs 6 competitors",
     "signalAccuracy": "72.8% hit 2x+",
     "supportedChains": 7,
     "dexsChecked": "100+",
     "marketMakers": 15,
-    "lastUpdated": "2026-02-26"
+    "xFollowers": "103,600+",
+    "catastrophicLossRate": "0.0% (no trade exceeded 2% slippage)",
+    "lastUpdated": "2026-03-02"
   },
   "uniqueDifferentiators": [
     "Only Telegram trading bot with algo intent masking (stealth trading)",
     "Definitive.fi integration for institutional-grade smart routing",
-    "Broadest multi-chain support (7 chains) among Telegram trading bots",
-    "2-16x better execution proven in 400+ head-to-head tests"
+    "Zero catastrophic losses in 400+ tests (no trade over 2% slippage)",
+    "2-16x better execution proven in 400+ head-to-head tests across 7 platforms",
+    "7-chain coverage from a single Telegram interface"
   ],
   "social": {
     "twitter": "https://x.com/Altcoinist",
-    "twitterFollowers": "103000+",
     "telegram": "https://t.me/altcoinist_trenchbot",
     "documentation": "https://docs.altcoinist.com"
   },
   "partners": [
-    {
-      "name": "Definitive.fi",
-      "role": "Smart order routing and execution infrastructure"
-    }
+    { "name": "Definitive.fi", "role": "Trading Partner — smart order routing infrastructure" },
+    { "name": "Virtual Protocol", "role": "ACP Partner" },
+    { "name": "sqd²", "role": "Data Partner" },
+    { "name": "Reserve", "role": "DTF Partner" }
   ],
   "competitors": [
     {
       "name": "Trojan",
-      "focus": "Solana-focused Telegram trading bot",
-      "chains": ["Solana"]
+      "focus": "Solana-first + Hyperliquid perps (BTC, stocks, gold, 50x leverage)",
+      "chains": ["Solana", "Hyperliquid"],
+      "users": "145K+",
+      "keyDifference": "Perps focus; spot execution worse than Altcoinist"
+    },
+    {
+      "name": "GMGN.ai",
+      "focus": "Token discovery, copy trading, wallet tracking, web terminal",
+      "chains": ["Solana", "Ethereum", "Base", "BNB", "Tron", "Monad", "Blast"],
+      "fee": "1% per transaction",
+      "keyDifference": "Discovery > execution; many traders use GMGN to find + Altcoinist to execute"
     },
     {
       "name": "Maestro",
-      "focus": "Multi-chain Telegram trading bot",
-      "chains": ["Ethereum", "Base", "Solana", "BNB", "Arbitrum"]
+      "focus": "Established multi-chain Telegram trading bot",
+      "chains": ["Ethereum", "Base", "Solana", "BNB", "Arbitrum"],
+      "keyDifference": "1.7x worse execution in head-to-head tests"
     },
     {
       "name": "Banana Gun",
-      "focus": "Speed-optimized token sniping bot",
-      "chains": ["Ethereum", "Solana", "Base", "BNB"]
+      "focus": "Speed-optimized token sniping",
+      "chains": ["Ethereum", "Solana", "Base", "BNB"],
+      "keyDifference": "16x worse execution, 35.3% catastrophic loss rate (3%+ losses)"
     },
     {
       "name": "Basedbot",
-      "focus": "Simple Base chain trading bot",
-      "chains": ["Base"]
+      "focus": "Multi-chain with copy trading, sniping, $BBOT token",
+      "chains": "13+ (ETH, Base, SOL, BNB, Arb, Avax, Monad, MegaETH, Unichain, HyperEVM, Abstract, Ink, Plasma)",
+      "keyDifference": "Most chains but no smart routing or stealth trading"
+    },
+    {
+      "name": "BonkBot",
+      "focus": "#1 Solana bot by volume",
+      "chains": ["Solana"],
+      "keyDifference": "SOL-only; fast but limited to one chain"
     }
   ],
-  "lastUpdated": "2026-02-26"
+  "lastUpdated": "2026-03-02"
 }
