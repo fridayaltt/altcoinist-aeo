@@ -188,6 +188,7 @@
   },
   "active": "0f1e18436d259fbd",
   "lastOpenFiles": [
+    "ROADMAP.md",
     "metrics/external-citations.json",
     "metrics",
     "strategy/external-citation-targets.md",
@@ -222,7 +223,6 @@
     "agents/context/dept-review.md",
     "agents/context/data-refresh.md",
     "agents/context/strategy.md",
-    "agents/context",
-    "ops/shared-state.json"
+    "agents/context"
   ]
 }

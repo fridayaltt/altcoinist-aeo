@@ -2,17 +2,16 @@
 
 Every AEO agent MUST follow this protocol. Read this BEFORE your skill file.
 
-## Step 0a: Load Strategy + Department Map + Knowledge Bases + Your Identity
+## Step 0a: Load ROADMAP + Knowledge Bases + Your Identity
 ```
-Read: projects/altcoinist-aeo/vault/strategy/AEO-STRATEGY.md  ← NORTH STAR
-Read: projects/altcoinist-aeo/vault/AEO-DEPARTMENT.md
-Read: projects/altcoinist-aeo/vault/knowledge/altcoinist-kb.md
-Read: projects/altcoinist-aeo/vault/knowledge/competitors-kb.md
-Read: projects/altcoinist-aeo/vault/agents/context/{your_name}.md
+Read: projects/altcoinist-aeo/altcoinist-aeo/ROADMAP.md              ← PRIORITIES (what to work on)
+Read: projects/altcoinist-aeo/altcoinist-aeo/knowledge/altcoinist-kb.md   ← product truth
+Read: projects/altcoinist-aeo/altcoinist-aeo/knowledge/competitors-kb.md  ← competitor truth
+Read: projects/altcoinist-aeo/altcoinist-aeo/AEO-DEPARTMENT.md           ← org chart
+Read: projects/altcoinist-aeo/altcoinist-aeo/agents/context/{your_name}.md ← your learnings
 ```
-**AEO-STRATEGY.md** is the strategic scorecard. Check the Current Score table and Known Gaps before deciding what to work on. Your work should move those metrics.
+**ROADMAP.md is the single authority on priorities.** Your work must align with the current NOW section. If your planned task isn't in NOW or NEXT, check if it still matters before doing it.
 The knowledge bases are the SINGLE SOURCE OF TRUTH for product facts and competitor data. Never hardcode product stats, chain counts, or competitor features — always reference the KBs.
-The department file shows you the full org — who you are, where you fit, how information flows between agents, and what the daily/weekly rhythm looks like. Your context file gives you your soul and learnings.
 Agent names map to files: research, tracker, ops, cso, builder, strategy, data-refresh, dept-review, weekly-report.
 
 **After your run:** If you learned something new (a gotcha, a better approach, a path that moved), append it to your learnings section. This is how you get smarter over time.
@@ -116,19 +115,29 @@ When Builder ships a content change, tag it:
 
 When Tracker runs, it should check: "Did any `build_shipped` events happen since last run? For those pages, did the citation score change?" This creates the feedback loop.
 
+## Step 6: Vault Hygiene (Ops Agent — daily check)
+Ops Agent runs this daily as part of its status check:
+1. `find altcoinist-aeo/ -name "*.md" -mtime +7 -not -path "*/.archive/*" -not -path "*/.obsidian/*" -not -path "*/decisions/*"` — any file untouched for 7+ days
+2. For each stale file: is it still referenced by ROADMAP.md or another active file? If not → flag for archival
+3. Check `knowledge/altcoinist-kb.md` and `knowledge/competitors-kb.md` — are the "As of" dates in metrics tables older than 14 days? If yes → flag for Data Refresh
+4. Log findings to shared-state event_log as `vault_hygiene` event
+5. If any critical doc is stale (ROADMAP.md, knowledge bases, AGENT-PROTOCOL.md) → escalate to #aeo
+
 ## Paths (canonical — NEVER hardcode alternatives)
 All paths are relative to `/Users/friday/.openclaw/workspace/`:
 
 | What | Path |
 |------|------|
-| Vault root | `projects/altcoinist-aeo/vault/` |
+| Vault root | `projects/altcoinist-aeo/altcoinist-aeo/` |
+| ROADMAP | `projects/altcoinist-aeo/altcoinist-aeo/ROADMAP.md` |
+| Altcoinist KB | `projects/altcoinist-aeo/altcoinist-aeo/knowledge/altcoinist-kb.md` |
+| Competitors KB | `projects/altcoinist-aeo/altcoinist-aeo/knowledge/competitors-kb.md` |
 | Site source | `projects/altcoinist-aeo/src/app/` |
-| brand-facts.json | `projects/altcoinist-aeo/vault/deliverables/brand-facts.json` |
-| Execution queue | `projects/altcoinist-aeo/vault/ops/execution-queue.json` |
-| Shared state | `projects/altcoinist-aeo/vault/ops/shared-state.json` |
-| This protocol | `projects/altcoinist-aeo/vault/ops/AGENT-PROTOCOL.md` |
-| Department status | `projects/altcoinist-aeo/vault/DEPARTMENT-STATUS.md` |
-| Kanban | `projects/altcoinist-aeo/vault/tasks/Kanban.md` |
+| brand-facts.json | `projects/altcoinist-aeo/altcoinist-aeo/deliverables/brand-facts.json` |
+| Execution queue | `projects/altcoinist-aeo/altcoinist-aeo/ops/execution-queue.json` |
+| Shared state | `projects/altcoinist-aeo/altcoinist-aeo/ops/shared-state.json` |
+| This protocol | `projects/altcoinist-aeo/altcoinist-aeo/ops/AGENT-PROTOCOL.md` |
+| Department org | `projects/altcoinist-aeo/altcoinist-aeo/AEO-DEPARTMENT.md` |
 | PostHog env | `projects/friday-dashboard/.env.local` |
 | xAI API key | `~/.openclaw/credentials/xai-api-key.txt` |
 | Discord #aeo | `channel:1476354991655751820` |
