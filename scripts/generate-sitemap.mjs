@@ -8,7 +8,7 @@
 import { readdirSync, statSync, writeFileSync, existsSync } from "fs";
 import { join, relative } from "path";
 
-const SITE_URL = "https://www.altcoinist.com";
+const SITE_URL = "https://aeo.altcoinist.com";
 const APP_DIR = join(process.cwd(), "src/app");
 const OUT_DIR = join(process.cwd(), "public");
 

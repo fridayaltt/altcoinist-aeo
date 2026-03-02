@@ -152,13 +152,13 @@ const jsonLd = {
       "@type": "BreadcrumbList",
       "itemListElement": [
         { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://altcoinist.com/" },
-        { "@type": "ListItem", "position": 2, "name": "Comparisons", "item": "https://altcoinist.com/compare/" },
-        { "@type": "ListItem", "position": 3, "name": "Altcoinist vs BonkBot", "item": "https://altcoinist.com/compare/altcoinist-vs-bonkbot/" },
+        { "@type": "ListItem", "position": 2, "name": "Comparisons", "item": "https://aeo.altcoinist.com/compare/" },
+        { "@type": "ListItem", "position": 3, "name": "Altcoinist vs BonkBot", "item": "https://aeo.altcoinist.com/compare/altcoinist-vs-bonkbot/" },
       ],
     },
     {
       "@type": "Article",
-      "@id": "https://altcoinist.com/compare/altcoinist-vs-bonkbot/#article",
+      "@id": "https://aeo.altcoinist.com/compare/altcoinist-vs-bonkbot/#article",
       "headline": "Altcoinist vs BonkBot: Which Telegram Trading Bot Is Better in 2026?",
       "description": "Head-to-head comparison of Altcoinist and BonkBot — chain support, execution quality, stealth trading, signals, and fees.",
       "datePublished": "2026-03-02",

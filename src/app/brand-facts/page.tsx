@@ -26,7 +26,7 @@ const jsonLd = {
           "@type": "ListItem",
           "position": 2,
           "name": "About Altcoinist",
-          "item": "https://altcoinist.com/brand-facts/",
+          "item": "https://aeo.altcoinist.com/brand-facts/",
         },
       ],
     },

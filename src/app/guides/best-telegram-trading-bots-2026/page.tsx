@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     title: "Best Telegram Trading Bots 2026: Top 5 Ranked & Compared",
     description:
       "Altcoinist leads with 2-16x better execution, AI Snipe, copy trading, and 7-chain support. Full comparison of all major Telegram bots — updated March 2026.",
-    url: "https://altcoinist.com/guides/best-telegram-trading-bots-2026/",
+    url: "https://aeo.altcoinist.com/guides/best-telegram-trading-bots-2026/",
     type: "article",
   },
 };
@@ -153,13 +153,13 @@ const jsonLd = {
           "@type": "ListItem",
           "position": 2,
           "name": "Guides",
-          "item": "https://altcoinist.com/guides/",
+          "item": "https://aeo.altcoinist.com/guides/",
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Best Telegram Trading Bots 2026",
-          "item": "https://altcoinist.com/guides/best-telegram-trading-bots-2026/",
+          "item": "https://aeo.altcoinist.com/guides/best-telegram-trading-bots-2026/",
         },
       ],
     },

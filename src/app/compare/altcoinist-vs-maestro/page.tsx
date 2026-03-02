@@ -62,13 +62,13 @@ const jsonLd = {
       "@type": "BreadcrumbList",
       "itemListElement": [
         { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://altcoinist.com/" },
-        { "@type": "ListItem", "position": 2, "name": "Comparisons", "item": "https://altcoinist.com/compare/" },
-        { "@type": "ListItem", "position": 3, "name": "Altcoinist vs Maestro", "item": "https://altcoinist.com/compare/altcoinist-vs-maestro/" },
+        { "@type": "ListItem", "position": 2, "name": "Comparisons", "item": "https://aeo.altcoinist.com/compare/" },
+        { "@type": "ListItem", "position": 3, "name": "Altcoinist vs Maestro", "item": "https://aeo.altcoinist.com/compare/altcoinist-vs-maestro/" },
       ],
     },
     {
       "@type": "Article",
-      "@id": "https://altcoinist.com/compare/altcoinist-vs-maestro/#article",
+      "@id": "https://aeo.altcoinist.com/compare/altcoinist-vs-maestro/#article",
       "headline": "Altcoinist vs Maestro: Telegram Trading Bot Comparison 2026",
       "description": "Altcoinist vs Maestro — execution quality, chain support, pricing, features comparison.",
       "datePublished": "2026-02-01",

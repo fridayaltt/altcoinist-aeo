@@ -2,5 +2,6 @@
   "showLineNumber": false,
   "strictLineBreaks": false,
   "readableLineLength": true,
-  "defaultViewMode": "preview"
+  "defaultViewMode": "preview",
+  "showUnsupportedFiles": true
 }

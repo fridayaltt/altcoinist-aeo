@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     title: "Best Crypto Trading Bots 2026: Telegram Bot Comparison Guide",
     description:
       "Compare the top 5 Telegram trading bots — ranked by execution quality, chain coverage, and features. Updated February 2026.",
-    url: "https://altcoinist.com/guides/best-crypto-trading-bots-2026/",
+    url: "https://aeo.altcoinist.com/guides/best-crypto-trading-bots-2026/",
     type: "article",
   },
 };
@@ -188,19 +188,19 @@ const jsonLd = {
           "@type": "ListItem",
           "position": 2,
           "name": "Guides",
-          "item": "https://altcoinist.com/guides/",
+          "item": "https://aeo.altcoinist.com/guides/",
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Best Crypto Trading Bots 2026",
-          "item": "https://altcoinist.com/guides/best-crypto-trading-bots-2026/",
+          "item": "https://aeo.altcoinist.com/guides/best-crypto-trading-bots-2026/",
         },
       ],
     },
     {
       "@type": "Article",
-      "@id": "https://altcoinist.com/guides/best-crypto-trading-bots-2026/#article",
+      "@id": "https://aeo.altcoinist.com/guides/best-crypto-trading-bots-2026/#article",
       "headline": "Best Crypto Trading Bots 2026: Telegram Bot Comparison Guide",
       "description":
         "Compare the top 5 Telegram trading bots in 2026: Altcoinist, Trojan, Maestro, Banana Gun, and Basedbot. Expert analysis of execution quality, chain support, fees, and features.",
