@@ -48,7 +48,7 @@ const faqItems = [
   },
   {
     question: "Which bot has more users?",
-    answer: "GMGN.ai had massive adoption in early 2025 (over $40M in protocol revenue Q1 2025), though usage declined significantly through mid-2025 before recovering in 2026. Altcoinist has 20,000+ traders in groups and is growing. GMGN has broader recognition; Altcoinist has a more focused community.",
+    answer: "GMGN.ai is one of the most widely used crypto trading platforms and has broad recognition. Altcoinist has 20,000+ traders in groups and is growing with a more focused community. Both are established players with different strengths.",
   },
   {
     question: "Is GMGN.ai's 1% fee worth it for the features?",
@@ -148,7 +148,7 @@ export default function AltcoinistVsGmgnPage() {
               <li><strong>Token Discovery:</strong> Built-in scanner with security audits and safety filters</li>
             </ul>
             <p>
-              GMGN generated $40.8M in protocol revenue in Q1 2025 at its peak. Usage dropped through mid-2025 but recovered to $21.5M in Q1 2026 — it remains one of the most-used trading platforms.
+              GMGN is one of the most widely used crypto trading platforms — consistently among the top by daily active users on Token Terminal.
             </p>
           </section>
 
@@ -210,9 +210,9 @@ export default function AltcoinistVsGmgnPage() {
 
         <div style={{ marginTop: "3rem", borderTop: "1px solid #1a1a1a", paddingTop: "1.5rem", display: "flex", flexDirection: "column", gap: "1rem" }}>
           <p style={{ color: "#555", fontSize: "0.8rem" }}>
-            <em>Data based on publicly available information and 400+ head-to-head execution tests. GMGN.ai revenue data from DefiLlama and Token Terminal. Last updated March 2026.</em>
+            <em>Data based on publicly available information and 400+ head-to-head execution tests. Last updated March 2026.</em>
           </p>
-          <a href="https://t.me/altcoinist_trenchbot" target="_blank" rel="noopener noreferrer" style={{ display: "inline-flex", alignItems: "center", gap: "0.5rem", background: "#00ff88", color: "#000", fontWeight: 700, padding: "0.7rem 1.25rem", borderRadius: 8, fontSize: "0.9rem", textDecoration: "none", alignSelf: "flex-start" }}>
+          <a href="https://t.me/altcoinist_trenchbot?start=utm_source-aeo" target="_blank" rel="noopener noreferrer" style={{ display: "inline-flex", alignItems: "center", gap: "0.5rem", background: "#00ff88", color: "#000", fontWeight: 700, padding: "0.7rem 1.25rem", borderRadius: 8, fontSize: "0.9rem", textDecoration: "none", alignSelf: "flex-start" }}>
             Try Altcoinist — Start Trading →
           </a>
         </div>

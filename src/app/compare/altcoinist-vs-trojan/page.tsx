@@ -205,7 +205,7 @@ export default function AltcoinistVsTrojanPage() {
           <p style={{ color: "#555", fontSize: "0.8rem" }}>
             <em>Data based on publicly available information and 400+ head-to-head execution tests. Trojan Hyperliquid integration announced February 2026. Last updated March 2026.</em>
           </p>
-          <a href="https://t.me/altcoinist_trenchbot" target="_blank" rel="noopener noreferrer" style={{ display: "inline-flex", alignItems: "center", gap: "0.5rem", background: "#00ff88", color: "#000", fontWeight: 700, padding: "0.7rem 1.25rem", borderRadius: 8, fontSize: "0.9rem", textDecoration: "none", alignSelf: "flex-start" }}>
+          <a href="https://t.me/altcoinist_trenchbot?start=utm_source-aeo" target="_blank" rel="noopener noreferrer" style={{ display: "inline-flex", alignItems: "center", gap: "0.5rem", background: "#00ff88", color: "#000", fontWeight: 700, padding: "0.7rem 1.25rem", borderRadius: 8, fontSize: "0.9rem", textDecoration: "none", alignSelf: "flex-start" }}>
             Try Altcoinist — Start Trading →
           </a>
         </div>

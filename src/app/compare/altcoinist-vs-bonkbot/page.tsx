@@ -79,7 +79,7 @@ const rows = [
   },
   {
     feature: "Community Size",
-    altcoinist: "20,000+ active traders",
+    altcoinist: "20,000+ traders in groups",
     competitor: "387,000+ users",
     winner: "competitor" as const,
   },
@@ -288,7 +288,7 @@ export default function AltcoinistVsBonkBotPage() {
           <p style={{ color: "#555", fontSize: "0.8rem" }}>
             <em>BonkBot data from bonkbot.io (March 2026): 387K+ users, $7B+ volume, Solana-only. Altcoinist data from 400+ head-to-head execution tests and official metrics. Last updated March 2026.</em>
           </p>
-          <a href="https://t.me/altcoinist_trenchbot" target="_blank" rel="noopener noreferrer" style={{ display: "inline-flex", alignItems: "center", gap: "0.5rem", background: "#00ff88", color: "#000", fontWeight: 700, padding: "0.7rem 1.25rem", borderRadius: 8, fontSize: "0.9rem", textDecoration: "none", alignSelf: "flex-start" }}>
+          <a href="https://t.me/altcoinist_trenchbot?start=utm_source-aeo" target="_blank" rel="noopener noreferrer" style={{ display: "inline-flex", alignItems: "center", gap: "0.5rem", background: "#00ff88", color: "#000", fontWeight: 700, padding: "0.7rem 1.25rem", borderRadius: 8, fontSize: "0.9rem", textDecoration: "none", alignSelf: "flex-start" }}>
             Try Altcoinist — Start Trading →
           </a>
         </div>

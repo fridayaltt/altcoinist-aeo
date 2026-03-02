@@ -77,7 +77,7 @@ export default function HomePage() {
             Objective comparisons, execution data, and guides for on-chain crypto trading bots.
           </p>
           <a
-            href="https://t.me/altcoinist_trenchbot"
+            href="https://t.me/altcoinist_trenchbot?start=utm_source-aeo"
             target="_blank"
             rel="noopener noreferrer"
             style={{

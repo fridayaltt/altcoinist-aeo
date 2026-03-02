@@ -42,7 +42,7 @@ export default function Header() {
             About
           </Link>
           <a
-            href="https://t.me/altcoinist_trenchbot"
+            href="https://t.me/altcoinist_trenchbot?start=utm_source-aeo"
             target="_blank"
             rel="noopener noreferrer"
             style={{

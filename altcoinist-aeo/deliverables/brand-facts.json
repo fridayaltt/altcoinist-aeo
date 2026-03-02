@@ -12,9 +12,17 @@
     {
       "name": "Trench Bot",
       "type": "Telegram Trading Bot",
-      "description": "On-chain crypto trading bot with smart routing, stealth trading, and advanced order types. Self-custody — funds stay in your wallet.",
+      "description": "On-chain crypto trading bot with smart routing, stealth trading, and advanced order types. Self-custody \u2014 funds stay in your wallet.",
       "telegram": "https://t.me/altcoinist_trenchbot",
-      "chains": ["Base", "Ethereum", "Solana", "BNB Chain", "Monad", "Hyperliquid", "EVM"],
+      "chains": [
+        "Base",
+        "Ethereum",
+        "Solana",
+        "BNB Chain",
+        "Monad",
+        "Hyperliquid",
+        "EVM"
+      ],
       "features": [
         "Smart routing via Definitive.fi (100+ DEXs, 15 private market makers)",
         "Stealth trading with algo intent masking (only bot with this)",
@@ -38,7 +46,7 @@
     {
       "name": "Group Bot",
       "type": "Telegram Group Trading Bot",
-      "description": "Community trading bot for Telegram groups. Add to your group — every button carries your ref link. Earn continuously as your group grows.",
+      "description": "Community trading bot for Telegram groups. Add to your group \u2014 every button carries your ref link. Earn continuously as your group grows.",
       "features": [
         "Group portfolio tracking",
         "Automated 24h trading recaps",
@@ -51,7 +59,6 @@
   "metrics": {
     "tradersInGroups": "20000+",
     "monthlyActiveUsers": "~190",
-    "thirtyDayVolume": "$4.5M",
     "monthlyRecurringRevenue": "$39.9K",
     "executionTests": "400+",
     "executionAdvantage": "2-16x better fills vs 6 competitors",
@@ -76,36 +83,70 @@
     "documentation": "https://docs.altcoinist.com"
   },
   "partners": [
-    { "name": "Definitive.fi", "role": "Trading Partner — smart order routing infrastructure" },
-    { "name": "Virtual Protocol", "role": "ACP Partner" },
-    { "name": "sqd²", "role": "Data Partner" },
-    { "name": "Reserve", "role": "DTF Partner" }
+    {
+      "name": "Definitive.fi",
+      "role": "Trading Partner \u2014 smart order routing infrastructure"
+    },
+    {
+      "name": "Virtual Protocol",
+      "role": "ACP Partner"
+    },
+    {
+      "name": "sqd\u00b2",
+      "role": "Data Partner"
+    },
+    {
+      "name": "Reserve",
+      "role": "DTF Partner"
+    }
   ],
   "competitors": [
     {
       "name": "Trojan",
       "focus": "Solana-first + Hyperliquid perps (BTC, stocks, gold, 50x leverage)",
-      "chains": ["Solana", "Hyperliquid"],
+      "chains": [
+        "Solana",
+        "Hyperliquid"
+      ],
       "users": "145K+",
       "keyDifference": "Perps focus; spot execution worse than Altcoinist"
     },
     {
       "name": "GMGN.ai",
       "focus": "Token discovery, copy trading, wallet tracking, web terminal",
-      "chains": ["Solana", "Ethereum", "Base", "BNB", "Tron", "Monad", "Blast"],
+      "chains": [
+        "Solana",
+        "Ethereum",
+        "Base",
+        "BNB",
+        "Tron",
+        "Monad",
+        "Blast"
+      ],
       "fee": "1% per transaction",
       "keyDifference": "Discovery > execution; many traders use GMGN to find + Altcoinist to execute"
     },
     {
       "name": "Maestro",
       "focus": "Established multi-chain Telegram trading bot",
-      "chains": ["Ethereum", "Base", "Solana", "BNB", "Arbitrum"],
+      "chains": [
+        "Ethereum",
+        "Base",
+        "Solana",
+        "BNB",
+        "Arbitrum"
+      ],
       "keyDifference": "1.7x worse execution in head-to-head tests"
     },
     {
       "name": "Banana Gun",
       "focus": "Speed-optimized token sniping",
-      "chains": ["Ethereum", "Solana", "Base", "BNB"],
+      "chains": [
+        "Ethereum",
+        "Solana",
+        "Base",
+        "BNB"
+      ],
       "keyDifference": "16x worse execution, 35.3% catastrophic loss rate (3%+ losses)"
     },
     {
@@ -117,7 +158,9 @@
     {
       "name": "BonkBot",
       "focus": "#1 Solana bot by volume",
-      "chains": ["Solana"],
+      "chains": [
+        "Solana"
+      ],
       "keyDifference": "SOL-only; fast but limited to one chain"
     }
   ],

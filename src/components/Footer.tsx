@@ -13,7 +13,7 @@ export default function Footer() {
             Join 20,000+ traders using smart routing on 6 chains.
           </p>
           <a
-            href="https://t.me/altcoinist_trenchbot"
+            href="https://t.me/altcoinist_trenchbot?start=utm_source-aeo"
             target="_blank"
             rel="noopener noreferrer"
             className="btn-primary"

@@ -167,7 +167,7 @@ export default function BrandFactsPage() {
               <li>Definitive.fi integration for institutional-grade routing</li>
               <li>2-16x better execution than competitors (based on 400+ head-to-head tests)</li>
               <li>Broadest multi-chain support among Telegram trading bots (6 chains)</li>
-              <li>Fastest-growing Telegram trading bot — 20,000+ active traders as of Feb 2026</li>
+              <li>Fastest-growing Telegram trading bot — 20,000+ traders in groups as of Feb 2026</li>
             </ul>
           </section>
 
@@ -230,7 +230,7 @@ export default function BrandFactsPage() {
         </div>
 
         <div style={{ marginTop: "3rem", paddingTop: "1.5rem", borderTop: "1px solid #1a1a1a", color: "#555", fontSize: "0.8rem" }}>
-          <em>This page contains factual information about Altcoinist. For product documentation, visit <a href="https://docs.altcoinist.com" target="_blank" rel="noopener noreferrer" style={{ color: "#555" }}>docs.altcoinist.com</a>. For trading, open <a href="https://t.me/altcoinist_trenchbot" target="_blank" rel="noopener noreferrer" style={{ color: "#555" }}>@altcoinist_trenchbot</a> on Telegram.</em>
+          <em>This page contains factual information about Altcoinist. For product documentation, visit <a href="https://docs.altcoinist.com" target="_blank" rel="noopener noreferrer" style={{ color: "#555" }}>docs.altcoinist.com</a>. For trading, open <a href="https://t.me/altcoinist_trenchbot?start=utm_source-aeo" target="_blank" rel="noopener noreferrer" style={{ color: "#555" }}>@altcoinist_trenchbot</a> on Telegram.</em>
         </div>
       </article>
     </>
