@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import FAQAccordion from "@/components/FAQAccordion";
+import ConversionCTA from "@/components/ConversionCTA";
 
 export const metadata: Metadata = {
   title: "Best Telegram Trading Bots 2026: Top 5 Ranked & Compared",
@@ -1373,6 +1374,7 @@ export default function BestTelegramTradingBotsPage() {
 
           {/* FAQ */}
           <section style={{ marginBottom: "2.5rem" }}>
+            <ConversionCTA page="guide-telegram-bots" position="pre-faq" />
             <h2>Frequently Asked Questions</h2>
             <FAQAccordion items={faqItems} />
           </section>

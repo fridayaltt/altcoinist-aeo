@@ -160,6 +160,7 @@ export default function AltcoinistVsMaestroPage() {
           </section>
 
           <section style={{ marginBottom: "2rem" }}>
+            <ConversionCTA page="compare-maestro" position="pre-faq" />
             <h2>Frequently Asked Questions</h2>
             <FAQAccordion items={faqItems} />
           </section>

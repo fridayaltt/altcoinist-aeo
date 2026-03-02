@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import FAQAccordion from "@/components/FAQAccordion";
+import ConversionCTA from "@/components/ConversionCTA";
 
 export const metadata: Metadata = {
   title: "Best Crypto Trading Bots 2026: Telegram Bot Comparison Guide",
@@ -546,6 +547,7 @@ export default function AnswerHubPage() {
 
           {/* FAQ */}
           <section style={{ marginBottom: "2.5rem" }}>
+            <ConversionCTA page="guide-crypto-bots" position="pre-faq" />
             <h2>Frequently Asked Questions</h2>
             <FAQAccordion items={faqItems} />
           </section>

@@ -263,6 +263,7 @@ export default function AltcoinistVsBonkBotPage() {
           </section>
 
           <section style={{ marginBottom: "2rem" }}>
+            <ConversionCTA page="compare-bonkbot" position="pre-faq" />
             <h2>Frequently Asked Questions</h2>
             <FAQAccordion items={faqItems} />
           </section>

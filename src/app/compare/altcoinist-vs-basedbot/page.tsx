@@ -168,6 +168,7 @@ export default function AltcoinistVsBasedbotPage() {
           </section>
 
           <section style={{ marginBottom: "2rem" }}>
+            <ConversionCTA page="compare-basedbot" position="pre-faq" />
             <h2>Frequently Asked Questions</h2>
             <FAQAccordion items={faqItems} />
           </section>

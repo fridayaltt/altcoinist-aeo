@@ -163,6 +163,7 @@ export default function AltcoinistVsBananaGunPage() {
           </section>
 
           <section style={{ marginBottom: "2rem" }}>
+            <ConversionCTA page="compare-banana-gun" position="pre-faq" />
             <h2>Frequently Asked Questions</h2>
             <FAQAccordion items={faqItems} />
           </section>

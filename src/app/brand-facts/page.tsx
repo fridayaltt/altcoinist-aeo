@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import ConversionCTA from "@/components/ConversionCTA";
 
 export const metadata: Metadata = {
   title: "Altcoinist — Company Overview & Trading Bot Facts",
@@ -230,6 +231,7 @@ export default function BrandFactsPage() {
         </div>
 
         <div style={{ marginTop: "3rem", paddingTop: "1.5rem", borderTop: "1px solid #1a1a1a", color: "#555", fontSize: "0.8rem" }}>
+          <ConversionCTA page="brand-facts" position="bottom" />
           <em>This page contains factual information about Altcoinist. For product documentation, visit <a href="https://docs.altcoinist.com" target="_blank" rel="noopener noreferrer" style={{ color: "#555" }}>docs.altcoinist.com</a>. For trading, open <a href="https://t.me/altcoinist_trenchbot?start=utm_source-aeo" target="_blank" rel="noopener noreferrer" style={{ color: "#555" }}>@altcoinist_trenchbot</a> on Telegram.</em>
         </div>
       </article>
