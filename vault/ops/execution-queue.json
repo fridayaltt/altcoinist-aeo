@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-01T08:00:00Z",
+  "updated": "2026-03-02T09:00:00Z",
   "updated_by": "cso",
   "items": [
     {
@@ -30,12 +30,13 @@
       "id": "gap-003",
       "priority": 2,
       "type": "content_gap",
-      "title": "Add BonkBot comparison FAQs to Answer Hub",
-      "description": "BonkBot is the #1 Solana trading bot by volume — major query target for AI engines — and we have zero comparison coverage. Copywriter is deferred 2 weeks. Add 3 FAQs comparing Altcoinist vs BonkBot: chains supported (BonkBot Solana-only vs Altcoinist 7 chains), fees, smart money copy-trading. Position as the multi-chain alternative. Serves until Copywriter ships the full /compare/altcoinist-vs-bonkbot/ page.",
-      "target": "guides/best-crypto-trading-bots-2026",
-      "estimated_minutes": 30,
+      "title": "Internal linking catch-up: Answer Hub + Telegram guide → BonkBot page",
+      "description": "Two new pages shipped in the last 24h but the site's internal link graph hasn't caught up: (1) Answer Hub (/guides/best-crypto-trading-bots-2026/) has no link to /compare/altcoinist-vs-bonkbot/ (shipped 2026-03-02) or /guides/best-telegram-trading-bots-2026/ (shipped 2026-03-02 01:09 CET). (2) Telegram bots guide links to Trojan/Maestro/Banana Gun/Basedbot comparison pages but NOT BonkBot (comparison page didn't exist when the guide was created). Fix: add 1-sentence cross-references with links in each affected page. Internal link depth directly affects AI crawler session depth and page authority transfer. NOTE: Original gap-003 (Add BonkBot FAQs as interim) is superseded — Copywriter shipped /compare/altcoinist-vs-bonkbot/ on 2026-03-02.",
+      "target": "guides/best-crypto-trading-bots-2026, guides/best-telegram-trading-bots-2026",
+      "estimated_minutes": 20,
       "status": "queued",
-      "source": "opportunity_scan"
+      "source": "freshness_check",
+      "updated_at": "2026-03-02T09:00:00Z"
     },
     {
       "id": "gap-004",
