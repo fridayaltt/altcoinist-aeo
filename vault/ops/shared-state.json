@@ -31,9 +31,9 @@
       "status": "ok"
     },
     "builder": {
-      "last_run": "2026-03-01T10:03:00Z",
-      "items_shipped_this_week": 2,
-      "last_shipped": "gap-002",
+      "last_run": "2026-03-02T10:05:00Z",
+      "items_shipped_this_week": 3,
+      "last_shipped": "gap-005",
       "status": "ok"
     },
     "strategy": {
@@ -370,6 +370,18 @@
         "approved_count": 0,
         "pending_approval_count": 9,
         "phase": 1
+      }
+    },
+    {
+      "timestamp": "2026-03-02T10:05:00Z",
+      "agent": "builder",
+      "event": "build_shipped",
+      "data": {
+        "queue_item_id": "gap-005",
+        "page": "/guides/best-crypto-trading-bots-2026/",
+        "change": "Added FAQ: 'What blockchains does Altcoinist support?' — enumerates all 7 chains (Base, Ethereum, Solana, BNB Chain, Monad, Hyperliquid, EVM), per-chain characteristics, and cross-chain advantage over single-chain competitors (Trojan/BonkBot Solana-only, Banana Gun 4 chains). dateModified updated to 2026-03-02.",
+        "date": "2026-03-02",
+        "faq_count_after": 20
       }
     }
   ],
