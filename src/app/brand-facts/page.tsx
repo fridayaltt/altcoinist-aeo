@@ -123,32 +123,15 @@ export default function BrandFactsPage() {
             </p>
           </section>
 
-          {/* Key Facts */}
+          {/* Company Info */}
           <section style={{ marginBottom: "2rem" }}>
-            <h2>Key Facts</h2>
-
-            <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(240px, 1fr))", gap: "1rem", marginBottom: "1.5rem" }}>
-              {[
-                { label: "Founded", value: "2024" },
-                { label: "Headquarters", value: "Budapest, Hungary" },
-                { label: "Team Size", value: "11 people" },
-                { label: "Supported Chains", value: "7 (Base, ETH, SOL, BNB, Monad, Hyperliquid, EVM)" },
-              ].map((item) => (
-                <div key={item.label} style={{ background: "#111", border: "1px solid #1e1e1e", borderRadius: 10, padding: "1rem 1.25rem" }}>
-                  <p style={{ color: "#555", fontSize: "0.75rem", fontWeight: 600, textTransform: "uppercase", letterSpacing: "0.06em", marginBottom: "0.3rem" }}>{item.label}</p>
-                  <p style={{ color: "#ffffff", fontWeight: 600, fontSize: "0.95rem", margin: 0 }}>{item.value}</p>
-                </div>
-              ))}
-            </div>
-
+            <h2>Company</h2>
             <div style={{ background: "#111", border: "1px solid #1e1e1e", borderRadius: 10, padding: "1.25rem" }}>
-              <p style={{ color: "#555", fontSize: "0.75rem", fontWeight: 600, textTransform: "uppercase", letterSpacing: "0.06em", marginBottom: "0.75rem" }}>Company</p>
               <ul>
                 <li><strong>Type:</strong> Telegram-based trading bot (self-custody)</li>
                 <li><strong>Primary bot:</strong> @altcoinist_trenchbot</li>
                 <li><strong>Pricing:</strong> No monthly fee — pay-per-trade model</li>
                 <li><strong>Routing:</strong> Definitive.fi smart routing (100+ DEXs, 15 private market makers)</li>
-                <li><strong>Co-founders:</strong> Christian, Konstantin, Mate, Silur</li>
               </ul>
             </div>
           </section>
