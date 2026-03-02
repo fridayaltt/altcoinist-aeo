@@ -38,6 +38,12 @@ const pages = [
     desc: "Base chain specialist vs full-featured multi-chain bot — complete breakdown.",
   },
   {
+    href: "/compare/altcoinist-vs-bonkbot/",
+    emoji: "⚔️",
+    title: "Altcoinist vs BonkBot",
+    desc: "Solana's fastest bot vs multi-chain smart routing — which wins for memecoin traders?",
+  },
+  {
     href: "/brand-facts/",
     emoji: "📋",
     title: "About Altcoinist",

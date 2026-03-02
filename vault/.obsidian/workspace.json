@@ -187,6 +187,9 @@
   },
   "active": "a241a6679de4210a",
   "lastOpenFiles": [
+    "ops/reddit/drafts/2026-03-02-opp-002.md",
+    "ops/reddit/drafts/2026-03-02-opp-005.md",
+    "ops/reddit/drafts/2026-03-02-opp-003.md",
     "ops/reddit/drafts/2026-03-01-opp-003.md",
     "ops/reddit/drafts/2026-03-01-opp-002.md",
     "ops/reddit/drafts/2026-03-01-opp-001.md",
@@ -218,10 +221,7 @@
     "ops/execution-queue.json",
     "content/tmp",
     "DEPARTMENT-STATUS.md",
-    "AEO-DEPARTMENT.md",
     "reports",
-    "ops",
-    "strategy/AEO-MASTER-PLAN.md",
-    "agents/Reddit Rules & Limits.md"
+    "ops"
   ]
 }
