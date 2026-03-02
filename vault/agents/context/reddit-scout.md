@@ -16,3 +16,5 @@ _Append new learnings here after each run. Never delete — only add._
 - First scan (Feb 27): 3Commas dominates existing recommendations, Altcoinist completely absent
 
 - r/CryptoTrading scan continues to be low-signal (few fresh, actionable threads) — most valuable opportunities are currently in r/defi and r/solana.
+- Reddit JSON fetch reliability: Python urllib calls to reddit.com JSON endpoints returned 403 “Blocked”; `curl -sL` with a browser-like User-Agent works. Stick to the curl→python pipeline.
+- Some days there are zero high-traction bot threads; for Phase 1 karma building, prioritize high-signal Solana/DeFi tooling questions (wallet history backfill, Phantom swaps, etc.).

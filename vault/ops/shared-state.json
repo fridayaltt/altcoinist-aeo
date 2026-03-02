@@ -51,9 +51,9 @@
       "last_run": "2026-03-01T13:00:00Z",
       "issues_fixed": 1,
       "status": "ok",
-      "summary": "Fixed reddit-compliance timeout 600s\u2192900s. CF Worker routing broken (altcoinist.com AEO paths 404) \u2014 escalated to Christian. All Vercel pages OK. Quality gate passed (19 FAQs, schemas OK). Pipeline healthy (3 queued items). Kanban updated (3 stale In-Progress \u2192 Done).",
+      "summary": "Fixed reddit-compliance timeout 600s→900s. CF Worker routing broken (altcoinist.com AEO paths 404) — escalated to Christian. All Vercel pages OK. Quality gate passed (19 FAQs, schemas OK). Pipeline healthy (3 queued items). Kanban updated (3 stale In-Progress → Done).",
       "escalations": [
-        "CF Worker routing \u2014 needs Cloudflare dashboard update"
+        "CF Worker routing — needs Cloudflare dashboard update"
       ]
     }
   },
@@ -112,7 +112,7 @@
       "data": {
         "queue_item_id": "gap-001",
         "page": "/guides/best-crypto-trading-bots-2026/",
-        "change": "Added FAQ: 'What is the minimum amount to start trading Solana memecoins?' \u2014 covers SOL gas fees ($0.001-$0.005), recommended starting amounts ($50 min, $200-500 for meaningful trading), liquidity impact, and Altcoinist multi-chain context.",
+        "change": "Added FAQ: 'What is the minimum amount to start trading Solana memecoins?' — covers SOL gas fees ($0.001-$0.005), recommended starting amounts ($50 min, $200-500 for meaningful trading), liquidity impact, and Altcoinist multi-chain context.",
         "date": "2026-02-28"
       }
     },
@@ -145,7 +145,7 @@
       "agent": "reddit-compliance",
       "event": "reddit_compliance_check",
       "data": {
-        "brief": "Reddit account health OK: about.json 200; karma 0 \u2192 1; removals=0; warnings=0; phase=1."
+        "brief": "Reddit account health OK: about.json 200; karma 0 → 1; removals=0; warnings=0; phase=1."
       }
     },
     {
@@ -217,7 +217,7 @@
       "data": {
         "queue_item_id": "gap-002",
         "page": "/guides/best-crypto-trading-bots-2026/",
-        "change": "Added 2 FAQs targeting AI autonomy risk queries: 'Can an AI trading bot lose all my money?' and 'What safeguards does Altcoinist have to prevent catastrophic trading losses?' \u2014 directly captures queries triggered by viral $450K autonomous agent loss story. Tools-vs-agents framing differentiates Altcoinist from fully autonomous AI agents.",
+        "change": "Added 2 FAQs targeting AI autonomy risk queries: 'Can an AI trading bot lose all my money?' and 'What safeguards does Altcoinist have to prevent catastrophic trading losses?' — directly captures queries triggered by viral $450K autonomous agent loss story. Tools-vs-agents framing differentiates Altcoinist from fully autonomous AI agents.",
         "date": "2026-03-01"
       }
     },
@@ -226,13 +226,13 @@
       "agent": "dept_review",
       "event": "issue_fixed",
       "data": {
-        "brief": "Fixed reddit-compliance timeout 600s\u2192900s. Detected CF Worker routing broken: altcoinist.com /guides/ /compare/ /brand-facts/ all return 404 \u2014 Vercel fine (200), v3 script ready at vault/deliverables/cloudflare-worker-v3.js. Escalated to Christian. Kanban updated: 3 stale In-Progress items moved to Done.",
+        "brief": "Fixed reddit-compliance timeout 600s→900s. Detected CF Worker routing broken: altcoinist.com /guides/ /compare/ /brand-facts/ all return 404 — Vercel fine (200), v3 script ready at vault/deliverables/cloudflare-worker-v3.js. Escalated to Christian. Kanban updated: 3 stale In-Progress items moved to Done.",
         "fixes": [
-          "reddit-compliance timeout 600s\u2192900s",
-          "Kanban 3 stale items \u2192 Done"
+          "reddit-compliance timeout 600s→900s",
+          "Kanban 3 stale items → Done"
         ],
         "escalations": [
-          "CF Worker \u2014 altcoinist.com AEO paths 404 \u2014 paste cloudflare-worker-v3.js in CF dashboard"
+          "CF Worker — altcoinist.com AEO paths 404 — paste cloudflare-worker-v3.js in CF dashboard"
         ],
         "apis": {
           "xai": "ok",
@@ -252,7 +252,7 @@
       "agent": "reddit-compliance",
       "event": "reddit_compliance_check",
       "data": {
-        "brief": "Reddit account health OK: about.json 200; karma 1 \u2192 1; removals_detected=0; warnings=0; phase=1; age_days=2.",
+        "brief": "Reddit account health OK: about.json 200; karma 1 → 1; removals_detected=0; warnings=0; phase=1; age_days=2.",
         "about_http_code": 200,
         "old_karma": 1,
         "new_karma": 1,
@@ -273,6 +273,31 @@
         "tracker_data": false,
         "baseline_score": "0/50 Grok organic",
         "reddit_days_to_eligible": 28
+      }
+    },
+    {
+      "timestamp": "2026-03-02T04:05:00Z",
+      "agent": "reddit-scout",
+      "event": "reddit_opportunities",
+      "data": {
+        "brief": "Reddit Scout selected 7 Phase 1 opportunities for replies (P1/P2/P3 = 0/0/7).",
+        "scan_date": "2026-03-02",
+        "top": {
+          "id": "2026-03-02-opp-001",
+          "priority": "P3",
+          "sub": "solana",
+          "title": "someone made a memecoin of our sheep, Nori, what do we do?",
+          "url": "https://reddit.com/r/solana/comments/1rgoazi/someone_made_a_memecoin_of_our_sheep_nori_what_do/",
+          "score": 20,
+          "comments": 37,
+          "age_hours": 51.3,
+          "flair": "Meme"
+        },
+        "counts": {
+          "P1": 0,
+          "P2": 0,
+          "P3": 7
+        }
       }
     }
   ],

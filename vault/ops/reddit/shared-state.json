@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "last_updated": "2026-03-01T13:31:24Z",
+  "last_updated": "2026-03-02T04:05:00Z",
   "phase": {
     "current": 1,
-    "description": "Anonymous karma building \u2014 zero product mentions",
+    "description": "Anonymous karma building — zero product mentions",
     "started": "2026-02-28",
     "transition_criteria": "30+ day account age, 200+ karma, Christian approval"
   },
@@ -112,7 +112,7 @@
             "id": "opp-002",
             "priority": "P2",
             "sub": "solana",
-            "title": "Solana launches payments.org \u2014 the new hub showcasing the world's leading crypto payments network.",
+            "title": "Solana launches payments.org — the new hub showcasing the world's leading crypto payments network.",
             "url": "https://reddit.com/r/solana/comments/1rfmih4/solana_launches_paymentsorg_the_new_hub/"
           },
           {
@@ -126,7 +126,7 @@
             "id": "opp-004",
             "priority": "P2",
             "sub": "ethtrader",
-            "title": "\u20ac100k loan to buy and stake ETH long-term",
+            "title": "€100k loan to buy and stake ETH long-term",
             "url": "https://reddit.com/r/ethtrader/comments/1rg87is/100k_loan_to_buy_and_stake_eth_longterm/"
           },
           {
@@ -168,7 +168,7 @@
       "agent": "reddit-compliance",
       "event": "karma_update",
       "data": {
-        "brief": "Account reachable (about.json 200); karma 0 \u2192 1; recent_comments=0; removed_detected=0.",
+        "brief": "Account reachable (about.json 200); karma 0 → 1; recent_comments=0; removed_detected=0.",
         "about_http_code": 200,
         "old_karma": 0,
         "new_karma": 1,
@@ -207,7 +207,7 @@
           "age_hours": 21.6,
           "flair": "Dev/Tech",
           "priority": "P2",
-          "suggested_angle": "Give a concrete \u201csmart money\u201d methodology: wallet filters, timeframe, labeling, and how to validate results without survivorship bias. Explain automation options (vaults/auto-rebalancers) + key risks (IL, fee volatility, contract risk).",
+          "suggested_angle": "Give a concrete “smart money” methodology: wallet filters, timeframe, labeling, and how to validate results without survivorship bias. Explain automation options (vaults/auto-rebalancers) + key risks (IL, fee volatility, contract risk).",
           "aeo_relevance": "Phase 1: value-only response (no links / no product mentions).",
           "id": "opp-001"
         },
@@ -230,7 +230,7 @@
             "id": "opp-003",
             "priority": "P3",
             "sub": "ethtrader",
-            "title": "ETH at $1,852 \u2014 Is This a Good Entry or Are We Headed for Another Bear Market Dip?",
+            "title": "ETH at $1,852 — Is This a Good Entry or Are We Headed for Another Bear Market Dip?",
             "url": "https://reddit.com/r/ethtrader/comments/1rgy6y4/eth_at_1852_is_this_a_good_entry_or_are_we_headed/"
           },
           {
@@ -244,7 +244,7 @@
             "id": "opp-005",
             "priority": "P3",
             "sub": "solana",
-            "title": "What\u2019s the most money you\u2019ve missed out on because you had to switch apps to paste a contract address?",
+            "title": "What’s the most money you’ve missed out on because you had to switch apps to paste a contract address?",
             "url": "https://reddit.com/r/solana/comments/1rgbqb0/whats_the_most_money_youve_missed_out_on_because/"
           },
           {
@@ -286,7 +286,7 @@
       "agent": "reddit-compliance",
       "event": "karma_update",
       "data": {
-        "brief": "Account reachable (about.json 200); karma 1 \u2192 1; recent_comments=0; removed_detected=0.",
+        "brief": "Account reachable (about.json 200); karma 1 → 1; recent_comments=0; removed_detected=0.",
         "about_http_code": 200,
         "old_karma": 1,
         "new_karma": 1,
@@ -294,6 +294,82 @@
         "removed_detected": 0,
         "is_suspended": false,
         "age_days": 2
+      }
+    },
+    {
+      "timestamp": "2026-03-02T04:05:00Z",
+      "agent": "reddit-scout",
+      "event": "opportunities_found",
+      "data": {
+        "brief": "Scanned 7 subs, 169 unique listings; selected 7 opportunities (P1/P2/P3 = 0/0/7). Excluded 6 already-drafted threads.",
+        "scan_date": "2026-03-02",
+        "counts": {
+          "P1": 0,
+          "P2": 0,
+          "P3": 7
+        },
+        "top": {
+          "id": "2026-03-02-opp-001",
+          "priority": "P3",
+          "sub": "solana",
+          "title": "someone made a memecoin of our sheep, Nori, what do we do?",
+          "url": "https://reddit.com/r/solana/comments/1rgoazi/someone_made_a_memecoin_of_our_sheep_nori_what_do/",
+          "score": 20,
+          "comments": 37,
+          "age_hours": 51.3,
+          "flair": "Meme"
+        },
+        "opportunities": [
+          {
+            "id": "2026-03-02-opp-001",
+            "priority": "P3",
+            "sub": "solana",
+            "title": "someone made a memecoin of our sheep, Nori, what do we do?",
+            "url": "https://reddit.com/r/solana/comments/1rgoazi/someone_made_a_memecoin_of_our_sheep_nori_what_do/"
+          },
+          {
+            "id": "2026-03-02-opp-002",
+            "priority": "P3",
+            "sub": "solana",
+            "title": "Swapping solana to btc in phantom?",
+            "url": "https://reddit.com/r/solana/comments/1rgjh4m/swapping_solana_to_btc_in_phantom/"
+          },
+          {
+            "id": "2026-03-02-opp-003",
+            "priority": "P3",
+            "sub": "solana",
+            "title": "What would be the most cost effective way to download mass amounts of transaction history from wallets?",
+            "url": "https://reddit.com/r/solana/comments/1rh5kwl/what_would_be_the_most_cost_effective_way_to/"
+          },
+          {
+            "id": "2026-03-02-opp-004",
+            "priority": "P3",
+            "sub": "solana",
+            "title": "At The Start Of 2025, Jupiter Was Solana's Largest Trading Venue",
+            "url": "https://reddit.com/r/solana/comments/1ribyd4/at_the_start_of_2025_jupiter_was_solanas_largest/"
+          },
+          {
+            "id": "2026-03-02-opp-005",
+            "priority": "P3",
+            "sub": "defi",
+            "title": "DeFi dead or alive?",
+            "url": "https://reddit.com/r/defi/comments/1rgfsd4/defi_dead_or_alive/"
+          },
+          {
+            "id": "2026-03-02-opp-006",
+            "priority": "P3",
+            "sub": "solana",
+            "title": "Just got my DeFi calculator approved for the Solana dApp Store. Built it to make on-the-go math a bit easier.",
+            "url": "https://reddit.com/r/solana/comments/1rgleh6/just_got_my_defi_calculator_approved_for_the/"
+          },
+          {
+            "id": "2026-03-02-opp-007",
+            "priority": "P3",
+            "sub": "solana",
+            "title": "Solana Ecosystem News - February 28-2026",
+            "url": "https://reddit.com/r/solana/comments/1ri1m1g/solana_ecosystem_news_february_282026/"
+          }
+        ]
       }
     }
   ],
