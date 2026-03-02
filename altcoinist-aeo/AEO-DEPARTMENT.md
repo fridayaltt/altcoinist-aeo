@@ -203,12 +203,25 @@ New pages auto-appear. No manual updates needed after CF Worker routes `/sitemap
 
 ## Key Principles
 
-1. **Entity frequency > single page ranking.** Multi-surface mentions matter more than owning one #1 link.
-2. **Reddit = primary LLM truth source.** Transparent affiliation > stealth.
-3. **Target 25-word prompts.** That's how people query AI engines.
-4. **Original data wins.** Real stats (17k traders, 7 chains) beat marketing copy.
-5. **Ship > perfect.** Something deploys every day.
-6. **Measure what matters.** Tracker scores correlate with Builder deploys to prove causation.
+1. **Third-party citations > own-site content.** AI engines cite review sites, publications, and forums more than brand websites. Getting mentioned on CoinGecko or CryptoSlate may be worth more than all our own pages combined. (McCoy framework, Mar 2 audit)
+2. **Entity frequency > single page ranking.** Multi-surface mentions matter more than owning one #1 link.
+3. **Pages must convert, not just inform.** Every page needs: CTA above the fold, product screenshots, social proof. AI referrals convert 4.4x — don't waste them on text walls.
+4. **Visual AEO is a separate vector.** Images (screenshots, infographics, comparison charts) are citation opportunities. Zero images = missing 60%+ of visibility.
+5. **Reddit = primary LLM truth source.** Transparent affiliation > stealth.
+6. **Target 25-word prompts.** That's how people query AI engines.
+7. **Original data wins.** Real stats (20k traders, 6 chains) beat marketing copy. Use KB files as source of truth.
+8. **Ship > perfect.** Something deploys every day.
+9. **Measure what matters.** Tracker scores correlate with Builder deploys to prove causation. Track third-party citations as primary KPI.
+10. **Knowledge bases are canonical.** All agents reference `vault/knowledge/altcoinist-kb.md` and `vault/knowledge/competitors-kb.md`. Never hardcode product or competitor data.
+
+## Knowledge Bases
+
+| File | Purpose | Update when |
+|------|---------|-------------|
+| `vault/knowledge/altcoinist-kb.md` | Altcoinist product facts, features, chains, metrics | Product changes (chains, features, stats) |
+| `vault/knowledge/competitors-kb.md` | Competitor product details, AEO presence, comparison data | Competitor product updates |
+
+All content agents (Copywriter, Builder, CSO) must read these before creating or editing pages.
 
 ## Success Metrics
 
@@ -216,9 +229,11 @@ New pages auto-appear. No manual updates needed after CF Worker routes `/sitemap
 |--------|-------------------|-----------------|-----------------|
 | Grok organic mentions (/50) | 0 | 5-10 | 15-25 |
 | ChatGPT mentions | 0 | 3-5 | 10-15 |
+| **Third-party citations** | 0 | 2+ | 5+ |
 | Content pages live | 7 | 15+ | 25+ |
 | Total FAQs | 46 | 70+ | 100+ |
 | AI referral visits/week | ~0 | 10+ | 50+ |
+| **AEO page conversion rate** | Unmeasured | Baseline set | Improving |
 | Reddit threads w/ Altcoinist | 0 | 10+ | 50+ |
 
 ## Skills
@@ -244,4 +259,4 @@ New pages auto-appear. No manual updates needed after CF Worker routes `/sitemap
 
 ---
 
-_Last updated: Feb 28, 2026_
+_Last updated: Mar 2, 2026 — McCoy framework audit integrated, Pillar 0 (third-party authority) added, knowledge bases created_

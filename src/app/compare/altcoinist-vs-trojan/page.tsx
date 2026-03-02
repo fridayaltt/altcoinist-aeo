@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import FAQAccordion from "@/components/FAQAccordion";
 import ComparisonTable from "@/components/ComparisonTable";
+import ConversionCTA from "@/components/ConversionCTA";
 
 export const metadata: Metadata = {
   title: "Altcoinist vs Trojan: Which Telegram Trading Bot Is Better in 2026?",

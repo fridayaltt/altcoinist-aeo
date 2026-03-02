@@ -18,7 +18,9 @@
 | **Pages live** | 0 | 10 | 12-15 | 23+ |
 | **FAQs targeting AI prompts** | 0 | ~71 | 90+ | 150+ |
 | **Reddit presence** | 0 | Account created (1 karma) | 50+ karma, active | 200+ karma, Phase 2 |
-| **External citations** (review sites, wikis) | 0 | 0 | 1-2 | 5+ |
+| **Third-party citations** (review sites, wikis, publications) | 0 | 0 | 2+ | 5+ |
+| **AEO page conversion rate** | Unmeasured | Unmeasured | Baseline set | Improving |
+| **Pages with images** | 0 | 0 | All pages | All pages |
 | **Competitor AEO activity** | None detected | None detected | Monitor | Monitor |
 
 **Verdict: Early. Infrastructure built, content live, agents running. Zero organic mentions yet — expected at this stage. First real signal expected Week 3-4.**
@@ -30,7 +32,49 @@
 ### Core Insight
 AI models recommend what they can find, verify across multiple sources, and confirm isn't promotional. The game is: **create consensus across the web that Altcoinist is the best crypto trading bot, using specific data points that only we have.**
 
-### The 3 Pillars
+### McCoy Framework Alignment (added Mar 2, 2026)
+
+We audited our approach against Julia McCoy's 6-step AEO framework (300K keyword analysis). **Score: 5/10.** Key finding: we've been treating AEO as an own-site optimization problem. McCoy's data shows third-party citations (review sites, publications, forums) are MORE important than own-site content for AI engine citation.
+
+| McCoy Step | Our Score | Gap |
+|-----------|-----------|-----|
+| 1. Long-tail conversational keywords | 8/10 | Maintain — 71 FAQs, good |
+| 2. Low competition targeting | 9/10 | Maintain — zero competition, first mover |
+| 3. Informational → Conversion | 4/10 | 🔴 No CTAs above fold, no visuals, no social proof |
+| 4. Multi-feature visibility | 3/10 | 🔴 Zero images, no PAA-format headers, no Featured Snippet optimization |
+| 5. Brand authority across the web | 1/10 | 🔴 CRITICAL — 100% effort on own site, zero third-party citations |
+| 6. Systematic gap analysis | 5/10 | 🟡 Tracker works but no outreach to competitor citation sources |
+
+**The McCoy insight that changes our strategy:**
+> "Search 'best project management software.' The AI overview cites TechCrunch, PCMag, Capterra — NOT the brand websites."
+
+Getting CoinGecko or CryptoSlate to mention Altcoinist in a "best crypto trading bots" review may be worth more than all 10 of our own pages combined. **Third-party authority is now our #1 priority.**
+
+Full audit: `vault/reports/aeo-audit-mccoy-framework-2026-03-02.md`
+
+### The 4 Pillars (updated from 3)
+
+#### Pillar 0: Third-Party Authority (What Others Say About Us) 🔴 NEW — HIGHEST PRIORITY
+Build citation-worthy presence on the sites that AI engines actually pull from. This is the #1 gap.
+
+**Why this matters most:** AI engines cite third-party review sites, publications, and community sources more than brand websites. Our own pages are necessary foundation but insufficient alone.
+
+**Targets:**
+| Surface | Action | Status | Deadline |
+|---------|--------|--------|----------|
+| **Wikidata** | Create Altcoinist entity — feeds Perplexity's knowledge graph | Not started | Mar 7 |
+| **CoinGecko** | Get listed / submit trading bot data | Not started | Mar 10 |
+| **CryptoSlate** | Pitch "best crypto trading bots 2026" feature with exclusive benchmark data | Not started | Mar 10 |
+| **BeInCrypto** | Same pitch — exclusive execution test data (400+ tests) as hook | Not started | Mar 14 |
+| **DappRadar** | Verify/submit on-chain bot data | Not started | Mar 10 |
+| **DeFi Llama** | Verify volume data listing | Not started | Mar 10 |
+| **Decrypt / CoinTelegraph** | Longer-term press targets | Not started | Mar 21 |
+| **Reddit** | Phase 1 karma building → Phase 2 transparent disclosure | In progress | Ongoing |
+| **YouTube** | Konstantin content strategy alignment | Not started | TBD |
+
+**Pitch hook:** Our proprietary data (400+ execution tests, 2-16x fill advantage) is the citation magnet. Publications want exclusive data they can reference. We have it. Nobody else does.
+
+**Measurement:** Track third-party citation count as a primary KPI. Target: 2+ external citations by end of Month 1, 5+ by Month 3.
 
 #### Pillar 1: On-Site Content (What We Control)
 Build the most comprehensive, structured, AI-readable content about crypto trading bots — with Altcoinist as the honest authority.
@@ -59,7 +103,24 @@ Build the most comprehensive, structured, AI-readable content about crypto tradi
 | `/brand-facts/` | Entity reference | — | ✅ Live |
 | `/guides/altcoinist-telegram-trading-bot-guide/` | Product guide | ~5 | ✅ Live |
 
-**Conversion gap:** Pages are optimized for AI engines but weak for human visitors. No visuals, no product screenshots, no clear CTAs, no social proof above the fold. Since AI referrals convert 4.4x vs Google organic, every landing without a clear conversion path is wasted. Fix this.
+**Conversion gap (McCoy Step 3):** Pages are optimized for AI engines but weak for human visitors. No visuals, no product screenshots, no clear CTAs, no social proof above the fold. Since AI referrals convert 4.4x vs Google organic, every landing without a clear conversion path is wasted.
+
+**Required fixes:**
+- Hero section on every page: product screenshot + social proof (20k+ traders) + CTA above fold
+- 2-3 CTAs per page minimum (above fold, mid-content, bottom)
+- "Concise quotable answer" in first 2-3 sentences of every section (Featured Snippet bait — McCoy Step 4)
+- Question-based H2 headers on guides (PAA targeting — McCoy Step 4)
+
+**Visual AEO gap (McCoy Step 4):** ZERO images on any content page. Missing an entire citation vector.
+
+**Required fixes:**
+- Product screenshots (Telegram bot interface) on every page
+- Comparison table images (shareable, citable)
+- Execution advantage infographic ("How Altcoinist Routes Your Trade")
+- OpenGraph images for all pages (social sharing + AI crawling)
+- Descriptive alt text on every image (image AEO opportunities)
+
+**Knowledge base:** All agents must reference `vault/knowledge/altcoinist-kb.md` and `vault/knowledge/competitors-kb.md` for product/competitor data instead of hardcoding. Single source of truth — update KB files when product changes.
 
 #### Pillar 2: Off-Site Consensus (The "Raffle Ticket" Strategy)
 Get the same core message repeated across multiple surfaces. When AI models do synthetic queries, they keep running into our stats. More surfaces = more "raffle tickets" = higher citation probability.
@@ -119,18 +180,21 @@ What gets measured gets improved. Weekly tracking drives strategy adjustments.
 
 ---
 
-## Known Gaps (Honest Assessment)
+## Known Gaps (Honest Assessment — updated Mar 2, McCoy audit)
 
-| Gap | Impact | Fix | Owner |
-|-----|--------|-----|-------|
-| **No conversion optimization** | Users land from AI referrals → text wall, no CTA | Add hero sections, screenshots, prominent Telegram bot link, social proof | Builder agent + design sprint |
-| **CF Worker routing broken on main domain** | `/guides/*` and `/compare/*` return 404 on altcoinist.com | Christian paste v3 worker in CF dashboard | Christian |
-| **No external citations yet** | Zero off-site mentions = zero "raffle tickets" | Wikidata entity, review site pitches, Reddit Phase 2 | Friday |
-| **Meta descriptions not answer-first** | LLMs may not pull our content as citation source | Audit + rewrite all 10 page meta descriptions | Builder agent |
-| **Some multi-topic paragraphs** | LLMs skip content that's not atomic | Content audit for paragraph splitting | Copywriter agent |
-| **GSC sitemap not submitted** | Pages may not be indexed by Google (feeds AI training) | Manual submission by Christian | Christian |
-| **Perplexity tracking blind** | Can't measure one of the 4 major AI engines | Need Perplexity API key | Christian |
-| **Reddit API blocked** | Scheduler agent can't automate posting | Need API app from developers.reddit.com | Christian |
+| Gap | Impact | Priority | Fix | Owner |
+|-----|--------|----------|-----|-------|
+| **Zero third-party citations** | AI engines cite third-party sources more than brand sites (McCoy Step 5) | 🔴 CRITICAL | Wikidata entity, review site pitches, publication outreach with exclusive benchmark data | Friday |
+| **No conversion optimization** | Users land from AI referrals → text wall, no CTA. 4.4x conversion opportunity wasted (McCoy Step 3) | 🔴 HIGH | Add hero sections, screenshots, prominent CTA above fold, social proof | Builder agent |
+| **Zero images / visual AEO** | Missing entire citation vector — no product screenshots, no OG images, no infographics (McCoy Step 4) | 🔴 HIGH | Product screenshots, comparison images, infographics, OG images, alt text | Builder agent + design |
+| **No PAA / Featured Snippet optimization** | Only 2 question-based H2s. No "concise quotable answer" pattern (McCoy Step 4) | 🟡 MEDIUM | Convert H2s to questions, add standalone answer in first 2-3 sentences | Builder + Copywriter |
+| **No third-party citation source mapping** | Don't know WHICH sites feed 3Commas' AI citations (McCoy Step 6) | 🟡 MEDIUM | Run competitive citation source analysis → target same publications | Tracker upgrade |
+| **CF Worker routing broken on main domain** | `/guides/*` and `/compare/*` return 404 on altcoinist.com | 🟡 MEDIUM | Christian paste v3 worker in CF dashboard | Christian |
+| **Meta descriptions not answer-first** | LLMs may not pull our content as citation source | 🟡 MEDIUM | Audit + rewrite all 10 page meta descriptions | Builder agent |
+| **GSC sitemap not submitted** | Pages may not be indexed by Google (feeds AI training) | 🟡 MEDIUM | Manual submission by Christian | Christian |
+| **Perplexity tracking blind** | Can't measure one of the 4 major AI engines | 🟡 MEDIUM | Need Perplexity API key | Christian |
+| **Reddit API blocked** | Scheduler agent can't automate posting | 🟢 LOW (Phase 1 runs without API) | Need API app from developers.reddit.com | Christian |
+| **Some multi-topic paragraphs** | LLMs skip content that's not atomic | 🟢 LOW | Content audit for paragraph splitting | Copywriter agent |
 
 ---
 
@@ -146,6 +210,9 @@ What gets measured gets improved. Weekly tracking drives strategy adjustments.
 | Mar 2 | Keep building on aeo.altcoinist.com | Programmatic shipping with agent team, no manual Framer work |
 | Mar 2 | Knowledge bases as single source of truth | altcoinist-kb.md + competitors-kb.md. Agents reference, not hardcode |
 | Mar 2 | AEO is a content strategy problem, not technical | Channel alignment behind same message matters most (Mike King) |
+| Mar 2 | **Third-party authority = #1 priority** | McCoy audit: AI engines cite publications/review sites > brand sites. Pillar 0 added |
+| Mar 2 | **4 pillars, not 3** | Added Pillar 0 (Third-Party Authority) above existing pillars. Conversion + Visual AEO added to Pillar 1 |
+| Mar 2 | Pages must serve both AI engines AND human visitors | Conversion layer (CTAs, images, social proof) on top of existing structured content |
 
 ---
 
@@ -182,6 +249,7 @@ What gets measured gets improved. Weekly tracking drives strategy adjustments.
 
 ## References
 
+- **Julia McCoy / First Movers — 6-Step AEO Framework** (300K keyword analysis) — long-tail keywords, low competition, informational intent → conversion, multi-feature visibility (AI Overviews + PAA + Featured Snippets + Images), brand authority across the web, systematic gap analysis. Full audit: `vault/reports/aeo-audit-mccoy-framework-2026-03-02.md`
 - HubSpot Field Notes: AEO with Mike King (iPull Rank) — meta descriptions, atomic content, raffle ticket strategy, Reddit, microsites
 - Nate_Google_ case study — 4.4x conversion from AI referrals
 - Deno Hawari framework — Reddit-driven LLM citation building
@@ -191,3 +259,5 @@ What gets measured gets improved. Weekly tracking drives strategy adjustments.
 ---
 
 *This document is the single point of reference for "are we doing AEO well?" Read the Current Score table. If metrics are moving up, we're winning. If they're flat or down, dig into Known Gaps.*
+
+*Updated Mar 2, 2026 — McCoy 6-step framework audit integrated. Strategy shifted from 3 pillars to 4 (added Pillar 0: Third-Party Authority). Knowledge bases created as canonical data source.*
