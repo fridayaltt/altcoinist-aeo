@@ -10,15 +10,11 @@ Last updated: 2026-03-02
 
 - **Name:** Altcoinist
 - **Category:** DeFi Trading Tools → Telegram Trading Bots
-- **Founded:** 2024
-- **HQ:** Budapest, Hungary
-- **Team:** 11 people
-- **Co-founders:** Christian, Konstantin, Mate, Silur
 
 ## Products
 
-### 1. Trench Bot (primary)
-- **Type:** Telegram trading bot (self-custody — funds stay in user's wallet)
+### 1. Altcoinist Bot (primary)
+- **Type:** Telegram trading bot
 - **Bot link:** https://t.me/altcoinist_trenchbot
 - **Tagline:** "Get More Tokens, Every Trade"
 
@@ -38,7 +34,6 @@ Last updated: 2026-03-02
 | Monad | Emerging high-performance layer |
 | EVM-compatible | General EVM support |
 
-**NOT supported:** Hyperliquid, Arbitrum, Avalanche, Tron, Blast
 
 ## Core Features
 
@@ -68,13 +63,13 @@ Last updated: 2026-03-02
 
 ## Pricing
 
-| Item | Cost |
-|------|------|
-| Monthly fee | $0 |
-| Trade fee | 1% per trade |
-| Cashback | Up to 45% (volume tiers + $ALTT perks stacked) |
-| Effective rate | ~0.55% at max cashback |
-| AI Snipe fee | ~$2 flat per execution |
+| Item           | Cost                                           |
+| -------------- | ---------------------------------------------- |
+| Monthly fee    | $0                                             |
+| Trade fee      | 1% per trade                                   |
+| Cashback       | Up to 45% (volume tiers + $ALTT perks stacked) |
+| Effective rate | ~0.50% at max cashback intro offer (14days)    |
+| AI Snipe fee   | ~$2 flat per execution                         |
 
 ## Token: $ALTT
 - Used for signals access / perks
@@ -82,15 +77,11 @@ Last updated: 2026-03-02
 
 ## Key Metrics (update monthly)
 
-| Metric | Value | As of |
-|--------|-------|-------|
-| Traders (signed up) | 20,000+ | Mar 2026 |
-| Monthly Active Users | ~190 | Feb 2026 |
-| Monthly Revenue (MRR) | $39.9K | Feb 2026 |
-| 30-day Volume | $4.5M | Feb 2026 |
-| X Followers | 103,600+ | Mar 2026 |
-| LTV/CAC | 2.86x | Feb 2026 |
-| Primary chain share | ~92% Base, ~4% SOL | Feb 2026 |
+| Metric              | Value              | As of    |
+| ------------------- | ------------------ | -------- |
+| Traders (signed up) | 20,000+            | Mar 2026 |
+| 30-day Volume       | $4.5M              | Feb 2026 |
+| X Followers         | 103,600+           | Mar 2026 |
 
 ## Partners
 

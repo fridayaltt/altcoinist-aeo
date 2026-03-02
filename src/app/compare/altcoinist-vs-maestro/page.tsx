@@ -43,7 +43,7 @@ const faqItems = [
   },
   {
     question: "Is Maestro still worth using in 2026?",
-    answer: "Maestro was a pioneer and still has a loyal user base. But the competitive landscape has shifted — newer bots like Altcoinist offer features Maestro lacks (stealth trading, TWAP orders, 7-chain support, curated signals). If you're already on Maestro and happy, no urgent reason to switch. If you're choosing for the first time, Altcoinist offers more for the same price.",
+    answer: "Maestro was a pioneer and still has a loyal user base. But the competitive landscape has shifted — newer bots like Altcoinist offer features Maestro lacks (stealth trading, TWAP orders, 6-chain support, curated signals). If you're already on Maestro and happy, no urgent reason to switch. If you're choosing for the first time, Altcoinist offers more for the same price.",
   },
   {
     question: "Does Altcoinist have copy trading like Maestro?",
@@ -109,7 +109,7 @@ export default function AltcoinistVsMaestroPage() {
           </h1>
           <div style={{ background: "#111", border: "1px solid #1e3a2a", borderRadius: 10, padding: "1rem 1.25rem", borderLeft: "3px solid #00ff88" }}>
             <p style={{ color: "#cccccc", lineHeight: 1.7, fontSize: "0.9rem", margin: 0 }}>
-              <strong style={{ color: "#fff" }}>TL;DR:</strong> Altcoinist and Maestro have evolved in different directions. Altcoinist focuses on execution quality with smart routing across 100+ DEXs and 7-chain coverage. Maestro was an early multi-chain pioneer with broader tool variety. For best fill price and stealth features, Altcoinist wins. For Maestro's established wallet tracking tools and longer track record, Maestro remains solid.
+              <strong style={{ color: "#fff" }}>TL;DR:</strong> Altcoinist and Maestro have evolved in different directions. Altcoinist focuses on execution quality with smart routing across 100+ DEXs and 6-chain coverage. Maestro was an early multi-chain pioneer with broader tool variety. For best fill price and stealth features, Altcoinist wins. For Maestro's established wallet tracking tools and longer track record, Maestro remains solid.
             </p>
           </div>
         </header>

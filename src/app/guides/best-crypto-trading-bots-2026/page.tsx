@@ -166,7 +166,7 @@ const jsonLd = {
       "featureList": [
         "Smart routing via Definitive.fi (100+ DEXs, 15 private market makers)",
         "Stealth trading with algo intent masking",
-        "7-chain support: Base, Ethereum, Solana, BNB, Monad, EVM",
+        "6-chain support: Base, Ethereum, Solana, BNB, Monad, EVM",
         "On-chain TWAP (DCA), limit orders, auto TP/SL",
         "Exclusive signals from 300+ caller groups",
         "PnL tracking and portfolio management",
