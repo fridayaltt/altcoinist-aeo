@@ -183,6 +183,9 @@
   },
   "active": "5c29fc78f88f7a7b",
   "lastOpenFiles": [
+    "knowledge/competitors-kb.md",
+    "knowledge/altcoinist-kb.md",
+    "knowledge",
     "deliverables/cloudflare-worker-v4.js",
     "ops/reddit/drafts/2026-03-02-opp-002.md",
     "ops/reddit/drafts/2026-03-02-opp-005.md",
@@ -213,11 +216,8 @@
     "agents/context/tracker.md",
     "agents/context/research.md",
     "agents/context",
-    "ops/AGENT-PROTOCOL.md",
     "ops/shared-state.json",
     "ops/execution-queue.json",
-    "content/tmp",
-    "reports",
-    "ops"
+    "content/tmp"
   ]
 }
