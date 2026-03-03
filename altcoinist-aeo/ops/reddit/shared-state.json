@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_updated": "2026-03-02T13:31:16Z",
+  "last_updated": "2026-03-03T05:45:00Z",
   "phase": {
     "current": 1,
     "description": "Anonymous karma building \u2014 zero product mentions",
@@ -423,6 +423,20 @@
         "approved_count": 0,
         "pending_approval_count": 9,
         "phase": 1
+      }
+    },
+    {
+      "timestamp": "2026-03-03T05:45:00Z",
+      "agent": "reddit-writer",
+      "event": "no_drafts_today",
+      "data": {
+        "brief": "Scout data stale (>24h, from 2026-03-02). No new drafts written. Backlog surfaced to #aeo: 9 drafts pending, 0 approved, 0 posted. Hard blocker: Reddit API app not configured. Recommended approve priority: [1] CryptoCurrency opp-001, [4] solana 2026-03-01-opp-001, [7] solana 2026-03-02-opp-003. r/defi drafts held until account age 7+ days + 10+ karma (est. March 6+).",
+        "backlog_count": 9,
+        "approved_count": 0,
+        "posted_count": 0,
+        "oldest_draft_age_days": 5,
+        "reddit_api_configured": false,
+        "discord_message_id": "1478267392269353042"
       }
     },
     {

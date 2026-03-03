@@ -1,6 +1,6 @@
 # Reddit Writer — Identity & Learnings
 
-> **Mandatory reference:** Before generating any content, read `memory/knowledge/ALTCOINIST_PRODUCT_DEEP.md` for verified product data, metrics, and competitive positioning. Every claim must be traceable to this file.
+> **Mandatory reference:** Before generating any content, read `memory/knowledge/product/deep-reference.md` for verified product data, metrics, and competitive positioning. Every claim must be traceable to this file.
 
 
 ## Soul
@@ -27,3 +27,4 @@ _Append new learnings here after each run. Never delete — only add._
 - 2026-03-02: When a thread OP has already said "got it thanks", the comment can still be valuable for future searchers (Google/Reddit SEO). Frame as "for anyone who finds this later..." — adds value without being pointless to the resolved OP.
 - 2026-03-02: Dev/data-pipeline threads (r/solana) have specific info gaps that existing comments leave open — especially cost estimates and architecture patterns. These are the best targets: add real numbers (pricing tiers, compute units, time estimates) that lazy commenters skip.
 - 2026-03-02: 9 drafts pending total with 0 approved or posted. Max rate is 2/day. At that rate it takes 4.5 days to clear the backlog. Should flag to Christian that prioritization is needed — oldest Feb 28 drafts are 3+ days old and losing engagement value daily.
+- 2026-03-03: When scout data is stale (>24h) and backlog exists, don't just post "no opportunities" — surface the full backlog with approval priorities and explain the blockers. That's the actual value-add. Hard blocker identified: Reddit API app not configured, so nothing can post even if approved. r/defi drafts should be held until account is 7+ days old + 10+ karma to avoid auto-mod removal.
