@@ -15,3 +15,4 @@ _Append new learnings here after each run. Never delete — only add._
 - Sub-specific rules vary: r/CryptoCurrency has stricter anti-spam than r/defi
 - If compliance finds any issue → update shared-state.json IMMEDIATELY, don't wait for end of run
 - Age tracking: compute `age_days` from `account.created` (UTC date) vs `utcnow()`; previous runs had an off-by-one (2026-03-01 UTC = 2 days old since 2026-02-27).
+- More accurate: prefer `created_utc` from about.json (timestamp) over the date string; day-flooring can look “stuck” until the exact creation time passes.
