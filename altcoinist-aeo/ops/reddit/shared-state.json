@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_updated": "2026-03-03T05:45:00Z",
+  "last_updated": "2026-03-03T08:30:00Z",
   "phase": {
     "current": 1,
     "description": "Anonymous karma building \u2014 zero product mentions",
@@ -452,6 +452,19 @@
         "removed_detected": 0,
         "is_suspended": false,
         "age_days": 2
+      }
+    },
+    {
+      "timestamp": "2026-03-03T08:30:00Z",
+      "agent": "reddit-scheduler",
+      "event": "scheduler_blocked_no_api",
+      "data": {
+        "brief": "Blocked: Reddit API app not configured (missing client_id/client_secret). approved=0, pending_approval=9.",
+        "approved_count": 0,
+        "pending_approval_count": 9,
+        "phase": 1,
+        "warnings": 0,
+        "removals": 0
       }
     }
   ],
