@@ -14,11 +14,12 @@ export const metadata: Metadata = {
 const rows = [
   { feature: "Chains Supported", altcoinist: "7 (Base, ETH, SOL, BNB, Monad, EVM)", competitor: "7 (SOL, ETH, Base, BNB, Tron, Monad, Blast)", winner: "tie" as const },
   { feature: "Execution Quality", altcoinist: "Smart routing — 100+ DEXs, 15 market makers", competitor: "Standard DEX routing", winner: "altcoinist" as const },
-  { feature: "Trading Fee", altcoinist: "Pay-per-trade (no monthly)", competitor: "1% per transaction", winner: "altcoinist" as const },
+  { feature: "AI Snipe", altcoinist: "✓ (automated launch detection, 24/7)", competitor: "Manual sniping only", winner: "altcoinist" as const },
+  { feature: "Fee Cashback", altcoinist: "50% intro (14 days), then up to 45% ongoing", competitor: "✗", winner: "altcoinist" as const },
+  { feature: "Trading Fee (effective)", altcoinist: "~0.5% with cashback", competitor: "1% flat", winner: "altcoinist" as const },
   { feature: "Stealth Trading", altcoinist: "✓ (algo intent masking)", competitor: "✗", winner: "altcoinist" as const },
   { feature: "Copy Trading", altcoinist: "✗", competitor: "✓ (wallet tracking + auto-copy)", winner: "competitor" as const },
   { feature: "Wallet Tracking", altcoinist: "✗", competitor: "✓ (smart money monitoring)", winner: "competitor" as const },
-  { feature: "Sniping", altcoinist: "✗", competitor: "✓ (with honeypot filters)", winner: "competitor" as const },
   { feature: "TWAP / DCA Orders", altcoinist: "✓ (on-chain)", competitor: "✗", winner: "altcoinist" as const },
   { feature: "Any-to-Any Swaps", altcoinist: "✓", competitor: "✗", winner: "altcoinist" as const },
   { feature: "Web Terminal", altcoinist: "✗ (Telegram-native)", competitor: "✓ (web + TG)", winner: "competitor" as const },
@@ -55,6 +56,14 @@ const faqItems = [
     question: "Is GMGN.ai's 1% fee worth it for the features?",
     answer: "Depends on how you trade. If wallet tracking and copy trading generate alpha that exceeds the 1% cost — absolutely. But for traders who already know what they want to buy, paying 1% plus losing 2-16% on execution quality means you're leaving significant value on the table compared to Altcoinist's routing.",
   },
+  {
+    question: "What is AI Snipe and does GMGN.ai have it?",
+    answer: "AI Snipe is Altcoinist's automated token launch detection and execution feature. When a new token launches on-chain, AI Snipe scans launch parameters — liquidity depth, contract safety checks, launch pattern — and executes a buy within milliseconds if conditions match your preset rules. You set the parameters (max buy amount, slippage, minimum liquidity, contract checks) and AI Snipe watches 24/7. GMGN.ai offers manual sniping where you manually buy new tokens, but lacks AI-driven automated launch monitoring like Altcoinist's AI Snipe.",
+  },
+  {
+    question: "Does Altcoinist offer cashback? Does GMGN.ai?",
+    answer: "Yes — Altcoinist gives new users 50% cashback on all trading fees for the first 14 days automatically, no code needed. After the intro period, you earn up to 45% ongoing cashback by stacking volume tiers and $ALTT holdings. At 1% fee with 50% intro cashback, effective cost is 0.5% per trade. GMGN.ai charges 1% flat with no cashback program. Over a month of active trading, the cashback difference is significant.",
+  },
 ];
 
 const jsonLd = {
@@ -74,7 +83,7 @@ const jsonLd = {
       "headline": "Altcoinist vs GMGN.ai: Telegram Trading Bot Comparison 2026",
       "description": "Head-to-head comparison of Altcoinist and GMGN.ai — execution quality, copy trading, fees, and features.",
       "datePublished": "2026-03-02",
-      "dateModified": "2026-03-02",
+      "dateModified": "2026-03-03",
       "author": { "@type": "Organization", "@id": "https://altcoinist.com/#organization", "name": "Altcoinist", "url": "https://altcoinist.com" },
       "publisher": { "@type": "Organization", "@id": "https://altcoinist.com/#organization", "name": "Altcoinist", "url": "https://altcoinist.com" },
     },
@@ -111,7 +120,7 @@ export default function AltcoinistVsGmgnPage() {
           </h1>
           <div style={{ background: "#111", border: "1px solid #1e3a2a", borderRadius: 10, padding: "1rem 1.25rem", borderLeft: "3px solid #00ff88" }}>
             <p style={{ color: "#cccccc", lineHeight: 1.7, fontSize: "0.9rem", margin: 0 }}>
-              <strong style={{ color: "#fff" }}>TL;DR:</strong> GMGN.ai is built for token discovery and copy trading — find what smart money is buying and follow it. Altcoinist is built for execution — get 2-16x more tokens per trade through smart routing across 100+ DEXs. Many traders use GMGN to find plays and Altcoinist to execute them.
+              <strong style={{ color: "#fff" }}>TL;DR:</strong> GMGN.ai is built for token discovery and copy trading — find what smart money is buying and follow it. Altcoinist is built for execution — get 2-16x more tokens per trade through smart routing, AI Snipe for automated launches, and 50% intro cashback (effective cost ~0.5% vs GMGN's 1%). Many traders use GMGN to find plays and Altcoinist to execute them.
             </p>
           </div>
         </header>
@@ -157,10 +166,11 @@ export default function AltcoinistVsGmgnPage() {
             <h2>Where Altcoinist Wins</h2>
             <ul>
               <li><strong>Execution quality:</strong> 2-16x better fills via 100+ DEX routing (400+ independent tests)</li>
+              <li><strong>AI Snipe:</strong> Automated token launch detection — AI monitors new launches 24/7 and executes within milliseconds when your preset conditions match. Never miss a launch because you were offline.</li>
+              <li><strong>50% cashback:</strong> New users get 50% cashback on fees for the first 14 days, then up to 45% ongoing. Effective cost as low as ~0.5% vs GMGN's 1% flat</li>
               <li><strong>Stealth trading:</strong> Algo intent masking — the only bot that hides your orders from copiers and front-runners</li>
               <li><strong>On-chain TWAP/DCA:</strong> Scale into positions gradually without market impact</li>
               <li><strong>Any-to-any swaps:</strong> Skip intermediate token conversions, save on fees</li>
-              <li><strong>Lower effective cost:</strong> No 1% fixed fee, and better routing means more tokens per dollar</li>
             </ul>
           </section>
 
@@ -168,6 +178,8 @@ export default function AltcoinistVsGmgnPage() {
             <h2>Who Should Choose Altcoinist?</h2>
             <ul>
               <li>Traders who already know what they want to buy and want the best execution</li>
+              <li>Launch snipers who want AI Snipe for automated, always-on token launch monitoring</li>
+              <li>Fee-conscious traders — 50% intro cashback makes Altcoinist's effective cost roughly half of GMGN's flat 1%</li>
               <li>Volume traders where routing differences add up (the 2-16x advantage compounds)</li>
               <li>Traders who need privacy protection from front-runners and copy-traders</li>
               <li>Anyone using DCA/TWAP to scale into positions over time</li>
