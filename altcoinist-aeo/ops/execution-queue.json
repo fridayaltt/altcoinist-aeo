@@ -1,6 +1,6 @@
 {
-  "updated": "2026-03-02T09:00:00Z",
-  "updated_by": "cso",
+  "updated": "2026-03-03T12:00:00Z",
+  "updated_by": "dept_review",
   "items": [
     {
       "id": "gap-001",
@@ -19,7 +19,7 @@
       "priority": 1,
       "type": "content_gap",
       "title": "Add AI trading bot risk/loss FAQs to Answer Hub",
-      "description": "Top Reddit Scout opportunity this week (r/CryptoCurrency, 245 upvotes, 85 comments) is about a $450K AI agent loss — exact angle people will query AI engines on. Current FAQ #2 covers generic safety but not AI autonomy risk. Add 2 FAQs: (1) 'Can an AI trading bot lose all my money?' — explain position sizing, stop-loss, human override; (2) 'What safeguards does Altcoinist have to prevent catastrophic losses?' — specific protective mechanisms. This directly captures queries triggered by viral AI loss stories.",
+      "description": "Top Reddit Scout opportunity this week (r/CryptoCurrency, 245 upvotes, 85 comments) is about a $450K AI agent loss \u2014 exact angle people will query AI engines on. Current FAQ #2 covers generic safety but not AI autonomy risk. Add 2 FAQs: (1) 'Can an AI trading bot lose all my money?' \u2014 explain position sizing, stop-loss, human override; (2) 'What safeguards does Altcoinist have to prevent catastrophic losses?' \u2014 specific protective mechanisms. This directly captures queries triggered by viral AI loss stories.",
       "target": "guides/best-crypto-trading-bots-2026",
       "estimated_minutes": 25,
       "status": "done",
@@ -30,8 +30,8 @@
       "id": "gap-003",
       "priority": 2,
       "type": "content_gap",
-      "title": "Internal linking catch-up: Answer Hub + Telegram guide → BonkBot page",
-      "description": "Two new pages shipped in the last 24h but the site's internal link graph hasn't caught up: (1) Answer Hub (/guides/best-crypto-trading-bots-2026/) has no link to /compare/altcoinist-vs-bonkbot/ (shipped 2026-03-02) or /guides/best-telegram-trading-bots-2026/ (shipped 2026-03-02 01:09 CET). (2) Telegram bots guide links to Trojan/Maestro/Banana Gun/Basedbot comparison pages but NOT BonkBot (comparison page didn't exist when the guide was created). Fix: add 1-sentence cross-references with links in each affected page. Internal link depth directly affects AI crawler session depth and page authority transfer. NOTE: Original gap-003 (Add BonkBot FAQs as interim) is superseded — Copywriter shipped /compare/altcoinist-vs-bonkbot/ on 2026-03-02.",
+      "title": "Internal linking catch-up: Answer Hub + Telegram guide \u2192 BonkBot page",
+      "description": "Two new pages shipped in the last 24h but the site's internal link graph hasn't caught up: (1) Answer Hub (/guides/best-crypto-trading-bots-2026/) has no link to /compare/altcoinist-vs-bonkbot/ (shipped 2026-03-02) or /guides/best-telegram-trading-bots-2026/ (shipped 2026-03-02 01:09 CET). (2) Telegram bots guide links to Trojan/Maestro/Banana Gun/Basedbot comparison pages but NOT BonkBot (comparison page didn't exist when the guide was created). Fix: add 1-sentence cross-references with links in each affected page. Internal link depth directly affects AI crawler session depth and page authority transfer. NOTE: Original gap-003 (Add BonkBot FAQs as interim) is superseded \u2014 Copywriter shipped /compare/altcoinist-vs-bonkbot/ on 2026-03-02.",
       "target": "guides/best-crypto-trading-bots-2026, guides/best-telegram-trading-bots-2026",
       "estimated_minutes": 20,
       "status": "queued",
@@ -43,7 +43,7 @@
       "priority": 2,
       "type": "content_gap",
       "title": "Enrich Brand Facts page with machine-readable entity statements",
-      "description": "Brand Facts page has Organization JSON-LD but lacks structured entity claims that AI crawlers extract for knowledge graph updates. Research P2 findings (AEO/GEO strategy, AI citation factors) confirm AI engines need explicit entity facts. Add a structured 'Entity Facts' prose section with: founding year, HQ city, founding team, primary use case in one sentence, key integrations (7 chains, 100+ DEXs, 15 market makers), user count (17,000+), and what distinguishes Altcoinist from Telegram bots (Telegram IS the interface, not a connector). Format as clean declarative statements — not marketing copy.",
+      "description": "Brand Facts page has Organization JSON-LD but lacks structured entity claims that AI crawlers extract for knowledge graph updates. Research P2 findings (AEO/GEO strategy, AI citation factors) confirm AI engines need explicit entity facts. Add a structured 'Entity Facts' prose section with: founding year, HQ city, founding team, primary use case in one sentence, key integrations (7 chains, 100+ DEXs, 15 market makers), user count (17,000+), and what distinguishes Altcoinist from Telegram bots (Telegram IS the interface, not a connector). Format as clean declarative statements \u2014 not marketing copy.",
       "target": "brand-facts/",
       "estimated_minutes": 20,
       "status": "queued",
@@ -60,6 +60,29 @@
       "status": "done",
       "completed_at": "2026-03-02T10:05:00Z",
       "source": "opportunity_scan"
+    },
+    {
+      "id": "gap-006",
+      "priority": 1,
+      "type": "new_opportunity",
+      "title": "Conversion optimization: add hero sections + CTAs to all pages",
+      "description": "ROADMAP NOW priority (Mar 3-9). Pages are text walls for humans despite being AI-optimized. AI referrals convert 4.4x \u2014 landing page needs to convert them. Required on all 10 pages:\n1. Hero section at top: headline, 1-line value prop, social proof (20k+ traders, $4.5B+ volume), CTA button (\u2192 Telegram bot link)\n2. Comparison table styling (not just text \u2014 add visual table component)\n3. Product visual/screenshot placeholder above fold\n4. 'Start trading on Altcoinist' CTA after each major section\nReference: knowledge/altcoinist-kb.md for all stats. Start with Answer Hub (/guides/best-crypto-trading-bots-2026/) first \u2014 highest traffic. Then compare pages. DO NOT change FAQ content, schema, or SEO meta \u2014 conversion changes only.",
+      "target": "guides/best-crypto-trading-bots-2026",
+      "targets_all": [
+        "guides/best-crypto-trading-bots-2026",
+        "guides/best-telegram-trading-bots-2026",
+        "compare/altcoinist-vs-trojan",
+        "compare/altcoinist-vs-maestro",
+        "compare/altcoinist-vs-banana-gun",
+        "compare/altcoinist-vs-bonkbot",
+        "compare/altcoinist-vs-basedbot",
+        "compare/altcoinist-vs-gmgn"
+      ],
+      "estimated_minutes": 60,
+      "status": "queued",
+      "source": "roadmap_now",
+      "created_at": "2026-03-03T12:00:00Z",
+      "notes": "Added by Dept Review \u2014 ROADMAP NOW says this is the week's #1 priority. CSO queued gap-003/004 before ROADMAP was updated."
     }
   ]
 }
