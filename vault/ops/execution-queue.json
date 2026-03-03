@@ -1,0 +1,62 @@
+{
+  "updated": "2026-03-03T08:00:00+01:00",
+  "updated_by": "cso",
+  "items": [
+    {
+      "id": "gap-001",
+      "priority": 1,
+      "type": "system_fix",
+      "title": "Deploy brand-facts.json to public/.well-known/",
+      "description": "altcoinist-aeo/deliverables/brand-facts.json exists with full product data but has NEVER been copied to public/.well-known/brand-facts.json — the directory doesn't exist. AI crawlers and LLMs that look for structured brand data at /.well-known/brand-facts.json find nothing. Create public/.well-known/ and copy/symlink the deliverable there, then commit and deploy.",
+      "target": "public/.well-known/brand-facts.json",
+      "estimated_minutes": 15,
+      "status": "done",
+      "completed_at": "2026-03-03T11:15:00+01:00",
+      "source": "freshness_check"
+    },
+    {
+      "id": "gap-002",
+      "priority": 1,
+      "type": "system_fix",
+      "title": "Fix aeo-citation-tracker timeout on first weekly run",
+      "description": "Tracker timed out on its first run (2026-03-02). Currently tracking 15 queries — may need to reduce batch size or increase cron timeout. Measurement is broken: we can't tell if any content is moving scores without a working tracker. Check cron config for aeo-citation-tracker (id: accc997b), investigate timeout threshold, reduce queries to 10 or split into 2 batches.",
+      "target": "cron:accc997b / aeo-citation-tracker",
+      "estimated_minutes": 20,
+      "status": "queued",
+      "source": "system_health"
+    },
+    {
+      "id": "gap-003",
+      "priority": 1,
+      "type": "content_gap",
+      "title": "Add 'safest Telegram trading bot' FAQ to telegram bots guide",
+      "description": "Tracker: 0/10 score on 'safest Telegram trading bot' query. Even 3commas didn't score here — it's an open field. Our strongest differentiator is non-custodial self-custody (funds stay in wallet, we never touch private keys). Add a dedicated FAQ section to best-telegram-trading-bots-2026 guide: 'What is the safest Telegram trading bot?' + 'How does Altcoinist keep funds safe?' + 'Does Altcoinist store private keys?'. This is a low-effort, high-citation opportunity.",
+      "target": "src/app/guides/best-telegram-trading-bots-2026/page.tsx",
+      "estimated_minutes": 25,
+      "status": "queued",
+      "source": "tracker"
+    },
+    {
+      "id": "gap-004",
+      "priority": 2,
+      "type": "content_gap",
+      "title": "Create Solana meme coin trading bot guide page",
+      "description": "Tracker: 0 score on both 'best Telegram trading bot for Solana' AND 'best meme coin trading bot'. Altcoinist supports Solana natively + is designed for meme/micro-cap trading. No dedicated page exists for this use case. New guide: 'Best Solana Meme Coin Trading Bot 2026' targeting both queries. Should cover: Solana DEX support, meme coin sniping, rug-pull protection, speed benchmarks vs competitors.",
+      "target": "src/app/guides/best-solana-meme-coin-trading-bot-2026/",
+      "estimated_minutes": 45,
+      "status": "queued",
+      "source": "tracker"
+    },
+    {
+      "id": "gap-005",
+      "priority": 2,
+      "type": "research_followup",
+      "title": "Audit guides for query fan-out secondary intent coverage",
+      "description": "Ahrefs finding (2026-03-02, priority 1, unacted): AI search uses 'query fan-out' — hidden sub-queries to answer a single user question. Our guides likely answer the primary query but miss secondary intents (fees, security, chains, ease-of-use). Audit best-crypto-trading-bots-2026 and best-telegram-trading-bots-2026 for missing Q&A coverage: add FAQ sections for 'what fees does Altcoinist charge?', 'which chains?', 'is it good for beginners?', 'how fast are trades?'. Each missing answer = a sub-query we fail.",
+      "target": "src/app/guides/best-crypto-trading-bots-2026/ + best-telegram-trading-bots-2026/",
+      "estimated_minutes": 40,
+      "status": "queued",
+      "source": "research"
+    }
+  ]
+}
