@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_updated": "2026-03-04T05:49:10.436377+00:00",
+  "last_updated": "2026-03-04T07:33:27Z",
   "agents": {
     "research": {
       "last_run": "2026-03-04T05:33:12Z",
@@ -26,9 +26,9 @@
       "note": "First run complete. Script ran all 15 queries and saved JSON. Timeout happened during Discord post step (now fixed: 1200s). Results: 2/15 branded mentions only; 0 organic. Week 1 baseline established."
     },
     "ops": {
-      "last_run": "2026-03-02T07:33:00Z",
+      "last_run": "2026-03-04T07:33:27Z",
       "status": "ok",
-      "note": "Reddit API app + Perplexity key blockers hit Day 3 threshold. Dept Review cron showing error. Tracker fires in 1h (first run). 9 Reddit drafts pending approval. Copywriter shipped BonkBot page today. CF Worker routing still broken."
+      "note": "Daily status generated. Tracker and Data Refresh each at 1 consecutive error (weekly timeout + this-morning timeout). Reddit draft backlog at 12 with scheduler still blocked on Reddit API app. CF Worker production routing blocker remains critical."
     },
     "cso": {
       "last_run": "2026-03-02T09:00:00Z",
@@ -554,6 +554,22 @@
       "data": {
         "brief": "3 Reddit drafts created for Christian approval (Phase 1): 2026-03-04-opp-001, 2026-03-04-opp-002, 2026-03-04-opp-003.",
         "pending_count": 12
+      }
+    },
+    {
+      "timestamp": "2026-03-04T07:33:27Z",
+      "agent": "ops",
+      "event": "ops_report_posted",
+      "data": {
+        "brief": "Daily AEO status prepared for #aeo. Flags: aeo-citation-tracker 1x error, aeo-data-refresh 1x error, Reddit drafts backlog 12, CF Worker blocker still critical."
+      }
+    },
+    {
+      "timestamp": "2026-03-04T07:33:27Z",
+      "agent": "ops",
+      "event": "vault_hygiene",
+      "data": {
+        "brief": "Vault hygiene check clean: no stale markdown files >7 days found outside archive; knowledge base freshness within 14-day window."
       }
     }
   ],

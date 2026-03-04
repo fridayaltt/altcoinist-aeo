@@ -1,28 +1,28 @@
 # AEO Department Status
 
-_Last updated: 2026-03-03 12:00 UTC by aeo-dept-review_
+_Last updated: 2026-03-04 07:33 UTC by aeo-ops-daily_
 
 ## Agent Health
 
 | Agent | Cron ID | Last Run | Status | Notes |
 |-------|---------|----------|--------|-------|
-| aeo-research-daily | f873f97d | 2026-03-03 05:32 UTC | ✅ ok | 8 findings today (5xP1, 3xP2). State write-back was broken — fixed by dept review. |
-| aeo-ops-daily | 085c5b59 | 2026-03-03 07:30 UTC | ✅ ok | Runs daily 07:30 UTC |
-| aeo-cso-daily | c461fab7 | 2026-03-02 08:00 UTC | ✅ ok | Next run: today 08:00 UTC |
-| aeo-builder-daily | 510d30b3 | 2026-03-02 10:00 UTC | ✅ ok | Shipped gap-005 (chains FAQ). Gap-006 (conversion P1) now in queue. |
-| aeo-copywriter | 2210e4da | 2026-03-02 06:00 UTC | ✅ ok | Shipped BonkBot comparison page. Next: Thu 06:00 UTC |
-| aeo-dept-review-daily | 462112c8 | 2026-03-03 12:00 UTC | ✅ ok | Running now — shared-state fixed, citation tracker timeout confirmed |
-| aeo-citation-tracker | accc997b | 2026-03-02 09:00 UTC | ⚠️ error | Timed out at 300s before yesterday's timeout fix. payload.timeoutSeconds=1200 confirmed set. Next run: Mon Mar 9 |
-| aeo-strategy-weekly | ea7f863a | 2026-03-01 18:00 UTC | ✅ ok | Runs Sunday |
-| aeo-data-refresh | d077e99a | - | ⏳ idle | Runs Wednesday (tomorrow) |
-| aeo-weekly-report | 63b87557 | - | ⏳ idle | Runs Friday |
+| aeo-research-daily | f873f97d | 2026-03-04 04:32 UTC | ✅ ok | 9 findings today (0 high-priority) |
+| aeo-ops-daily | 085c5b59 | 2026-03-03 07:30 UTC | ✅ ok | Running now (current cycle at 07:30 UTC) |
+| aeo-cso-daily | c461fab7 | 2026-03-03 08:00 UTC | ✅ ok | Next run due at 08:00 UTC |
+| aeo-builder-daily | 510d30b3 | 2026-03-03 10:00 UTC | ✅ ok | Last ship: gap-005; conversion gap-006 still queued |
+| aeo-copywriter | 2210e4da | 2026-03-02 06:07 UTC | ✅ ok | BonkBot comparison live; next run Thu 06:00 UTC |
+| aeo-dept-review-daily | 462112c8 | 2026-03-03 12:00 UTC | ✅ ok | Last run fixed state issues + escalations |
+| aeo-citation-tracker | accc997b | 2026-03-02 09:00 UTC | ⚠️ error | 1 consecutive error (weekly timeout on prior run); next run Mon Mar 9 |
+| aeo-strategy-weekly | ea7f863a | 2026-03-01 18:00 UTC | ✅ ok | Next run Sunday |
+| aeo-data-refresh | d077e99a | 2026-03-04 06:01 UTC | ⚠️ error | 1 consecutive error (timed out this morning) |
+| aeo-weekly-report | 63b87557 | - | ⏳ idle | Next run Friday 17:00 UTC |
 
 ## Reddit Status
 
 - Account created: 2026-02-27 | Phase: 1 (karma building)
 - Days old: 5 / 30 needed for Phase 2
 - Karma: 1 | Removals: 0 | Warnings: 0
-- Pending drafts: 9 (backlog — Scheduler blocked: no Reddit API app configured)
+- Pending drafts: 12 (backlog growing — Scheduler still blocked: no Reddit API app configured)
 - Posting eligible: ~2026-03-29
 
 ## Content Inventory
